@@ -31,6 +31,6 @@ pkill -9 -t pts/pts-number
 
 # Changing file attributes
 
-chattr + i filename `making file immutable`
-chattr -i filename `making file mutable`
+chattr + i filename `making file immutable`<br/>
+chattr -i filename `making file mutable`<br/>
 lschattr filename `Checking file attributes`
