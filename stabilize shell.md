@@ -23,14 +23,14 @@
 * w /who `check current pts ,terminal device`
 * ps -t ps/pts<number> `process monitoring`
 * script /dev/pts/<number> `montior terminal`
-* cat /dev/urandom > /dev/pts/<number> 2>/dev/null `prints arbitary text on terminal`
+* cat /dev/urandom > /dev/pts/pts-number  2>/dev/null `prints arbitary text on terminal`
 
 # Closing Shells/Sessions
 
-pkill -9 -t pts/number
+pkill -9 -t pts/pts-number
 
 # Changing file attributes
 
-chattr + i <filename> `making file immutable`
-chattr -i <filename> `making file mutable`
-lschattr <filename> `Checking file attributes`
+chattr + i filename `making file immutable`
+chattr -i filename `making file mutable`
+lschattr filename `Checking file attributes`
