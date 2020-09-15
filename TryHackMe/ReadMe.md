@@ -12,6 +12,7 @@ Box                                                                             
 [Wgel](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/WigelCTF.md)                      | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Bounty Hacker](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/bounty_hackerCTF.md)     |<img src= "https://i.imgur.com/hZoovNY.png" />
 [OhSINT](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/OhSINT.md)                      | -
+[Vulnversity](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Vulnversity.md)            |<img src= "https://i.imgur.com/hZoovNY.png" />
 
 
 
