@@ -13,7 +13,7 @@ Box                                                                             
 [Bounty Hacker](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/bounty_hackerCTF.md)     |<img src= "https://i.imgur.com/hZoovNY.png" />
 [OhSINT](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/OhSINT.md)                      | -
 [Vulnversity](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Vulnversity.md)            |<img src= "https://i.imgur.com/hZoovNY.png" />
-[Blaster] (https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Blaster.md)                   |<img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Blaster](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Blaster.md)                    |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 
 
 ## Medium
