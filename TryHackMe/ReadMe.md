@@ -15,7 +15,7 @@ Box                                                                             
 [Vulnversity](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Vulnversity.md)            |<img src= "https://i.imgur.com/hZoovNY.png" />
 [Blaster](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Blaster.md)                    |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Thompson](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Thompson.md)                  |<img src= "https://i.imgur.com/hZoovNY.png" />
-
+[TomGhost](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/TomGhost.md)                  |<img src= "https://i.imgur.com/hZoovNY.png" />
 ## Medium
 
 Box                                                                                                              | OS
