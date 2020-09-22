@@ -21,7 +21,7 @@ chattr + i filename `making file immutable`<br/>
 chattr -i filename `making file mutable`<br/>
 lschattr filename `Checking file attributes`
 
-# Windows Shell
+# Windows
 
 ### Adding User
 net user "USER_NAME" "PASS" /add
@@ -29,7 +29,13 @@ net user "USER_NAME" "PASS" /add
 net user "USER_NAME" "NEWPASS"
 ### Adding User to Administrators
 net localgroup administrators "USER_NAME" /add
-
+### Changing File Permissions
+CACLS files /e /p {USERNAME}:{PERMISSION}
+Permissions:
+1.R `Read`
+2.W `Write`
+3.C `Change`
+4.F `Full Control`
 
 # King Of The Hill (KoTH)
 #### Monitoring and Closing Shell
