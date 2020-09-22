@@ -34,3 +34,14 @@ pkill -9 -t pts/pts-number
 chattr + i filename `making file immutable`<br/>
 chattr -i filename `making file mutable`<br/>
 lschattr filename `Checking file attributes`
+
+
+# Windows Shell
+
+### Adding User
+net user "USER_NAME" "PASS" /add
+### Changing User's password
+net user "USER_NAME" "NEWPASS"
+
+### Adding User to Administrators
+net localgroup administrators "USER_NAME" /add
