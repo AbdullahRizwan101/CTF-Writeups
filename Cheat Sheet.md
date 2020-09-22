@@ -32,13 +32,13 @@ net localgroup administrators "USER_NAME" /add
 ### Changing File Permissions
 CACLS files /e /p {USERNAME}:{PERMISSION}
 Permissions:
-1.R `Read`
-2.W `Write`
-3.C `Change`
+1.R `Read`<br/>
+2.W `Write`<br/>
+3.C `Change`<br/>
 4.F `Full Control`
 
 # King Of The Hill (KoTH)
-#### Monitoring and Closing Shell
+### Monitoring and Closing Shell
 * strace `debugging / tamper with processes`
 * gbd `c/c++ debugger`
 * script - records terminal activites
