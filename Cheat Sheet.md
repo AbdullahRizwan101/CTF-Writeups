@@ -30,8 +30,8 @@ net user "USER_NAME" "NEWPASS"
 ### Adding User to Administrators
 net localgroup administrators "USER_NAME" /add
 ### Changing File Permissions
-CACLS files /e /p {USERNAME}:{PERMISSION}
-Permissions:
+CACLS files /e /p {USERNAME}:{PERMISSION}<br/>
+Permissions:<br/>
 1.R `Read`<br/>
 2.W `Write`<br/>
 3.C `Change`<br/>
