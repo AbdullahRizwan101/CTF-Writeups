@@ -36,6 +36,15 @@ Permissions:<br/>
 2.W `Write`<br/>
 3.C `Change`<br/>
 4.F `Full Control`
+### Set File bits
+attrib +r filename `add read only bit`<br/>
+attrib -r filename `remove read only bit`<br/>
+attrib +h filename `add hidden bit `<br/>
+attrib -h filename `remove hidden bit`
+### Show hidden file/folder
+dir /a `show all hidden files & folder`<br/>
+dir /a:d `show only hidden folder`<br/>
+dir /a:h `show only hidden files`<br/>
 
 # King Of The Hill (KoTH)
 ### Monitoring and Closing Shell
