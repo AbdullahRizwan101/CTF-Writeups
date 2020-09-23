@@ -83,18 +83,15 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 ## PORT 8080
 
 
-https://imgur.com/BFgp2dj.png
-
+<img scr="https://imgur.com/BFgp2dj.png" />
 
 
 I looked up on exploitdb for `osCommerce 2.4.3` and found many exploits one of which was
 
 
-https://imgur.com/vMcOi7I.png
+<img src="https://imgur.com/vMcOi7I.png" />
 
-
-
-https://imgur.com/nUiVxuX.png
+<img src="https://imgur.com/nUiVxuX.png"/>
 
 
 For me this exploit failed since I cannot make a new installation of database and RCE depends upon this step to be finished.
@@ -104,11 +101,11 @@ For me this exploit failed since I cannot make a new installation of database an
 
 I looked on msfconsole if there was an exploit available
 
-https://imgur.com/xnu5rzj.png
+<img src="https://imgur.com/xnu5rzj.png"/>
 
-https://imgur.com/FAjAfSx.png
+<img src="https://imgur.com/FAjAfSx.png"/>
 
-https://imgur.com/jKf21kZ.png
+<img src="https://imgur.com/jKf21kZ.png"/>
 
 Then navigate to `C:\Users\Administrator\Desktop`
 
@@ -208,4 +205,4 @@ Lab:1000:aad3b435b51404eeaad3b435b51404ee:30e87bf999828446a1c1209ddde4c450:::
 meterpreter > 
 
 ```
-Visit Crackstation 
+Visit Crackstation for cracking NTLM hash
