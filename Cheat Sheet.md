@@ -47,7 +47,7 @@ dir /a:d `show only hidden folder`<br/>
 dir /a:h `show only hidden files`<br/>
 
 # King Of The Hill (KoTH)
-### Monitoring and Closing Shell
+### Monitoring and Closing Shell (Linux)
 * strace `debugging / tamper with processes`
 * gbd `c/c++ debugger`
 * script - records terminal activites
@@ -56,3 +56,6 @@ dir /a:h `show only hidden files`<br/>
 * script /dev/pts/<number> `montior terminal`
 * cat /dev/urandom > /dev/pts/pts-number  2>/dev/null `prints arbitary text on terminal`
 * pkill -9 -t pts/pts-number
+### Closing Session (Windows)
+* quser
+* logoff id|user_name  
