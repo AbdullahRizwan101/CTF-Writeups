@@ -46,6 +46,11 @@ dir /a `show all hidden files & folder`<br/>
 dir /a:d `show only hidden folder`<br/>
 dir /a:h `show only hidden files`<br/>
 
+# Meterpreter
+
+### Adding user for RDP
+run getgui -u [USER_NAME] -p [PASS]
+
 # King Of The Hill (KoTH)
 ### Monitoring and Closing Shell (Linux)
 * strace `debugging / tamper with processes`
