@@ -1,4 +1,4 @@
-#BsidesCTF-Mercury
+# BsidesCTF-Mercury
 
 This is a forensics category challenge and in this we are provided with a zip file 
 
