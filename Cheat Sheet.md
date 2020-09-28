@@ -23,7 +23,7 @@ lschattr filename `Checking file attributes`
 
 ### Uploading Files
 
-scp file/you/want <user@ip>:/path/to/store <br/>
+scp file/you/want `user@ip`:/path/to/store <br/>
 python -m SimpleHTTPServer [port] `By default will listen on 8000`<br/>
 python3 -http.server [port] `By default will listen on 8000`<br/>
 
