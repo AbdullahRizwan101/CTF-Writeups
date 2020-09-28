@@ -23,9 +23,9 @@ lschattr filename `Checking file attributes`
 
 ### Uploading Files
 
-scp file/you/want <user@ip>:/path/to/store
-python -m SimpleHTTPServer [port] `By default will listen on 8000`
-python3 -http.server [port] `By default will listen on 8000`
+scp file/you/want <user@ip>:/path/to/store <br/>
+python -m SimpleHTTPServer [port] `By default will listen on 8000`<br/>
+python3 -http.server [port] `By default will listen on 8000`<br/>
 
 # Windows
 
@@ -42,11 +42,13 @@ Permissions:<br/>
 2.W `Write`<br/>
 3.C `Change`<br/>
 4.F `Full Control`
+
 ### Set File bits
 attrib +r filename `add read only bit`<br/>
 attrib -r filename `remove read only bit`<br/>
 attrib +h filename `add hidden bit `<br/>
 attrib -h filename `remove hidden bit`
+
 ### Show hidden file/folder
 dir /a `show all hidden files & folder`<br/>
 dir /a:d `show only hidden folder`<br/>
