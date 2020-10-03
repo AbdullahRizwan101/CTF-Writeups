@@ -18,6 +18,7 @@ Box                                                                             
 [TomGhost](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/TomGhost.md)                  |<img src= "https://i.imgur.com/hZoovNY.png" />
 [Tartarus](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Tartarus.md)                  |<img src= "https://i.imgur.com/hZoovNY.png" />
 [Blueprint](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Blueprint.md)                |<img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Ninja Skills](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/NinjaSkills.md)           |<img src= "https://i.imgur.com/hZoovNY.png" />
 ## Medium
 
 Box                                                                                                              | OS
