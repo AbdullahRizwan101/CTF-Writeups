@@ -66,7 +66,7 @@ run getgui -u [USER_NAME] -p [PASS]
 * script - records terminal activites
 * w /who `check current pts ,terminal device`
 * ps -t ps/pts<number> `process monitoring`
-* script /dev/pts/<number> `montior terminal`
+* script /dev/pts/0 `montior terminal`
 * cat /dev/urandom > /dev/pts/pts-number  2>/dev/null `prints arbitary text on terminal`
 * pkill -9 -t pts/pts-number
 ### Closing Session (Windows)
