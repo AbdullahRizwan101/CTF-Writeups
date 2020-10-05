@@ -20,6 +20,7 @@ Box                                                                             
 [Blueprint](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Blueprint.md)                |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Ninja Skills](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/NinjaSkills.md)           |<img src= "https://i.imgur.com/hZoovNY.png"/>
 [Kenobi](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Kenobi.md)                      |<img src= "https://i.imgur.com/hZoovNY.png"/>
+[Lian_Yu](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/LianYUCTF.md)                  |<img src= "https://i.imgur.com/hZoovNY.png"/>   
 ## Medium
 
 Box                                                                                                              | OS
