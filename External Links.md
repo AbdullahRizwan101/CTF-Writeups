@@ -11,7 +11,7 @@
 * https://pwn.college/<br/>
 * https://www.jok3r-framework.com/l<br/>
 * https://www.kitploit.com/2020/08/hack-tools-all-in-one-red-team.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+PentestTools+(PenTest+Tools)&m=1<br/>
-* https://github.com/HarmJ0y<br/><br/>
+* https://github.com/HarmJ0y<br/>
 * https://book.hacktricks.xyz/<br/>
 * https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet<br/>
 * https://github.com/HarmJ0y/CheatSheets/blob/master/PowerView.pdf<br/>
