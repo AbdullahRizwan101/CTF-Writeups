@@ -72,3 +72,6 @@ run getgui -u [USER_NAME] -p [PASS]
 ### Closing Session (Windows)
 * quser
 * logoff id|user_name  
+
+
+export HISTFILE=/dev/null found this it might help you out a little when doing KOTH it basically stops bash logging your commands in the ~/.bash_history file
