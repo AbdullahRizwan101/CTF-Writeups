@@ -1,18 +1,18 @@
 * https://github.com/swisskyrepo/PayloadsAllTheThings<br/>
-2.https://github.com/The-Art-of-Hacking/h4cker<br/>
-3.https://github.com/AnasAboureada/Penetration-Testing-Study-Notes/blob/master/bookmarks.md<br/>
-4.https://github.com/FULLSHADE/WindowsExploitationResources<br/>
-5.https://github.com/Gr1mmie/Linux-Privilege-Escalation-Resources<br/>
-6.https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters<br/>
-7.https://github.com/5bhuv4n35h/pentestmindmap<br/>
-8.https://github.com/sharkdp/bat<br/>
-9.https://remysharp.com/2018/08/23/cli-improved<br/>
-10.https://t.co/vLtWyMevIV?amp=1<br/>
-11.https://pwn.college/<br/>
-12.https://www.jok3r-framework.com/l<br/>
-13.https://www.kitploit.com/2020/08/hack-tools-all-in-one-red-team.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+PentestTools+(PenTest+Tools)&m=1<br/>
-14.https://github.com/HarmJ0y<br/>
-15.https://book.hacktricks.xyz/<br/>
-16.https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet<br/>
-17.https://github.com/HarmJ0y/CheatSheets/blob/master/PowerView.pdf<br/>
-18.https://github.com/PowerShellMafia/PowerSploit<br/>
+* https://github.com/The-Art-of-Hacking/h4cker<br/>
+* https://github.com/AnasAboureada/Penetration-Testing-Study-Notes/blob/master/bookmarks.md<br/>
+* https://github.com/FULLSHADE/WindowsExploitationResources<br/>
+* https://github.com/Gr1mmie/Linux-Privilege-Escalation-Resources<br/>
+* https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters<br/>
+* https://github.com/5bhuv4n35h/pentestmindmap<br/>
+* https://github.com/sharkdp/bat<br/>
+* https://remysharp.com/2018/08/23/cli-improved<br/>
+* https://t.co/vLtWyMevIV?amp=1<br/>
+* https://pwn.college/<br/>
+* https://www.jok3r-framework.com/l<br/>
+* https://www.kitploit.com/2020/08/hack-tools-all-in-one-red-team.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+PentestTools+(PenTest+Tools)&m=1<br/>
+* https://github.com/HarmJ0y<br/><br/>
+* https://book.hacktricks.xyz/<br/>
+* https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet<br/>
+* https://github.com/HarmJ0y/CheatSheets/blob/master/PowerView.pdf<br/>
+* https://github.com/PowerShellMafia/PowerSploit<br/>
