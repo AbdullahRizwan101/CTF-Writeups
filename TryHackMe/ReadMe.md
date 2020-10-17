@@ -20,7 +20,7 @@ Box                                                                             
 [Blueprint](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Blueprint.md)                |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Ninja Skills](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/NinjaSkills.md)           |<img src= "https://i.imgur.com/hZoovNY.png"/>
 [Kenobi](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Kenobi.md)                      |<img src= "https://i.imgur.com/hZoovNY.png"/>
-[Fowsniff] (https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Fowsniff.md)                 |<img src= "https://i.imgur.com/hZoovNY.png"/> 
+[Fowsniff](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Fowsniff.md)                  |<img src= "https://i.imgur.com/hZoovNY.png"/> 
 ## Medium
 
 Box                                                                                                              | OS
