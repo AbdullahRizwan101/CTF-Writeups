@@ -21,6 +21,7 @@ Box                                                                             
 [Ninja Skills](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/NinjaSkills.md)           |<img src= "https://i.imgur.com/hZoovNY.png"/>
 [Kenobi](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Kenobi.md)                      |<img src= "https://i.imgur.com/hZoovNY.png"/>
 [Fowsniff](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Fowsniff.md)                  |<img src= "https://i.imgur.com/hZoovNY.png"/> 
+[YearoftheRabbit](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/YearOfRabbit.md)       |<img src= "https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
