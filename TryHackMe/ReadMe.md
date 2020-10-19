@@ -22,6 +22,7 @@ Box                                                                             
 [Kenobi](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Kenobi.md)                      |<img src= "https://i.imgur.com/hZoovNY.png"/>
 [Fowsniff](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Fowsniff.md)                  |<img src= "https://i.imgur.com/hZoovNY.png"/> 
 [YearoftheRabbit](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/YearOfRabbit.md)       |<img src= "https://i.imgur.com/hZoovNY.png"/>
+[BreakOutTheCage](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/BreakOutOfCage.md)     |<img src= "https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
