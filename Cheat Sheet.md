@@ -69,10 +69,14 @@ run getgui -u [USER_NAME] -p [PASS]
 * gbd `c/c++ debugger`
 * script - records terminal activites
 * w /who `check current pts ,terminal device`
-* ps -t ps/pts<number> `process monitoring`
-* script /dev/pts/0 `montior terminal`
+* ps -t ps/pts-number `process monitoring`
+* script /dev/pts/pts-number `montior terminal`
 * cat /dev/urandom > /dev/pts/pts-number  2>/dev/null `prints arbitary text on terminal`
 * pkill -9 -t pts/pts-number
+### Send messages to logged in users
+* echo "msg" > /dev/pts/pts-number `send message to specific user`<br />
+* wall msg `boradcast message to everyone`<br />
+  
 ### Closing Session (Windows)
 * quser
 * logoff id|user_name  
