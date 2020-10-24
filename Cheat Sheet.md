@@ -58,8 +58,13 @@ dir /a `show all hidden files & folder`<br/>
 dir /a:d `show only hidden folder`<br/>
 dir /a:h `show only hidden files`<br/>
 
-# Meterpreter
+# Msfvenom
+### List All Payloads
+msfvenom -l payloads
+### List Payload Format
+msfvenom --list formats
 
+# Meterpreter
 ### Adding user for RDP
 run getgui -u [USER_NAME] -p [PASS]
 
