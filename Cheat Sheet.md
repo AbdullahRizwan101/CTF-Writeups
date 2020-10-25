@@ -18,9 +18,13 @@
 #### SmbClient
 * smbclient -L `\\\\<ip\\`
 * smbclient `\\\\<ip>\\<share>` accessing a share`
-  
+
 #### Smbmap
 * `smbmap -u <username> -p <password> -H <ip>`
+
+#### Smbget
+
+* `smbget -R smb://<ip>/<share>` 
 
 ### Finding Binaries
 
