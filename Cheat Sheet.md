@@ -16,8 +16,9 @@
 ### Looking for smb shares
 
 #### SmbClient
-* smbclient -L `\\\\<ip\\`
-* smbclient `\\\\<ip>\\<share>` accessing a share`
+* `smbclient -L \\\\<ip\\`     listing all shares
+* `smbclient \\\\<ip>\\<share>` accessing a share anonymously
+* `smbclient \\\\10.10.209.122\\<share> -U <share> `accessing a share with an authorized user
 
 #### Smbmap
 * `smbmap -u <username> -p <password> -H <ip>`
