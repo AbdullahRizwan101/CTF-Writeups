@@ -20,7 +20,7 @@
 * smbclient `\\\\<ip>\\<share>` accessing a share`
   
 #### Smbmap
-* `smbmap -U anonymous -H <ip>`
+* `smbmap -u <username> -p <password> -H <ip>`
 
 ### Finding Binaries
 
