@@ -13,6 +13,14 @@
 ### Vulnerable sudo version
 `sudo -u#-1 whoami`
 
+### Looking for smb shares
+
+#### SmbClient
+* smbclient -L \\\\<ip\\
+* smbclient \\\\<ip>\\<share> `accessing a share`
+  
+#### Smbmap
+* smbmap -U anonymous -H <ip>
 
 ### Finding Binaries
 
