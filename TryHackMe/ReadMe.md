@@ -29,7 +29,7 @@ Box                                                                             
 
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
-[]()                       | <img src= "https://i.imgur.com/hZoovNY.png" />
+[Skynet](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Skynet.md)                      | <img src= "https://i.imgur.com/hZoovNY.png" />
 []()                       | <img src= "https://i.imgur.com/hZoovNY.png" />
 []()                       | <img src= "https://i.imgur.com/hZoovNY.png" />
 []()                       | <img src="https://i.imgur.com/8SPmSeo.gif"/>
