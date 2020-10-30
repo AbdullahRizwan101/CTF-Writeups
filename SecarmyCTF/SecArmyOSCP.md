@@ -384,7 +384,7 @@ hashcat -a 0 -m 1800 -o cracked.txt hash /usr/share/wordlists/rockyou.tx
 <img src="https://imgur.com/TLZZto3.png">
 
 
-#Challenge 6 (Seis)
+# Challenge 6 (Seis)
 
 <img src="https://imgur.com/PgXc19M.png"/>
 
@@ -468,5 +468,5 @@ I wasn't able to solve this challenge so couldn't proceed any further.
 
 # End
 
-So I didn't see what did the remaining challenges looked like , although it was easy but I didn't had that much exposure to CTF competitions.
+So I didn't see how the remaining challenges looked like , although it was easy but I didn't had that much exposure to CTF competitions.
 <img src="https://imgur.com/IFlAfG3.png"/>
