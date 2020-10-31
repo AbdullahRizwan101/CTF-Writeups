@@ -101,6 +101,9 @@ run getgui -u [USER_NAME] -p [PASS]
 * cat /dev/urandom > /dev/pts/pts-number  2>/dev/null `prints arbitary text on terminal`
 * pkill -9 -t pts/pts-number
 
+### Change SSH port
+`nano /etc/ssh/sshd_config` (change PORT 22 to any port you want also you can tinker with configuration file)
+
 ### Run Bash script on king.txt
 `while [ 1 ]; do /root/chattr -i king.txt; done &`
 
