@@ -100,6 +100,10 @@ run getgui -u [USER_NAME] -p [PASS]
 * script /dev/pts/pts-number `montior terminal`
 * cat /dev/urandom > /dev/pts/pts-number  2>/dev/null `prints arbitary text on terminal`
 * pkill -9 -t pts/pts-number
+
+### Run Bash script on king.txt
+`while [ 1 ]; do /root/chattr -i king.txt; done &`
+
 ### Send messages to logged in users
 * echo "msg" > /dev/pts/pts-number `send message to specific user`<br />
 * wall msg `boradcast message to everyone`<br />
