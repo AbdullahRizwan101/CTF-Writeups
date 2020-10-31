@@ -104,6 +104,9 @@ run getgui -u [USER_NAME] -p [PASS]
 ### Change SSH port
 `nano /etc/ssh/sshd_config` (change PORT 22 to any port you want also you can tinker with configuration file)
 
+### Hide yourself from "w" or "who"
+`ssh user@ip -T` This -T will have some limiations , that you cannot run bash and some other commands but is helpful.
+
 ### Run Bash script on king.txt
 `while [ 1 ]; do /root/chattr -i king.txt; done &`
 
