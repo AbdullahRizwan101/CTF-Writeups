@@ -27,6 +27,8 @@ Box                                                                             
 [Anthem](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Anthem.md)                      |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Steel Mountain](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/steel_mountain.md)      |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Bolt](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Bolt.md)                          |<img src= "https://i.imgur.com/hZoovNY.png"/>
+[Basic Pentesting](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Basic_pentesting.md)  |<img src= "https://i.imgur.com/hZoovNY.png" />
+[Jack Of All Trades](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Jack_of_All_Trades.md)|<img src= "https://i.imgur.com/hZoovNY.png" />
 ## Medium
 
 Box                                                                                                              | OS
