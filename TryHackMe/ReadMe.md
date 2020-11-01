@@ -26,6 +26,7 @@ Box                                                                             
 [GottaCatchEm'All!](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/GottaCatchemAll.md)  |<img src= "https://i.imgur.com/hZoovNY.png"/>
 [Anthem](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Anthem.md)                      |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Steel Mountain](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/steel_mountain.md)      |<img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Bolt](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Bolt.md)                          |<img src= "https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
