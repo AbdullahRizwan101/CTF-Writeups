@@ -58,7 +58,7 @@ wget http://<ip>:port/<file>
 
 ### Cracaking Zip Archive
 
-* `fcrackzip -u -D -p <path_to_wordlist> <archive.zip>`
+`fcrackzip -u -D -p <path_to_wordlist> <archive.zip>`
 
 ### killing a running job in same shell
 `jobs`
