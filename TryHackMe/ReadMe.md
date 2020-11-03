@@ -30,6 +30,7 @@ Box                                                                             
 [Basic Pentesting](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Basic_pentesting.md)  |<img src= "https://i.imgur.com/hZoovNY.png" />
 [Jack Of All Trades](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Jack_of_All_Trades.md)|<img src= "https://i.imgur.com/hZoovNY.png" />
 [Persistance](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Persistance.md)            |<img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Res](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Res.md)                            |<img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
