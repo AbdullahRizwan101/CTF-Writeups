@@ -27,6 +27,9 @@
 
 * `smbget -R smb://<ip>/<share>` 
 
+#### NFS shares
+* `showmount -e <ip> ` This lists the nfs shares
+* `mount -t nfs <ip>:/<share_name> <directory_where_to_mount>` Mounting that share
 ### Finding Binaries
 
 * find . - perm /4000 (user id uid) 
