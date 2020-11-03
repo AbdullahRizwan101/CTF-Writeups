@@ -56,6 +56,10 @@ wget http://<ip>:port/<file>
 `nc -l -p [port] > file` Receive file <br/>
 `nc -w 3 [ip] [port] < file `Send file <br/>
 
+### Cracaking Zip Archive
+
+* `fcrackzip -u -D -p <path_to_wordlist> <archive.zip>`
+
 # Windows
 
 ### Adding User
