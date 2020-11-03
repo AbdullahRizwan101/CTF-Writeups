@@ -60,6 +60,20 @@ wget http://<ip>:port/<file>
 
 * `fcrackzip -u -D -p <path_to_wordlist> <archive.zip>`
 
+### killing a running job in same shell
+`jobs`
+
+```
+Find it's job number
+
+$ jobs
+[1]+  Running                 sleep 100 &
+
+$ kill %1
+[1]+  Terminated              sleep 100
+
+```
+
 # Windows
 
 ### Adding User
