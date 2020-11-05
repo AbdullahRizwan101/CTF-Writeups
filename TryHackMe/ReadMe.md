@@ -33,6 +33,7 @@ Box                                                                             
 [Res](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Res.md)                            |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Local File Inclusion](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/LFI.md)           |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Kiba](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Kiba.md)                          |<img src="https://i.imgur.com/hZoovNY.png"/>
+[Game Server](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Game_Zone.md)              |<img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
