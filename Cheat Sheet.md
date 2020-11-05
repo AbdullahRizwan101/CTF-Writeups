@@ -78,6 +78,8 @@ $ kill %1
 [1]+  Terminated              sleep 100
 
 ```
+### SSH Port Forwarding
+`ssh -L <port_that_is_blockd_>:localhost:<map_blocked_port> <username>@<ip>`
 
 # Windows
 
