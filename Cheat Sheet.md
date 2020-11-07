@@ -65,6 +65,22 @@ python3 -m http.server [port] `By default will listen on 8000`<br/>
 
 `fcrackzip -u -D -p <path_to_wordlist> <archive.zip>`
 
+### Decrypting PGP key
+If you have `asc` key which can be used for PGP authentication then 
+* john key.asc > asc_hash
+* john asc_hash --wordlists=path_to_wordlist
+
+#### Having pgp cli
+* pgp --import key.asc
+* pgp --decrypt file.pgp
+
+#### Having gpg cli
+* gpg --import key.asc
+* gpg --decrypt file.pgp
+
+
+* import key.pgp
+* gpg 
 ### killing a running job in same shell
 `jobs`
 
