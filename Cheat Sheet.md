@@ -78,9 +78,6 @@ If you have `asc` key which can be used for PGP authentication then
 * gpg --import key.asc
 * gpg --decrypt file.pgp
 
-
-* import key.pgp
-* gpg 
 ### killing a running job in same shell
 `jobs`
 
