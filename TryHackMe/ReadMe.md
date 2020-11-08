@@ -43,7 +43,7 @@ Box                                                                             
 [Skynet](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Skynet.md)                      | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Hack Park](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Hack_Park.md)                | <img  src= "https://i.imgur.com/8SPmSeo.gif"/>
 [Server From Hell](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Server_From_Hell.md)  | <img src= "https://i.imgur.com/hZoovNY.png" />                                                                                 
-[Boiler CTF](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Boiler.md)                  | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Boiler CTF](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Boiler.md)                  | <img src= "https://i.imgur.com/hZoovNY.png" />
 []()                                                                                                             | <img src= "https://i.imgur.com/hZoovNY.png" />
 []()                                                                                                             | <img src= "https://i.imgur.com/hZoovNY.png" />
 []()                                                                                                             |<img src= "https://i.imgur.com/hZoovNY.png" />
