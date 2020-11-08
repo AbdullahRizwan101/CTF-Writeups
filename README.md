@@ -6,13 +6,13 @@ In this repository I will share my writeups/walkthroughs of TryHackMe,HackTheBox
 [<p align="center"><img src="https://i.imgur.com/dJmO3AX.png"/></p>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/TryHackMe)
 <br/>
 <br/>
-[<img src="https://i.imgur.com/f4rGwDT.png"/>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/Cybersec%20Labs)
+[<p align="center"><img src="https://i.imgur.com/f4rGwDT.png"/></p>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/Cybersec%20Labs)
 <br/>
 <br/>
-[<img src="https://i.imgur.com/0YfUtWi.jpg"/>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/BsidesBOS%20CTF%202020)
+[<p algin="center"><img src="https://i.imgur.com/0YfUtWi.jpg"/></p>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/BsidesBOS%20CTF%202020)
 <br/>
 <br/>
-[<img src="https://i.imgur.com/m9Vwt1s.png"/>](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/BsidesIslamabad%202020/Shellshock.md)
+[<p align="center"><img src="https://i.imgur.com/m9Vwt1s.png"/></p>](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/BsidesIslamabad%202020/Shellshock.md)
 <br/>
 <br/>
-[<img src="https://i.imgur.com/WQIYlHG.png"/>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/SecarmyCTF)
+[<p align="center"><img src="https://i.imgur.com/WQIYlHG.png"/></p>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/SecarmyCTF)
