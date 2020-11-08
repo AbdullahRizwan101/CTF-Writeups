@@ -9,7 +9,7 @@ In this repository I will share my writeups/walkthroughs of TryHackMe,HackTheBox
 [<p align="center"><img src="https://i.imgur.com/f4rGwDT.png"/></p>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/Cybersec%20Labs)
 <br/>
 <br/>
-[<p algin="center"><img src="https://i.imgur.com/0YfUtWi.jpg"/></p>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/BsidesBOS%20CTF%202020)
+[<img src="https://i.imgur.com/0YfUtWi.jpg"/>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/BsidesBOS%20CTF%202020)
 <br/>
 <br/>
 [<p align="center"><img src="https://i.imgur.com/m9Vwt1s.png"/></p>](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/BsidesIslamabad%202020/Shellshock.md)
