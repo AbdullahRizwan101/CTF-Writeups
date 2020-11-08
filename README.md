@@ -11,7 +11,7 @@ In this repository I will share my writeups/walkthroughs of TryHackMe,HackTheBox
 [<img src="https://i.imgur.com/0YfUtWi.jpg"/>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/BsidesBOS%20CTF%202020)
 <br/>
 <br/>
-[<img src="https://i.imgur.com/m9Vwt1s.png"/>]()
+[<img src="https://i.imgur.com/m9Vwt1s.png"/>](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/BsidesIslamabad%202020/Shellshock.md)
 <br/>
 <br/>
 [<img src="https://i.imgur.com/WQIYlHG.png"/>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/SecarmyCTF)
