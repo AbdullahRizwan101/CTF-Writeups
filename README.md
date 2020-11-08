@@ -3,7 +3,7 @@
 In this repository I will share my writeups/walkthroughs of TryHackMe,HackTheBox,Cybersec Labs ,Over,Under The Wire and some CTF's competitions that I participate in
 
 
-<p align="center">[<img src="https://i.imgur.com/dJmO3AX.png"/>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/TryHackMe)</p>
+[<p align="center"><img src="https://i.imgur.com/dJmO3AX.png"/></p>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/TryHackMe)
 <br/>
 <br/>
 [<img src="https://i.imgur.com/f4rGwDT.png"/>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/Cybersec%20Labs)
