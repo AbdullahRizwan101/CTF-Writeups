@@ -1,6 +1,6 @@
 # CTF-Writeups
 
-In this repository I will share my writeups/walkthroughs of TryHackMe,HackTheBox,Cybersec Labs ,Over,Under The Wire some CTF's competitions that I participate in
+In this repository I will share my writeups/walkthroughs of TryHackMe,HackTheBox,Cybersec Labs ,Over,Under The Wire and some CTF's competitions that I participate in
 
 
 [<img src="https://i.imgur.com/dJmO3AX.png"/>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/TryHackMe)<br/>
