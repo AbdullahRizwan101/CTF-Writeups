@@ -35,6 +35,7 @@ Box                                                                             
 [Kiba](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Kiba.md)                          |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Game Server](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Game_Zone.md)              |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Brute It](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Brute_it.md)                  |<img src="https://i.imgur.com/hZoovNY.png"/>
+[Git Happens](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Git_happens.md)            |-
 ## Medium
 
 Box                                                                                                              | OS
