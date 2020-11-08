@@ -143,6 +143,13 @@ msfvenom --list formats
 ### Adding user for RDP
 run getgui -u [USER_NAME] -p [PASS]
 
+# Git
+### Dumping repository
+`./gitdumper.sh <location_of_remote_or_local_repostiory_having./.git> <destination_folder>`
+
+### Extracting information from repository
+`./extractor.sh <location_folder_having_.git_init> <extract_to_a_folder>`
+
 # King Of The Hill (KoTH)
 ### Monitoring and Closing Shell (Linux)
 * strace `debugging / tamper with processes`
