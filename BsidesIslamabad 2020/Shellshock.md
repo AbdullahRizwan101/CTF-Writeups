@@ -1,5 +1,3 @@
-<img src="https://i.imgur.com/m9Vwt1s.png"/>
-
 <img src="https://imgur.com/NS6QZ4p.png"/>
 
 Looking at the source code we find base64 encoded text
@@ -12,12 +10,9 @@ On decoding
 
 <img src="https://imgur.com/XVHZYRf.png"/>
 
-I did a `nikto` scan and found that this is vulnerable to `shellshock`
-
-
 I search on google about `cgi-bin` and found that they are mostly vulnerable to `shellshock` that allows execution of bash commands
-On refering to this blog post
 
+On refering to this blog post
 
 `https://wywyit.medium.com/ritsec-fall-2018-ctf-week-6-45d414035c76`
 
