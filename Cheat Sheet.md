@@ -31,6 +31,13 @@
 * `showmount -e <ip> ` This lists the nfs shares
 * `mount -t nfs <ip>:/<share_name> <directory_where_to_mount>` Mounting that share
 
+### Cronjobs
+
+* cronjobs for specific users are stored in `/var/spool/cron/cronjobs/`
+* `crontab -u <user> -e ` Check cronjobs for a specific user
+* `crontab -l`         cronjob for the current user
+* `cat /etc/crontab`  system wide cronjobs
+
 ### Finding Binaries
 
 * find . - perm /4000 (user id uid) 
