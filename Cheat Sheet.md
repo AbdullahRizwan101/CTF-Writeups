@@ -177,7 +177,7 @@ To bruteforce passwords
 
 ### Change SSH port
 `nano /etc/ssh/sshd_config` (change PORT 22 to any port you want also you can tinker with configuration file)
-
+`service sshd restart`     (Restart SSH service to apply changes)
 ### Hide yourself from "w" or "who"
 `ssh user@ip -T` This -T will have some limiations , that you cannot run bash and some other commands but is helpful.
 
