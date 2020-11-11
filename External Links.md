@@ -17,3 +17,4 @@
 * https://github.com/HarmJ0y/CheatSheets/blob/master/PowerView.pdf<br/>
 * https://github.com/PowerShellMafia/PowerSploit<br/>
 * https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993
+* https://github.com/RenwaX23/XSS-Payloads/blob/master/Without-Parentheses.md
