@@ -157,6 +157,13 @@ run getgui -u [USER_NAME] -p [PASS]
 ### Extracting information from repository
 `./extractor.sh <location_folder_having_.git_init> <extract_to_a_folder>`
 
+# Wordpress
+using wpscan we can find users or do some further enumeration of wordpress version
+* `wpscan -e --url <ip>`
+
+To bruteforce passwords
+* `wpscan --url <ip> -U user_file_path -P password_file_path`
+
 # King Of The Hill (KoTH)
 ### Monitoring and Closing Shell (Linux)
 * strace `debugging / tamper with processes`
