@@ -192,6 +192,19 @@ To bruteforce passwords
 * quser
 * logoff id|user_name  
 
+# Wordlists
+
+### Directory Bruteforcing
+* /usr/share/wordlists/dirb/big.txt
+* /usr/share/wordlists/dirb/common.txt
+* /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
+### Credential Bruteforcing
+
+* /usr/share/wordlists/rockyou.txt
+* /usr/share/wordlists/fasstrackt.txt
+* using `crackstation`
+* using `seclists`
 
 export HISTFILE=/dev/null found this it might help you out a little when doing KOTH it basically stops bash logging your commands in the ~/.bash_history file
 sudo ifconfig tun0 down
