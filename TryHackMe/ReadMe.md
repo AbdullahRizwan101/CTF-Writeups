@@ -38,7 +38,7 @@ Box                                                                             
 [Git Happens](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Git_happens.md)            |-
 [Startup](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Startup.md)                    |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Overpass](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Overpass.md)                  |<img src="https://i.imgur.com/hZoovNY.png"/>
-
+[Tony The Tiger](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Tony_The_Tiger.md)      |<img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
