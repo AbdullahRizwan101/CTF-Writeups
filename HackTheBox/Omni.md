@@ -1,4 +1,4 @@
-# HackTheBox-Omin
+# HackTheBox-Omni
 
 ## NMAP
 
