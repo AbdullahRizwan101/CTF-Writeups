@@ -47,6 +47,9 @@
 
 `getcap -r / 2>/dev/null`
 
+### Finding text in a files
+`grep -rnw '/path/to/somewhere/' -e 'pattern'
+`
 ### Changing file attributes
 
 chattr + i filename `making file immutable`<br/>
