@@ -143,6 +143,10 @@ dir /a:h `show only hidden files`<br/>
 ## List Drives
 `wmic logicaldisk get caption`
 
+## Decrypting PSCredential Object
+* $file = Import-Clixml -Path <path_to_file>
+* $file.GetNetworkCredential().username
+* $file.GetNetworkCredential().password
 # Msfvenom
 ### List All Payloads
 msfvenom -l payloads
