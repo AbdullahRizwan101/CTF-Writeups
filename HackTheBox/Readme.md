@@ -4,7 +4,7 @@
 
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
-[Omin](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/AnonForceCTF.md)                  | <img src= "https://i.imgur.com/hZoovNY.png" />
-[]()                                                                                                             | 
+[Omni](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Omni.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[]()                                                                                                             | <img src= "https://i.imgur.com/hZoovNY.png"/>
 []()                                                                                                             | 
 []()                                                                                                             |
