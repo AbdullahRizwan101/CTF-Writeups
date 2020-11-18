@@ -19,5 +19,5 @@
 * https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993
 * https://github.com/RenwaX23/XSS-Payloads/blob/master/Without-Parentheses.md
 * https://github.com/f0rb1dd3n/Reptile (Loadable Kernal Module Rootkit)
-* https://www.kitploit.com/2020/06/jsshell-javascript-reverse-shell-for.html ## JavaScript RCE
-* https://github.com/Den1al/JSShell ## JavaScript RCE v2.0
+* https://www.kitploit.com/2020/06/jsshell-javascript-reverse-shell-for.html (JavaScript RCE)
+* https://github.com/Den1al/JSShell (JavaScript RCE v2.0 )
