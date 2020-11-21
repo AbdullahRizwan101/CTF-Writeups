@@ -42,6 +42,7 @@ Box                                                                             
 [Smag Grotto](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Smag.md)                   |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Linux Local Enumeration](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/LLE.md)        |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Wireshark101](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Wireshark101.md)          |-                                                                                         
+[Common Linux Privesc](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Common_Linux_Privesc.md) |<img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
