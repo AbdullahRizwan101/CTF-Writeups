@@ -184,7 +184,5 @@ Creates a secure tunnel with a public key
 2. Looking at the data stream was is the full request URI for packet 50?
 `https://localhost/icons/back.gif`.
 
-<img src="Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.8.0.2) Gecko/20060308 Firefox/1.5.0.2"/>
-
 3. What is the User-Agent listed in packet 50?
 `Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.8.0.2) Gecko/20060308 Firefox/1.5.0.2`
