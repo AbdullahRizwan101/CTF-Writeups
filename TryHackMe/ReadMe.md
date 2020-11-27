@@ -43,6 +43,7 @@ Box                                                                             
 [Linux Local Enumeration](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/LLE.md)        |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Wireshark101](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Wireshark101.md)          |-                                                                                         
 [Common Linux Privesc](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Common_Linux_Privesc.md) |<img src="https://i.imgur.com/hZoovNY.png"/>
+[Introduction to x86-x64](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Intro_to_x86-x64.md) |<img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
