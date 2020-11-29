@@ -110,6 +110,11 @@ $ kill %1
 ### SQL Map
 `sqlmap -r request.txt --dbms=mysql --dump`
 
+### Binary Exploits
+
+If there is a certain command running in a binary example `date` so we can create our own binary and add `/bin/bash` to and path so it gets executed<br/>
+`export PATH=<path_where_binary_is>/:$PATH`
+
 # Windows
 
 ### Adding User
