@@ -13,6 +13,9 @@
 ### Vulnerable sudo version
 `sudo -u#-1 whoami`
 
+### Execute as diffent user
+`sudo -u <user> <command>`
+
 ### SMB Shares
 
 #### SmbClient
