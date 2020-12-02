@@ -206,9 +206,9 @@ Here `api-endpoint` can be for example `/api/v1/resources/books\?FUZZ\=.bash_his
 * /usr/share/wordlists/dirb/common.txt
 * /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
-#### Gobuster
-`gobuster dir -u http://<ip>/ -w <path_to_wordlist>`
-`gobuster dir -u http://<ip>/ -w <path_to_wordlist> -s "204,301,302,307,401,403"` (use status code if 200 is configured to respond on the web server to every get request)
+### Gobuster
+* `gobuster dir -u http://<ip>/ -w <path_to_wordlist>`
+* `gobuster dir -u http://<ip>/ -w <path_to_wordlist> -s "204,301,302,307,401,403"` (use status code if 200 is configured to respond on the web server to every get request)
 
 ### Feroxbuster
 `feroxbuster -u http://<ip>/ -w <path_to_wordlist>`
