@@ -169,6 +169,7 @@ msfvenom --list formats
 run getgui -u [USER_NAME] -p [PASS]
 
 # Git
+
 ### Dumping repository
 `./gitdumper.sh <location_of_remote_or_local_repostiory_having./.git> <destination_folder>`
 
@@ -198,7 +199,6 @@ Here `api-endpoint` can be for example `/api/v1/resources/books\?FUZZ\=.bash_his
 
 ### Web Shell Bash
 `bash -c "<bash_rev_shell>"`
-
 # Wordlists
 
 ### Directory Bruteforcing
@@ -206,8 +206,17 @@ Here `api-endpoint` can be for example `/api/v1/resources/books\?FUZZ\=.bash_his
 * /usr/share/wordlists/dirb/common.txt
 * /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
-### Credential Bruteforcing
+#### Gobuster
+`gobuster dir -u http://<ip>/ -w <path_to_wordlist>`
+`gobuster dir -u http://<ip>/ -w <path_to_wordlist> -s "204,301,302,307,401,403"` (use status code if 200 is configured to respond on the web server to every get request)
 
+### Feroxbuster
+`feroxbuster -u http://<ip>/ -w <path_to_wordlist>`
+
+### Dirsearch
+`python3 dirsearch.py -u http://<ip>/ -w <path_to_text>`
+
+### Credential Bruteforcing
 * /usr/share/wordlists/rockyou.txt
 * /usr/share/wordlists/fasstrackt.txt
 * using `crackstation`
@@ -246,7 +255,6 @@ This spiders the given url and finding keyowrds then makes a wordlists through i
 ### Closing Session (Windows)
 * quser
 * logoff id|user_name  
-
 
 
 export HISTFILE=/dev/null found this it might help you out a little when doing KOTH it basically stops bash logging your commands in the ~/.bash_history file <br/>
