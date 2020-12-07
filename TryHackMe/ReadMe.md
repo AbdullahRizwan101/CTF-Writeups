@@ -56,5 +56,5 @@ Box                                                                             
 [Blog](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Blog.md)                          | <img src= "https://i.imgur.com/hZoovNY.png" />                                                                                                
 [Bookstore](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Bookstore.md)                | <img src= "https://i.imgur.com/hZoovNY.png" />                                                                                                         
 [Wonderland](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Wonderland.md)              |<img src= "https://i.imgur.com/hZoovNY.png" />                                                                                                            
-
+[DevGuru N/A](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/DevGuru.md)                |<img src= "https://i.imgur.com/hZoovNY.png" /> 
 ## King of The Hill
