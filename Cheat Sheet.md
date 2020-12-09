@@ -16,6 +16,14 @@
 ### Execute as diffent user
 `sudo -u <user> <command>`
 
+### FTP
+Connect to ftp on the machine<br/>
+`ftp user <ip>`
+
+Download files recusively<br/>
+` wget -r ftp://user:pass@<ip>/  `
+
+
 ### SMB Shares
 
 #### SmbClient
