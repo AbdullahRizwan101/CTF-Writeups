@@ -58,4 +58,15 @@ Box                                                                             
 [Bookstore](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Bookstore.md)                | <img src= "https://i.imgur.com/hZoovNY.png" />                                                                                                         
 [Wonderland](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Wonderland.md)              |<img src= "https://i.imgur.com/hZoovNY.png" />                                                                                                            
 [DevGuru N/A](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/DevGuru.md)                |<img src= "https://i.imgur.com/hZoovNY.png" /> 
+
 ## King of The Hill
+Box                                                                                                              | OS
+---                                                                                                              | ---       
+[Offline](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Offline.md)                    | <img  src= "https://i.imgur.com/8SPmSeo.gif"/>
+[Production](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Production.md)              | <img src= "https://i.imgur.com/hZoovNY.png" /> 
+[Hackers](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Hackers.md)                    | <img src= "https://i.imgur.com/hZoovNY.png" />                                                                                 
+[Carnage](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Carnage.md)                    | <img src= "https://i.imgur.com/hZoovNY.png" />
+[Fortune](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Fortune.md)                    | <img src= "https://i.imgur.com/hZoovNY.png" />                                                                                                
+[Panda](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Panda.md)                        | <img src= "https://i.imgur.com/hZoovNY.png" />                                                                                                         
+[Space Jam](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/SpaceJam.md)                 |<img src= "https://i.imgur.com/hZoovNY.png" />                                                                                                            
+[Tyler](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Tyler.md)                        |<img src= "https://i.imgur.com/hZoovNY.png" /> 
