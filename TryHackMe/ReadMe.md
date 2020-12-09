@@ -4,6 +4,7 @@
 
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
+[All In One](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/All_In_One.md)              |<img src= "https://i.imgur.com/hZoovNY.png" />
 [Anon Force](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/AnonForceCTF.md)| <img src= "https://i.imgur.com/hZoovNY.png" />
 [Brooklyn](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/BrooklynCTF.md)| <img src= "https://i.imgur.com/hZoovNY.png" />
 [Crack The Hashes](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Crack_The_Hashes.md)| <img src= "https://i.imgur.com/hZoovNY.png" />
