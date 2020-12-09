@@ -183,7 +183,8 @@ run getgui -u [USER_NAME] -p [PASS]
 
 # Wordpress
 using wpscan we can find users or do some further enumeration of wordpress version
-* `wpscan -e --url <ip>`
+* `wpscan -e --url http://<ip>/wordpress -e u` Enumerate Users
+* `wpscan -e --url http://<ip>/wordpress -e ap` Enumearte All plugins
 
 To bruteforce passwords
 * `wpscan --url <ip> -U user_file_path -P password_file_path`
