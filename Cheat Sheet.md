@@ -295,7 +295,10 @@ On Debian and Ubuntu, the majority of these are left within the "/var/log direct
           
 
 
+# Miscellaneous
 
+## Turning off xfce beeping sound
+`xset b off`
 
 export HISTFILE=/dev/null found this it might help you out a little when doing KOTH it basically stops bash logging your commands in the ~/.bash_history file <br/>
 sudo ifconfig tun0 down<br/>
