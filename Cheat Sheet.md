@@ -274,6 +274,28 @@ This spiders the given url and finding keyowrds then makes a wordlists through i
 * quser
 * logoff id|user_name  
 
+# Covering Track
+11.11. Covering our Tracks
+
+The final stages of penetration testing involve setting up persistence and covering our tracks. For today's material, we'll detail the later as this is not mentioned nearly enough.
+
+During a pentesting engagement, you will want to try to avoid detection from the administrators & engineers of your client wherever within the permitted scope. Activities such as logging in, authentication and uploading/downloading files are logged by services and the system itself.
+
+On Debian and Ubuntu, the majority of these are left within the "/var/log directory and often require administrative privileges to read and modify. Some log files of interest:
+
+    "/var/log/auth.log" (Attempted logins for SSH, changes too or logging in as system users:)
+<img src="https://imgur.com/37aTxnI.png/>
+          
+    "/var/log/syslog" (System events such as firewall alerts:)
+<img src="https://imgur.com/k7scyUP.png/>    
+    "/var/log/<service/"
+    For example, the access logs of apache2
+        /var/log/apache2/access.log
+<img src="https://imgur.com/y8Rin3h.png/>
+          
+
+
+
 
 export HISTFILE=/dev/null found this it might help you out a little when doing KOTH it basically stops bash logging your commands in the ~/.bash_history file <br/>
 sudo ifconfig tun0 down<br/>
