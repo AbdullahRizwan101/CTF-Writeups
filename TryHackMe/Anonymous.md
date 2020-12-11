@@ -101,4 +101,4 @@ So we can become root , let's put this into practice
 
 <img src="https://imgur.com/H72GLZQ.png"/>
 
-This could have also been done with `lxd` but for that you have to make image , transfer to target then run 4-5 commands and I was lazy to do that so we got root that's the only that matters ( :
+This could have also been done with `lxd` but for that you have to make image , transfer to target then run 4-5 commands and I was lazy to do that so we got root that's the only thing that matters ( :
