@@ -19,7 +19,8 @@
 ### FTP
 Connect to ftp on the machine<br/>
 `ftp user <ip>`
-
+After successfully logged in you can download all files with
+`mget *`
 Download files recusively<br/>
 ` wget -r ftp://user:pass@<ip>/  `
 
