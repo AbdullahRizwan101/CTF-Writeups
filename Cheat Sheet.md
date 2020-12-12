@@ -247,6 +247,9 @@ After logging into the wordpress dashboard , we can edit theme's 404.php page wi
 This spiders the given url and finding keyowrds then makes a wordlists through it's findings<br/>
 `cewl.rb <ip>`
 
+# Finding Subdomains
+`wfuzz -c -w <path_to_wordlist> -u 'http://domain.com -H 'Host: FUZZ.domain.com`
+
 # King Of The Hill (KoTH)
 ### Monitoring and Closing Shell (Linux)
 * strace `debugging / tamper with processes`
