@@ -1,4 +1,5 @@
 # Linux
+
 ### Stablilize Shell
 1. ctrl+z
 2. stty raw -echo
@@ -129,6 +130,14 @@ echo "" > --checkpoint=1
 If there is a certain command running in a binary example `date` so we can create our own binary and add `/bin/bash` to and path so it gets executed<br/>
 `export PATH=<path_where_binary_is>/:$PATH`
 
+### Enumration 
+
+* cat /etc/*release 
+* cat /etc/issue 
+* uname -a
+* lsb_release -a
+* Running Linpeas
+* ss -tulpn (for ports that are open on the machine)
 # Windows
 
 ### Adding User
