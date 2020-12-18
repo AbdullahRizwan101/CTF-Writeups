@@ -2,4 +2,5 @@
 
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
-[DevGuru]()                                                                                                      | <img src= "https://i.imgur.com/hZoovNY.png" />
+[DevGuru](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/DevGuru.md)                      | <img src= "https://i.imgur.com/hZoovNY.png" />
+                                                                                              
