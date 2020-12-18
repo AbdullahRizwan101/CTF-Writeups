@@ -1,7 +1,5 @@
 # VulnHub-DevGuru
 
-First of all let's do `netdiscover` on our interface with internet access because we locally have our machine running and we need to get it's ip address
-
 ## Netdiscover
 
 Run `netdiscover -i wlan0` or `eth0`
