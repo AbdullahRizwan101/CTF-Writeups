@@ -22,3 +22,4 @@
 * https://www.kitploit.com/2020/06/jsshell-javascript-reverse-shell-for.html (JavaScript RCE)
 * https://github.com/Den1al/JSShell (JavaScript RCE v2.0 )
 * https://letsdefend.io/ (Learning Blue teaming stuff)
+* https://github.com/trimstray/the-book-of-secret-knowledge (Having so many tools and tricks)
