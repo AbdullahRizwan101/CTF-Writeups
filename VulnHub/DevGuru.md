@@ -214,4 +214,4 @@ Now a vulnerability exists in this scenario when a user is allowed to execute co
 
 <img src="https://imgur.com/9ihFY4q.png"/>
 
-So this was a really an intersting box that first we have to dump the git repository then look for important files after that get our intial foothold as `www-data` through that look for some configuration files ,edit database ,add repository then push our changes into it did learned a lot from this it was my first vulnhub machine that I rooted !!!
+So this was a really an intersting box that we had to dump the git repository then look for important files after that got our intial foothold as `www-data` through that looked for some configuration files ,edit database ,add repository then pushed our changes into it did learned a lot from this ,it was my first vulnhub machine that I rooted !!!
