@@ -1,4 +1,4 @@
-# VulHub Boxes
+# VulnHub Boxes
 
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
