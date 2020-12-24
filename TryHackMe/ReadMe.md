@@ -74,5 +74,6 @@ Box                                                                             
 [Tyler](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Tyler.md)                        |<img src= "https://i.imgur.com/hZoovNY.png" /> 
 
 ## Special
----                                                                                                               ---
+Box                                                                                                              | OS
+---                                                                                                              | ---
 [Advent of Cyber 2](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/AOC2.md)             |<img src= "https://i.imgur.com/hZoovNY.png" />/<img  src= "https://i.imgur.com/8SPmSeo.gif"/>
