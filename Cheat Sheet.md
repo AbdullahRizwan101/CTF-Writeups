@@ -227,8 +227,8 @@ Here `api-endpoint` can be for example `/api/v1/resources/books\?FUZZ\=.bash_his
 
 ### Wordpress
 using wpscan we can find users or do some further enumeration of wordpress version
-* `wpscan -e --url http://<ip>/wordpress -e u` Enumerate Users
-* `wpscan -e --url http://<ip>/wordpress -e ap` Enumearte All plugins
+* `wpscan --url http://<ip>/wordpress -e u` Enumerate Users
+* `wpscan --url http://<ip>/wordpress -e ap` Enumearte All plugins
 
 To bruteforce passwords
 * `wpscan --url <ip> -U user_file_path -P password_file_path`
