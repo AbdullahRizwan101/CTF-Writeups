@@ -62,6 +62,7 @@ Box                                                                             
 [DevGuru N/A](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/DevGuru.md)                |<img src= "https://i.imgur.com/hZoovNY.png" /> 
 [Anonymous](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Anonymous.md)                |<img src= "https://i.imgur.com/hZoovNY.png" /> 
 [Nax](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Nax.md)                            |<img src= "https://i.imgur.com/hZoovNY.png" /> 
+[0day](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/0day.md)                          |<img src= "https://i.imgur.com/hZoovNY.png" />
 ## King of The Hill
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
