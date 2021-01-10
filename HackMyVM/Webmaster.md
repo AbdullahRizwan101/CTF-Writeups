@@ -1,4 +1,4 @@
-# HackMyVM-Webaster
+# HackMyVM-Webmaster
 
 ## Netdiscover
 
