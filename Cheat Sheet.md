@@ -274,8 +274,16 @@ After logging into the wordpress dashboard , we can edit theme's 404.php page wi
 This spiders the given url and finding keyowrds then makes a wordlists through it's findings<br/>
 `cewl.rb <ip>`
 
-# Finding Subdomains
+# DNS
+
+### Finding Subdomains
 `wfuzz -c -w <path_to_wordlist> -u 'http://domain.com -H 'Host: FUZZ.domain.com`
+
+### Zone Transfer
+
+If there is a port 53 open on the machine you could do a zone transfer to get information about DNS records
+
+`dig axfr @<ip> <domain_name>
 
 # King Of The Hill (KoTH)
 ### Monitoring and Closing Shell (Linux)
