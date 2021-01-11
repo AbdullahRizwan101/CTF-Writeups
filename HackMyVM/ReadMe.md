@@ -14,4 +14,4 @@ Box                                                                             
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
 [Level](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Level.md)                         | <img src= "https://i.imgur.com/hZoovNY.png" />
-    
+[Number](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Number.md)                       | <img src= "https://i.imgur.com/hZoovNY.png" />
