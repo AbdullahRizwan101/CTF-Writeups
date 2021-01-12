@@ -9,6 +9,7 @@ Box                                                                             
 [Hommie](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Hommie.md)                       | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Dominator](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Dominator.md)                 | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Flower](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Flower.md)                       | <img src= "https://i.imgur.com/hZoovNY.png" />
+[Twisted](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Twisted.md)                     | <img src= "https://i.imgur.com/hZoovNY.png" />
 ## Medium
 
 Box                                                                                                              | OS
