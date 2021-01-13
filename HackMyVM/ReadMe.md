@@ -11,6 +11,7 @@ Box                                                                             
 [Flower](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Flower.md)                       | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Twisted](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Twisted.md)                     | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Pwned](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Pwned.md)                         | <img src= "https://i.imgur.com/hZoovNY.png" />
+[Heliium](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Helium.md)                      | <img src= "https://i.imgur.com/hZoovNY.png" />
 ## Medium
 
 Box                                                                                                              | OS
