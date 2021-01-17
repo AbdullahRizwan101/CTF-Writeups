@@ -25,3 +25,4 @@
 * https://github.com/trimstray/the-book-of-secret-knowledge (Having so many tools and tricks)
 * https://github.com/ahmedkhlief/Ninja (C2 AD enumeration)
 * https://gist.github.com/jeremypruitt/c435aefa2c2abaec02985d77fb370ec5
+* https://github.com/BenChaliah/Arbitrium-RAT (Arbitrium RAT)
