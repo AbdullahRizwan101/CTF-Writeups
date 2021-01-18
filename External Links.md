@@ -26,3 +26,4 @@
 * https://github.com/ahmedkhlief/Ninja (C2 AD enumeration)
 * https://gist.github.com/jeremypruitt/c435aefa2c2abaec02985d77fb370ec5
 * https://github.com/BenChaliah/Arbitrium-RAT (Arbitrium RAT)
+* https://offsecnewbie.com/reverse_shell.php (Generate reverse shells)
