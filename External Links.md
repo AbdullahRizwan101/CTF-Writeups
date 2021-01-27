@@ -28,3 +28,4 @@
 * https://github.com/BenChaliah/Arbitrium-RAT (Arbitrium RAT)
 * https://offsecnewbie.com/reverse_shell.php (Generate reverse shells)
 * https://dmcxblue.gitbook.io/red-team-notes-2-0/ (Red Team notes)
+* https://github.com/ytisf/theZoo (Collection of Malware)
