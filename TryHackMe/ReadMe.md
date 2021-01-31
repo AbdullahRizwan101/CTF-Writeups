@@ -65,6 +65,9 @@ Box                                                                             
 [Anonymous](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Anonymous.md)                |<img src= "https://i.imgur.com/hZoovNY.png" /> 
 [Nax](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Nax.md)                            |<img src= "https://i.imgur.com/hZoovNY.png" /> 
 [0day](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/0day.md)                          |<img src= "https://i.imgur.com/hZoovNY.png" />
+[Overpass 3](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Overpass3.md)               | <img src= "https://i.imgur.com/hZoovNY.png" /> 
+[Linux Agency](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Linux_Agency.md)          | <img src= "https://i.imgur.com/hZoovNY.png" /> 
+
 ## King of The Hill
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
@@ -76,8 +79,7 @@ Box                                                                             
 [Panda](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Panda.md)                        | <img src= "https://i.imgur.com/hZoovNY.png" />                                                                                                         
 [Space Jam](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/SpaceJam.md)                 | <img src= "https://i.imgur.com/hZoovNY.png" />                                                                                                            
 [Tyler](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Tyler.md)                        | <img src= "https://i.imgur.com/hZoovNY.png" /> 
-[Overpass 3](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Overpass3.md)               | <img src= "https://i.imgur.com/hZoovNY.png" /> 
-[Linux Agency](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Linux_Agency.md)          | <img src= "https://i.imgur.com/hZoovNY.png" /> 
+
 ## Special
 &nbsp;                                                                                                           | OS
 ---                                                                                                              | ---
