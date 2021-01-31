@@ -77,6 +77,7 @@ Box                                                                             
 [Space Jam](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/SpaceJam.md)                 | <img src= "https://i.imgur.com/hZoovNY.png" />                                                                                                            
 [Tyler](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Tyler.md)                        | <img src= "https://i.imgur.com/hZoovNY.png" /> 
 [Overpass 3](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Overpass3.md)               | <img src= "https://i.imgur.com/hZoovNY.png" /> 
+[Linux Agency](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Linux_Agency.md)          | <img src= "https://i.imgur.com/hZoovNY.png" /> 
 ## Special
 &nbsp;                                                                                                           | OS
 ---                                                                                                              | ---
