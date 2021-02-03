@@ -67,7 +67,7 @@ Box                                                                             
 [0day](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/0day.md)                          |<img src= "https://i.imgur.com/hZoovNY.png" />
 [Overpass 3](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Overpass3.md)               | <img src= "https://i.imgur.com/hZoovNY.png" /> 
 [Linux Agency](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Linux_Agency.md)          | <img src= "https://i.imgur.com/hZoovNY.png" /> 
-
+[Chocolate Factory](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Chocolate-Factory.md)| <img src= "https://i.imgur.com/hZoovNY.png" />
 ## King of The Hill
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
