@@ -13,6 +13,7 @@ Box                                                                             
 [Pwned](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Pwned.md)                         | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Heliium](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Helium.md)                      | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Connecion](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Connection.md)                | <img src= "https://i.imgur.com/hZoovNY.png" />
+[Locker](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Locker.md)                       | <img src= "https://i.imgur.com/hZoovNY.png" />
 ## Medium
 
 Box                                                                                                              | OS
