@@ -83,6 +83,3 @@ As it said in the man page of sulogin that it will look for SUSHELL variable and
 <img src="https://imgur.com/3mqw33f.png"/>
 
 <img src="https://imgur.com/Yz3nzQN.png"/>
-
-igotroothere
-flaglockeryes
