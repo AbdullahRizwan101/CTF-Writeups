@@ -67,6 +67,3 @@ We see find as SUID so we abuse it to gain access to root
 <img src="https://imgur.com/VVUh9o5.png"/>
 
 We can see that our prompt as changed as a root user
-
-
-c0ldd/9876543210
