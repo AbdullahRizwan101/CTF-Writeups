@@ -81,11 +81,11 @@ Visting the page /reportPanel.php we can see a bunch of bugs that people have re
 
 Now a hint is given to us that the vulnerability must be from the year 2021 so we have three vulnerabilites that are reported in 2021.
 
-<img src="https://imgur.com/CBUOYsW.png"/>
+<img src="https://imgur.com/k2oRRlq.png"/>
 
 <img src="https://imgur.com/gZgtqbR.png"/>
 
-<img src="https://imgur.com/9xPFfBH.png"/>
+<img src="https://imgur.com/z39Pfvl.png"/>
 
 I will be testing against weak credentials so fire up burp suite and intercept the login request
 
