@@ -97,21 +97,28 @@ Send request to intruder
 
 Set the payloads for username and passowrd
 
-<img src="https://imgur.com/AdN4UGU.png"/>
+<img src="https://imgur.com/MU8xkdH.png"/>
 
-<img src="https://imgur.com/v66B827.png"/>
+The first payload is for the usernames , I copied all the usernames found on mybb site
 
-<img src="https://imgur.com/PeV1TwM.png"/>
+<img src="https://imgur.com/fq9bLyF.png"/>
 
-We can see that there's a change in length for those inputs so there's a chance that the message would be log in successful let's find out .
+The second payload is for the passwords which were weak credentials reported as a vulnerability in year 2021. Now let's start the attack.
 
-<img src="https://imgur.com/Gwo0z9j.png"/>
+<img src="https://imgur.com/8zgoUvZ.png"/>
 
-And we are logged in as a moderator
+Here we can see the lenght of the response for the `login successfully` message is 5982,6069 and in between this length so now let's sort out the moderators and admin from the credentials we got. We have the creds for the admin "ArnoldBagger" and a moderator "PalacerKing". So let's login as an administrator
 
-<img src="https://imgur.com/e225JVF.png"/>
+<img src="https://imgur.com/ADYo0Le.png"/>
 
-As a moderator we can manage attachments so lets what we can dig from there
+In the sent items we can see this intersting directory 
 
-<img src="https://imgur.com/1YYfU26.png"/>
+<img src="https://imgur.com/to2usIC.png"/>
 
+<img src="https://imgur.com/rxCygpK.png"/>
+
+Here the `modManagerv2.plugin` and `p.txt.gpg` is interesting
+
+
+
+/devBuilds
