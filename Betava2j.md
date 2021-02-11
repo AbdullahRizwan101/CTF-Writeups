@@ -107,7 +107,7 @@ The second payload is for the passwords which were weak credentials reported as 
 
 <img src="https://imgur.com/8zgoUvZ.png"/>
 
-Here we can see the lenght of the response for the `login successfully` message is 5982,6069 and in between this length so now let's sort out the moderators and admin from the credentials we got. We have the creds for the admin "ArnoldBagger" and a moderator "PalacerKing". So let's login as an administrator
+Here we can see the lenght of the response for the `login successfully` message is 5982,6069 and in between this length so now let's sort out the moderators and admin from the credentials we got. We have the creds for the two moderators "ArnoldBagger" and "PalacerKing". 
 
 <img src="https://imgur.com/ADYo0Le.png"/>
 
@@ -117,8 +117,78 @@ In the sent items we can see this intersting directory
 
 <img src="https://imgur.com/rxCygpK.png"/>
 
-Here the `modManagerv2.plugin` and `p.txt.gpg` is interesting
+Here the `modManagerv2.plugin` and `p.txt.gpg` is interesting.Now we need to find the password for decrypting the `p.txt.gpg` file so we can have a look at the plugin file
 
+<img src="https://imgur.com/JEzPy3d.png"/>
 
+`$sql_p = file_get_contents('inc/tools/manage/SQL/p.txt'); //read SQL password from p.txt`
 
-/devBuilds
+This line is getting the sql password from that ecnrypted text file so we really need to decrypt it inorder to login into mysql and if we scroll down a little we maybe able to find the username 
+
+<img src="https://imgur.com/orBLvaP.png"/>
+
+So to summarize the stuff we had done uptill now , we bruteforced the passwords and got into a moderator account then from there we saw one of the email that lead us to /devBuilds then we saw an ecnrypted that we need to find a password for it so let's go back and see if we left something or not
+
+<img src="https://imgur.com/wfWrQWl.png"/>
+
+Going back to `/reportPanel.php` we find a hidden text which says the keymaker's message
+
+<img src="https://imgur.com/uOt5RrW.png"/>
+
+I didn't really understood what the message was but that binary text was our directory
+
+<img src="https://imgur.com/Ofp9EUi.png"/>
+
+<img src="https://imgur.com/cEK8sDB.png"/>
+
+If we look closely into those chinese characters we can see some english letters `ofqxvg` then with these letters we perform permutation
+
+<img src="https://imgur.com/hosykMT.png"/>
+
+And we get a list of words from the permutation. Now we can covert this gpg file into a file that johntheripper can understand and then we can crack the hash with the wordlist we found so 
+
+<img src="https://imgur.com/nSFHJnA.png"/>
+
+Run this command to see where `gpg2john` is stored
+
+<img src="https://imgur.com/kBEAIRj.png"/>
+
+Save the hash in a file
+
+<img src="https://imgur.com/rZxJcoC.png"/>
+
+Then run john against the file with the wordlist
+
+<img src="https://imgur.com/jm9fBKg.png"/>
+
+Now we can connect to mysql with this password
+
+<img src="https://imgur.com/56gxZdx.png"/>
+
+<img src="https://imgur.com/1bSY32z.png"/>
+
+<img src="https://imgur.com/wuoKJSE.png"/>
+
+<img src="https://imgur.com/6Hmongd.png"/>
+
+Here we can see login_key of `Ellie` but the question is what is a login_key so I found something on mybb community forums 
+
+<img src="https://imgur.com/t3NOpec.png"/>
+
+Also if see the cookies 
+
+<img src="https://imgur.com/840t1hX.png"/>
+
+We can see that `OoTfmlJyJhdJiqHXucrvRueHvGhE6LnBi5ih27KLQBKfigQLud` is the login_key for ArnoldBagger and the id for this user is 11
+
+If we go back to `Team` we can see the super moderator is `BlackCat` with the user id 7 (we can count the id from seeing the members page)
+
+<img src="https://imgur.com/GxVLBxe.png"/> 
+
+<img src="https://imgur.com/xa0ln1K.png"/>
+
+<img src="https://imgur.com/cK9L89Y.png"/>
+
+And now we are logged in as BlackCat 
+
+<img src="https://imgur.com/IIpYppo.png"/>
