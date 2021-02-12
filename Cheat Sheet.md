@@ -256,6 +256,11 @@ To bruteforce passwords
 After logging into the wordpress dashboard , we can edit theme's 404.php page with a php revershell
 `http://<ip>/wordpress/wp-content/themes/twentytwenty/404.php`
 
+To get a RCE
+
+* Goto `Appearance` -> `Editor` Select the 404.php template of the current theme and paste php reverse-shell.
+* Then navigate to `http://ip/wp-content/themes/twentyfifteen/404.php` (theme name can be twentytwenty for the latest one) 
+
 # Wordlists
 
 ### Directory Bruteforcing
