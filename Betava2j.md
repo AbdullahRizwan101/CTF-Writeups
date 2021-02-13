@@ -192,3 +192,120 @@ If we go back to `Team` we can see the super moderator is `BlackCat` with the us
 And now we are logged in as BlackCat 
 
 <img src="https://imgur.com/IIpYppo.png"/>
+
+We can see a lot of stuff in the attachments `testing.zip` , `DevTools.zip` and `SSH-TOTP documentation.pdf`. The documentation explains how the authentication for Linux Bay will work so digging through those archives I found a table
+
+<img src="https://imgur.com/voao9nv.png"/>
+
+As we can see the username is `architect` but the method of logging in with SSH is TOTP (Time-based One-Time Password). So in order to login our time must be synced so type this in your terminal
+
+`timedatectl set-timezone UTC`
+
+Then run `ntp_syncer.py`
+
+<img src="https://imgur.com/549Br4v.png"/>
+
+But before running the `timeSimulatorClient.py` check the code that what it is doing
+
+<img src="https://imgur.com/b4zV0ld.png"/>
+
+We can see that `sharedSecret` isn't used anywhere in the code so let's take a look at one of those diagrams
+
+<img src="https://imgur.com/HmRLWdr.png"/>
+
+According to this diagram time zone from three different countries are multipled together then XOR operation is performed between the result that comes from it with the shared token so we need to modifiy the code a little bit and to figure out the correct token also the 3 time zones
+
+```
+from datetime import datetime, timedelta
+import time
+import subprocess
+from hashlib import sha256
+
+
+sharedSecret = 792513759492579
+
+while True:
+    now = datetime.now()
+    
+    Ukraine = datetime.now() + timedelta(hours=4, minutes=43)
+    UkraineCurrentTime = int(Ukraine.strftime("%d%H%M"))
+    
+    Germany = datetime.now() + timedelta(hours=13, minutes=55)
+    GermanyCurrentTime = int(Germany.strftime("%d%H%M"))
+
+    England = datetime.now() + timedelta(hours=9, minutes=19)
+    EnglandCurrentTime = int(England.strftime("%d%H%M"))
+
+    Denmark = datetime.now() + timedelta(hours=-5, minutes=18)
+    DenmarkCurrentTime = int(Denmark.strftime("%d%H%M"))
+
+    Nigeria = datetime.now() + timedelta(hours=1, minutes=6)
+    NigeriaCurrentTime = int(Nigeria.strftime("%d%H%M"))
+    
+    
+    multipliedTime = (UkraineCurrentTime*DenmarkCurrentTime*NigeriaCurrentTime)
+    print('---------------------------------------')
+    nOTP = (int(multipliedTime ^ sharedSecret))
+    sshpass = (sha256(repr(nOTP).encode('utf-8')).hexdigest())
+    print(sshpass[22:44])
+    print('---------------------------------------')
+    
+    # keep updating every second - upon each new minute change OTP ssh code
+    time.sleep(1)
+    subprocess.call("clear")
+	
+```
+
+So this is the code that gave the right OTP
+
+<img src="https://imgur.com/egZxfpN.png"/>
+
+And we are logged in with OTP
+
+<img src="https://imgur.com/0KAexqU.png">
+
+We can find the `user.txt` here
+
+Doing a `sudo-l` we can that this user is allowed to run `awk` as root
+
+<img src="https://imgur.com/mYyUDRI.png"/>
+
+<img src="https://imgur.com/yv8A499.png"/>
+
+And we got root !!
+
+For the ACP pin I ran the find command to search for txt files
+
+<img src="https://imgur.com/WjdTGIc.png"/>
+
+<img src="https://imgur.com/QQdXgbf.png"/>
+
+101754^123435+689511
+
+This resulted to `718008`
+
+<img src="https://imgur.com/6hxgHP1.png"/>
+
+In `/etc` folder I found a file
+
+<img src="https://imgur.com/9sqkXKy.png"/>
+
+But this was named using special characters so if we try to read it bash would give it an error
+
+<img src="https://imgur.com/xAMLMdU.png"/>
+
+By googling a liitle bit on how to read files named with special characters  I found this
+
+<img src="https://imgur.com/7MgivEO.png"/>
+
+And on running the python script  it gave the root flag
+
+<img src="https://imgur.com/8KJEyeO.png"/>
+
+mysql password : myS3CR3TPa55
+ssh user architect
+Ellie: G9KY2siJp9OOymdCiQclQn9UhxL6rSpoA3MXHCDgvHCcrCOOuT
+Blackcat : JY1Avl8cqCMkIFprMxWbTxwf8dSkiv7GJHzlPDWJWWg9gnG3FB
+
+
+date --set="12 Feb 2021 08:44:35"
