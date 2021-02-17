@@ -32,6 +32,10 @@ When a client connects back to the host this will capture the handshake.To crack
 
 `aircrack-ng FILENAME.cap -w path/towordlist/`
 
+When the passwords get cracked you can then go back to using `managed mode on your` network interface<br/>
+
+`sudo systemctl restart NetworkManager.service` 
+
 # Linux
 
 ### Stablilize Shell
