@@ -3,7 +3,8 @@
 ## Easy
 
 Box                                                                                                              | OS
----                                                                                                              | ---       
+---                                                                                                              | ---      
+[Archangel](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Archangel.md)                |<img src= "https://i.imgur.com/hZoovNY.png" />
 [All In One](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/All_In_One.md)              |<img src= "https://i.imgur.com/hZoovNY.png" />
 [Anon Force](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/AnonForceCTF.md)| <img src= "https://i.imgur.com/hZoovNY.png" />
 [Brooklyn](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/BrooklynCTF.md)| <img src= "https://i.imgur.com/hZoovNY.png" />
