@@ -162,4 +162,6 @@ It took a lot of time to crack the hash as I don't have a good GPU
 
 <img src="https://imgur.com/GcDFMWG.png"/>
 
+The hash has been cracked so let's try logging in with `root` user and see if this is password for root user on the box 
+
 <img src="https://imgur.com/iBerWLf.png"/>
