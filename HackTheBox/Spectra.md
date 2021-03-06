@@ -127,6 +127,3 @@ This is what we see when we visit port 8081 on the web browser we can edit this 
 After editing set a netcat listener
 
 <img src="https://imgur.com/xTP232M.png"/>
-                                    
-e89d27fe195e9114ffa72ba8913a6130
-d44519713b889d5e1f9e536d0c6df2fc
