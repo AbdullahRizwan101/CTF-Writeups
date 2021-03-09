@@ -1,6 +1,6 @@
 # TryHackMe Boxes
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/ARZ101.png" alt="TryHackMe" width="100" height="100"/>
+<img src="https://tryhackme-badges.s3.amazonaws.com/ARZ101.png" width="100" height="100"/>
 
 ## Easy
 
