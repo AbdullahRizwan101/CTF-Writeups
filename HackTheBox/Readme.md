@@ -1,5 +1,7 @@
 # HackTheBox Boxes
 
+<script src="https://www.hackthebox.eu/badge/283411"></script>
+
 ## Easy
 
 Box                                                                                                              | OS
