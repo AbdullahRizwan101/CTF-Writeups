@@ -1,6 +1,7 @@
 # TryHackMe Boxes
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/ARZ101.png/>   
+<img src="https://tryhackme-badges.s3.amazonaws.com/ARZ101.png"/>   
+
 ## Easy
 
 Box                                                                                                              | OS
