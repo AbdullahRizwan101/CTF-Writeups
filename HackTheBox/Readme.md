@@ -9,3 +9,9 @@ Box                                                                             
 [Script Kiddie](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Script_Kiddie.md)       | <img src="https://i.imgur.com/hZoovNY.png"/>                                                                       
 [Spectra](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Spectra.md)                   | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Delivery](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Deilvery.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/> 
+
+## Medium
+
+Box
+
+[Notebook](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Notebook.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
