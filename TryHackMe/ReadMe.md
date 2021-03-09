@@ -1,5 +1,5 @@
 # TryHackMe Boxes
-
+![ARZ](https://tryhackme.com/p/ARZ101)
 ## Easy
 
 Box                                                                                                              | OS
