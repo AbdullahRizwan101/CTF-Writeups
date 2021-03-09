@@ -12,6 +12,6 @@ Box                                                                             
 
 ## Medium
 
-Box
-
+Box                                                                                                              | OS
+---                                                                                                              | ---
 [Notebook](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Notebook.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
