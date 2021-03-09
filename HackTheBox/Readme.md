@@ -1,6 +1,6 @@
 # HackTheBox Boxes
 
-<script src="https://www.hackthebox.eu/badge/283411"></script>
+![ARZ](https://www.hackthebox.eu/badge/image/283411)
 
 ## Easy
 
