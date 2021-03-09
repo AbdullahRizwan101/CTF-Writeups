@@ -1,9 +1,7 @@
 # TryHackMe Boxes
-<html>
-  <body>
-  <script src="https://tryhackme.com/badge/69568">ARZ</script>
-  </body>
-  </html>
+
+![ARZ](<img src="https://tryhackme-badges.s3.amazonaws.com/ARZ101.png" alt="TryHackMe">)
+   
 ## Easy
 
 Box                                                                                                              | OS
