@@ -1,6 +1,5 @@
 # TryHackMe Boxes
-
-<img src="https://tryhackme-badges.s3.amazonaws.com/ARZ101.png" width="100" height="100">
+![ARZ](https://tryhackme-badges.s3.amazonaws.com/ARZ101.png)
 
 ## Easy
 
