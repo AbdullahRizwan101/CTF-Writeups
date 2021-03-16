@@ -85,6 +85,11 @@ Box                                                                             
 [Space Jam](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/SpaceJam.md)                 | <img src= "https://i.imgur.com/hZoovNY.png" />                                                                                                            
 [Tyler](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Tyler.md)                        | <img src= "https://i.imgur.com/hZoovNY.png" /> 
 
+## Network
+Name                                                                                                              | Image
+---                                                                                                               | --- 
+[Throwback]()                                                                                                     | <img src="https://i.imgur.com/NKooGG4.png"/>  
+
 ## Special
 &nbsp;                                                                                                           | OS
 ---                                                                                                              | ---
