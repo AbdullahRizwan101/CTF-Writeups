@@ -1,6 +1,7 @@
 Machine                                                                                                          | OS
 ---                                                                                                              | ---       
-[THROWBACK-CORP-ADT01](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Throwback/THROWBACK-CORP-ADT01.md)    <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Throwback](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Throwback/Throwback.md)      | -
+[THROWBACK-CORP-ADT01](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Throwback/THROWBACK-CORP-ADT01.md) |  <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [THROWBACK-CORP-01](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Throwback/THROWBACK-CORP-DC01.md)  | <img src= "https://i.imgur.com/8SPmSeo.gif"/>
 [THROWBACK-CORP-MAIL](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Throwback/THROWBACK-CORP-MAIL.md) | <img src="https://i.imgur.com/hZoovNY.png"/>                                                                       
 [THROWBACK-DC01](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Throwback/THROWBACK-DC01.md) | <img src="https://i.imgur.com/8SPmSeo.gif"/>
