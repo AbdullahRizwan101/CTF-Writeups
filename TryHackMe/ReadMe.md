@@ -88,7 +88,7 @@ Box                                                                             
 ## Network
 Name                                                                                                              | Image
 ---                                                                                                               | --- 
-[Throwback]()                                                                                                     | <img src="https://i.imgur.com/NKooGG4.png" width=50 height=50/>  
+[Throwback](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/TryHackMe/Throwback)                                                                                                     | <img src="https://i.imgur.com/NKooGG4.png" width=50 height=50/>  
 
 ## Special
 &nbsp;                                                                                                           | OS
