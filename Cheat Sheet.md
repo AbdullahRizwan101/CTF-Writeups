@@ -249,6 +249,12 @@ If this is enabled we can upload `Printspoofer.exe ` and place it if we have rig
 
 `PrintSpoofer.exe -i -c powershell.exe`
 
+### Becoming NT\AUTHORITY (If user is in local administrators group)
+
+If the system has `PsExec.exe` open elevated cmd 
+
+`.\PsExec.exe -i -s cmd.exe`
+
 ### Active Directory
 `powershell -ep bypass`  load a powershell shell with execution policy bypassed <br/>
 `. .\PowerView.ps1`      import the PowerView module
