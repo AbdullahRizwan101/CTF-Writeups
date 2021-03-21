@@ -14,6 +14,7 @@ Box                                                                             
 [Heliium](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Helium.md)                      | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Connecion](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Connection.md)                | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Locker](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Locker.md)                       | <img src= "https://i.imgur.com/hZoovNY.png" />
+[Drifting Blues 6](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackMyVM/Drifting_Blues_6.md)   | <img src= "https://i.imgur.com/hZoovNY.png" />
 ## Medium
 
 Box                                                                                                              | OS
