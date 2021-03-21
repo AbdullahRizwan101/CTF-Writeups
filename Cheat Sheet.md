@@ -300,6 +300,10 @@ run getgui -u [USER_NAME] -p [PASS]
 
 # Web
 
+### Make sure to check for backup files
+
+If you came across a php file , look for a `.bak` as well i.e `config.php.bak`
+
 ### 403 By pass
 
 https://github.com/intrudir/403fuzzer <br />
