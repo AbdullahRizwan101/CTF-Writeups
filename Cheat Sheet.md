@@ -196,6 +196,19 @@ echo "" > --checkpoint=1
 If there is a certain command running in a binary example `date` so we can create our own binary and add `/bin/bash` to and path so it gets executed<br/>
 `export PATH=<path_where_binary_is>/:$PATH`
 
+
+### VNC
+
+If there's a port 5901 or 5900 open it's likely that it's for VNC , if you see `.remote_secret` or `.secret` it's the password for connecting for vnc
+
+`vncviewer -passwd remote_secret <ip>::<port>`
+
+#### Decrpyting vnc password
+
+We can also decrypt the password for vnc using  `https://github.com/jeroennijhof/vncpwd`
+
+`./vncpwd remote_secret  `
+
 ### Enumration 
 
 * cat /etc/*release 
@@ -204,6 +217,9 @@ If there is a certain command running in a binary example `date` so we can creat
 * lsb_release -a
 * Running Linpeas
 * ss -tulpn (for ports that are open on the machine)
+* netstat -tulpn
+* ps -ef --forest
+
 # Windows
 
 ### Adding User
