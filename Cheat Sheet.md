@@ -379,6 +379,12 @@ To get a RCE
 This spiders the given url and finding keyowrds then makes a wordlists through it's findings<br/>
 `cewl.rb <ip>`
 
+### Cruch
+
+If we want to generate a password list having length of 7 starting with "milo" and having 3 digit number at the end we can use % for numbers , @ for lowercase letters, , for uppercase letters and ^ for special characters
+
+` crunch 7 7 0123456789 -t milo%%% -o password.txt`
+
 # DNS
 
 ### Finding Subdomains
