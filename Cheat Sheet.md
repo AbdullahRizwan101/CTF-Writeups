@@ -44,6 +44,14 @@ When the passwords get cracked you can then go back to using `managed mode on yo
 3. fg (press enter x2)
 4. export TERM=xterm , for using `clear` command
 
+### Ping for devices on LAN
+
+1. `netdiscover -i <interface>`
+2. `arp-scan -l`
+3. `fping -a -g <ip>/24`
+4. `nmap -n -sP <ip>/24`
+5. `for i in $(seq 1 254); do ping -c1 -t 1 192.168.168.$i; done`
+
 ### Spawn bash
 * /usr/bin/script -qc /bin/bash 1&>/dev/null
 * python -c 'import pty;pty.spawn("/bin/bash")'
