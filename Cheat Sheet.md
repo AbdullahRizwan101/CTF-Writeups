@@ -314,6 +314,28 @@ msfvenom --list formats
 ### Adding user for RDP
 run getgui -u [USER_NAME] -p [PASS]
 
+### Pivoting
+`use post/multi/manage/autoroute`
+Example you are on a host with IP 172.18.0.1
+`set RHOSTS 172.18.0.0`
+`set SESSION <session_number`
+
+### Using socks4a proxy
+
+`use auxiliary/server/socks_proxy`
+`SET SOCKS 4a`
+`exploit`
+
+Edit the port if you want to by default the `SRVPORT` is set to 1080 , you can edit it on `/etc/proxychains.conf`
+
+### ARP Scan
+
+
+### Port scan
+
+`use auxiliary/scanner/portscan/tcp`
+`set RHOSTS <subnet>/24`
+
 # Git
 
 ### Dumping repository
