@@ -336,6 +336,10 @@ Edit the port if you want to by default the `SRVPORT` is set to 1080 , you can e
 `use auxiliary/scanner/portscan/tcp`
 `set RHOSTS <subnet>/24`
 
+### Port Forwarding
+
+` portfwd add -l <port_to_listen> -p <port_to_be_open> -r <targeted_ip`
+
 # Git
 
 ### Dumping repository
