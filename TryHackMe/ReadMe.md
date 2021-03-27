@@ -50,6 +50,7 @@ Box                                                                             
 [Chill Hack](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Chill_Hack.md)              |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Cyborg](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Cyborg.md)                      |<img src="https://i.imgur.com/hZoovNY.png"/>
 [ColdBox](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/ColddBox.md)                   |<img src="https://i.imgur.com/hZoovNY.png"/>         
+[Bad Byte](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Bad_Byte.md)                  |<img src="https://i.imgur.com/hZoovNY.png"/>  
 ## Medium
 
 Box                                                                                                              | OS
