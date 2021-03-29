@@ -12,7 +12,7 @@ Box                                                                             
 [Spectra](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Spectra.md)                   | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Delivery](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Deilvery.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/> 
 [Laboratory](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Laboratory.md)             | <img src="https://i.imgur.com/hZoovNY.png"/> 
-[Armageddon](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Armageddon.md)             | <img src=https://i.imgur.com/hZoovNY.png"/>
+[Armageddon](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Armageddon.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
