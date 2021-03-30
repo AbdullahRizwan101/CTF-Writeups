@@ -423,6 +423,12 @@ To get a RCE
 * using `crackstation`
 * using `seclists`
 
+# Hash Cracking 
+
+### Hashcat
+
+* If you have a salted hash and you know the salt to crack it `hash:salt`
+ 
 # Generating Worlists for directory brute force
 
 ### Cewl 
