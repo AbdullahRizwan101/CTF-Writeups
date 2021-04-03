@@ -443,8 +443,8 @@ If we want to generate a password list having length of 7 starting with "milo" a
 
 # DNS
 
-### Finding Subdomains
-`wfuzz -c -w <path_to_wordlist> -u 'http://domain.com -H 'Host: FUZZ.domain.com`
+### Finding Subdomain
+`wfuzz -c -w <path_to_wordlist> -u 'http://domain.com -H "Host: FUZZ.domain.com" `
 
 ### Zone Transfer
 
