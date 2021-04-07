@@ -52,6 +52,7 @@ Box                                                                             
 [ColdBox](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/ColddBox.md)                   |<img src="https://i.imgur.com/hZoovNY.png"/>         
 [Bad Byte](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Bad_Byte.md)                  |<img src="https://i.imgur.com/hZoovNY.png"/>  
 [h4cked](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/h4cked.md)                      |<img src="https://i.imgur.com/hZoovNY.png"/>
+[Team](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Team.md)                          |<img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
