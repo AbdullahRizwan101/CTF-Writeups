@@ -13,6 +13,7 @@ Box                                                                             
 [Vulnerable Docker (Easy)](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/Vulnerable_docker.md) | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Vulnerable Docker (Hard)](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/Vulnerable_docker_Hard.md) | <img src= "https://i.imgur.com/hZoovNY.png" />
 [DC-1](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/DC-1.md)                             | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[DC-2](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/DC-2.md)                             | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [DC-6](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/DC-6.md)                             | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Blogger](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/Blogger.md)                       | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Literally Vulnerable](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/LA.md)               |<img src= "https://i.imgur.com/hZoovNY.png"/>
