@@ -21,3 +21,4 @@ Box                                                                             
 [Ready](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Ready.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Bucket](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Bucket.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Schooled](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Schooled.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Tenet](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Tenet.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
