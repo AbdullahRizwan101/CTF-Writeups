@@ -27,4 +27,4 @@ In this repository I will share my writeups/walkthroughs of TryHackMe,HackTheBox
 [<p align="center"><img src="https://i.imgur.com/WQIYlHG.png"/></p>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/SecarmyCTF)
 <br/>
 <br/>
-[<p align="center"><img src="https://i.imgur.com/fd3c8uG.png"/></p>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/HTB%20Cyber%20Apocalypse)
+[<p align="center"><img src="https://i.imgur.com/1DmwUo2.png"/></p>](https://github.com/AbdullahRizwan101/CTF-Writeups/tree/master/HTB%20Cyber%20Apocalypse)
