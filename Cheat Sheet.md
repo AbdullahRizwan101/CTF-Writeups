@@ -164,6 +164,10 @@ $ kill %1
 ### SSH Port Forwarding
 `ssh -L <port_that_is_blockd_>:localhost:<map_blocked_port> <username>@<ip>`
 
+## SSH Dynamic Port Forwarding
+
+`ssh username@ip -i id_rsa(optional) -D 1337`
+
 ### SSH auth log poisoning
 
 Login as any user to see that it gets logged then try to login with a malicious php code
