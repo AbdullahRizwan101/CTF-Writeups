@@ -289,6 +289,12 @@ dir /a:h `show only hidden files`<br/>
 ### Psexec.py
 ` python psexec.py DOMAIN/USER:PASS@IP`
 
+### Crackmapexec
+
+#### Bruteforce Usernames using RID (Objects in AD)
+
+`crackmapexec <IP> -u 'Anonymous' -p ' ' --rid-brute`
+
 ### Privlege Escalation using SeImpersonatePrivilege
 
 If this is enabled we can upload `Printspoofer.exe ` and place it if we have rights  
