@@ -359,9 +359,6 @@ Example you are on a host with IP 172.18.0.1
 
 Edit the port if you want to by default the `SRVPORT` is set to 1080 , you can edit it on `/etc/proxychains.conf`
 
-### ARP Scan
-
-
 ### Port scan
 
 `use auxiliary/scanner/portscan/tcp`
@@ -370,6 +367,10 @@ Edit the port if you want to by default the `SRVPORT` is set to 1080 , you can e
 ### Port Forwarding
 
 ` portfwd add -l <port_to_listen> -p <port_to_be_open> -r <targeted_ip`
+
+### MSSQL Code Execution
+
+Using `use admin/mssql/mssql_exec` we can execute code by specifying the credentials
 
 # Git
 
