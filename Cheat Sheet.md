@@ -371,7 +371,7 @@ Edit the port if you want to by default the `SRVPORT` is set to 1080 , you can e
 ### MSSQL Code Execution
 
 Using `use admin/mssql/mssql_exec` we can execute code by specifying the credentials<br />
-Using `sqsh -S IP -U <username> -P <password>`
+Using `sqsh -S IP -U <username> -P <password>` then `EXEC master ..xp_cmdshell 'whoami' `
 
 
 # Git
