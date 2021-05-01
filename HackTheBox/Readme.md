@@ -30,4 +30,4 @@ Box                                                                             
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
 [Breadcrumbs](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Breadcrumbs.md)           | <img src="https://i.imgur.com/8SPmSeo.gif"/>
-[Monitor](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)                   | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Monitor](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)                   | <img src= "https://i.imgur.com/hZoovNY.png"/>
