@@ -6,7 +6,7 @@
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
 [Pathfinder](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Pathfinder.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
-
+[Archetype](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Archetype.md)               | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 ## Easy
 
 Box                                                                                                              | OS
