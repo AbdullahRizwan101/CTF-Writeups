@@ -37,3 +37,15 @@ Box                                                                             
 ---                                                                                                              | ---       
 [Breadcrumbs](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Breadcrumbs.md)           | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Monitor](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)                   | <img src= "https://i.imgur.com/hZoovNY.png"/>
+
+
+# Challenges
+
+
+## Easy
+
+Challenge                                                                                                              
+---                                                                                                            
+[Emdee five for life](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/MD5-4-life.md)                  
+
+
