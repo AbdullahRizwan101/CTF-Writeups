@@ -41,11 +41,11 @@ Box                                                                             
 
 # Challenges
 
-
 ## Easy
 
-Challenge                                                                                                              
----                                                                                                            
-[Emdee five for life](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/MD5-4-life.md)                  
+Challenge                                                                                                        |Type
+---                                                                                                              | ---       
+[Emdee five for life](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/MD5-4-life.md)    | Web
+                 
 
 
