@@ -19,6 +19,7 @@ Box                                                                             
 [Laboratory](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Laboratory.md)             | <img src="https://i.imgur.com/hZoovNY.png"/> 
 [Armageddon](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Armageddon.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Love](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Love.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Legacy](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Legacy.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 ## Medium
 
 Box                                                                                                              | OS
