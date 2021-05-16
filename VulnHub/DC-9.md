@@ -10,7 +10,7 @@ Nmap scan report for 192.168.1.7
 Host is up (0.00021s latency).
 Not shown: 998 closed ports
 PORT   STATE SERVICE VERSION
-22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u1 (protocol 2.0)
+22/tcp filtered  ssh     OpenSSH 7.9p1 Debian 10+deb10u1 (protocol 2.0)
 | ssh-hostkey: 
 |   2048 a2:b3:38:74:32:74:0b:c5:16:dc:13:de:cb:9b:8a:c3 (RSA)
 |   256 06:5c:93:87:15:54:68:6b:88:91:55:cf:f8:9a:ce:40 (ECDSA)
