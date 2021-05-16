@@ -18,6 +18,7 @@ Box                                                                             
 [DC-4](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/DC-4.md)                             | <img src="https://i.imgur.com/hZoovNY.png"/>
 [DC-5](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/DC-5.md)                             | <img src="https://i.imgur.com/hZoovNY.png"/>
 [DC-6](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/DC-6.md)                             | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[DC-9](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/DC-9.md)                             | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Blogger](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/Blogger.md)                       | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Literally Vulnerable](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/LA.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Mercy](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/Mercy.md)                           | <img src= "https://i.imgur.com/hZoovNY.png"/>
