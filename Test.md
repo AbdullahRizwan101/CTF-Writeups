@@ -1,10 +1,10 @@
 # Hello this is ARZ
 
 <br/>
-asdasf [Learn about ARZ](#Know ARZ)
+asdasf [Learn about ARZ](#know-arz)<br/>
 <br/>
 asdasf<br/>
-# Know ARZ
+#know-arz
 <br/>
 asdasf
 asdasf
