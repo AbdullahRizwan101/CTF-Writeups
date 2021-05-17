@@ -3,7 +3,8 @@
 
 ## Rustscan
 
-I first ran rustscan because it was taking way longer for nmap to scan ports
+I first ran rustscan because it was taking way longer for nmap to scan all ports
+
 
 ```bash
 rustscan --batch-size 45000 -a 10.10.10.74
