@@ -23,3 +23,4 @@ Box                                                                             
 [Literally Vulnerable](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/LA.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Mercy](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/Mercy.md)                           | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Development](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/Development.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[Misdirection](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/VulnHub/Misdirection.md)             | <img src= "https://i.imgur.com/hZoovNY.png"/>
