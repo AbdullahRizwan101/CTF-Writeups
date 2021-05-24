@@ -21,6 +21,7 @@ Box                                                                             
 [Armageddon](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Armageddon.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Love](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Love.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Legacy](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Legacy.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Knife](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Knife.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
