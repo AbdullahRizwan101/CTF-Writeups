@@ -50,11 +50,9 @@ We can grab the id_rsa from `james`'s  home folder
 
 <img src="https://imgur.com/pVk1WyN.png"/>
 
-But the ssh key doesn't work, so replace the public ssh key 
+But the ssh key doesn't work, so let's add our ssh public key to `authroized_keys` <br/>
 
-<img src="https://imgur.com/ZaGkWz3.png"/>
-
-Also add that public key to `authorized_keys`
+<img src="https://i.imgur.com/VFcXaLA.png"/>
 
 <img src="https://imgur.com/RiIuKHY.png"/>
 
