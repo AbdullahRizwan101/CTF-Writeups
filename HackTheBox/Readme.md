@@ -14,7 +14,7 @@ Box                                                                             
 [Active](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Active.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Omni](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Omni.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Doctor](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Doctor.md)                     | <img src= "https://i.imgur.com/hZoovNY.png"/>
-[Script Kiddie](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Script_Kiddie.md)       | <img src="https://i.imgur.com/hZoovNY.png"/>                                                                       
+[Script Kiddie](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Script_Kiddie.md)       | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Spectra](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Spectra.md)                   | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Delivery](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Deilvery.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/> 
 [Laboratory](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Laboratory.md)             | <img src="https://i.imgur.com/hZoovNY.png"/> 
@@ -22,6 +22,7 @@ Box                                                                             
 [Love](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Love.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Legacy](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Legacy.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Knife](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Knife.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Buff](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Buff.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 ## Medium
 
 Box                                                                                                              | OS
