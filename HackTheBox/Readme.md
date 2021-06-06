@@ -24,6 +24,7 @@ Box                                                                             
 [Knife](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Knife.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Buff](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Buff.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Bastioin](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Bastion.md)                  | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Cap](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cap.md)                           | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
