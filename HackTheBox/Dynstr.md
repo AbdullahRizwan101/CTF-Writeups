@@ -220,6 +220,6 @@ If we go to `/etc/bind/named.bindmgr` we'll see that it has `bash` as SUID binar
 
 <img src="https://i.imgur.com/W3CL8ff.png"/>
 
-<img src="https://i.imgur.com/0MIS6R1.png"./>
+<img src="https://i.imgur.com/0MIS6R1.png"/>
 
 And we have rooted this machine !!!
