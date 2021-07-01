@@ -162,7 +162,7 @@ $ kill %1
 
 ```
 ### SSH Port Forwarding
-`ssh -L <port_that_is_blockd_>:localhost:<map_blocked_port> <username>@<ip>`
+`ssh -L <map_blocked_port>:localhost:<port_that_is_blockd_> <username>@<ip>`
 
 ## SSH Dynamic Port Forwarding
 
