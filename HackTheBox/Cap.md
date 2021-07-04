@@ -172,3 +172,5 @@ We could have found this capbility with linpeas as well
 <img src="https://imgur.com/0hJj3zQ.png"/>
 
 <img src="https://i.imgur.com/HILTw8Z.png"/>
+
+<img src="https://i.imgur.com/BCnAOWp.png"/>
