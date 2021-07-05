@@ -18,33 +18,33 @@ Box                                                                             
 [Spectra](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Spectra.md)                   | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Delivery](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Deilvery.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/> 
 [Laboratory](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Laboratory.md)             | <img src="https://i.imgur.com/hZoovNY.png"/> 
-[Armageddon](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Armageddon.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Armageddon-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Armageddon.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Love](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Love.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Legacy](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Legacy.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
-[Knife](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Knife.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Knife-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Knife.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Buff](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Buff.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Bastioin](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Bastion.md)                  | <img src="https://i.imgur.com/8SPmSeo.gif"/>
-[Cap](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cap.md)                           | <img src="https://i.imgur.com/hZoovNY.png"/>
-[Explore](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Explore.md)                   | <img src="https://i.imgur.com/eZSccPd.png"/>
+[Cap-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cap.md)                           | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Explore-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Explore.md)                   | <img src="https://i.imgur.com/eZSccPd.png"/>
 ## Medium
 
 Box                                                                                                              | OS
 ---                                                                                                              | ---
-[Notebook](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Notebook.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Notebook-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Notebook.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Ready](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Ready.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Bucket](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Bucket.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
-[Schooled](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Schooled.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Schooled-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Schooled.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Tenet](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Tenet.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
-[Atom](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Atom.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Atom-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Atom.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Ophiuchi](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Ophiuchi.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [ChatterBox](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Chatterbox.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
-[Dynstr](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Dynstr.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Dynstr-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Dynstr.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Hard
 
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
-[Breadcrumbs](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Breadcrumbs.md)           | <img src="https://i.imgur.com/8SPmSeo.gif"/>
-[Monitor](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)                   | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[Breadcrumbs-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Breadcrumbs.md)           | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Monitor-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)                   | <img src= "https://i.imgur.com/hZoovNY.png"/>
 
 
 # Challenges
@@ -53,7 +53,7 @@ Box                                                                             
 
 Challenge                                                                                                        |Type
 ---                                                                                                              | ---       
-[Emdee five for life](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/MD5-4-life.md)    | Web
+[Emdee five for life-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/MD5-4-life.md)    | Web
                  
 
 
