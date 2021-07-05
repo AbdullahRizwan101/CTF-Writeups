@@ -520,6 +520,12 @@ https://github.com/s0wr0b1ndef/WebHacking101/blob/master/xss-reflected-steal-coo
 
 `wfuzz -c -z file,wordlist.txt --hh=0  http://<ip>/<path>/?date=FUZZ`
 
+If we want to use two payloads in the same request 
+
+`wfuzz -c -w path/to/firs/wordlist -w /path/to/second/wordlist -u http://ip/FUZZ/FUZ2Z` <br/>
+
+This FUZ2Z will specify to use the second wordlist , we can do this upto FUZnZ (where n is number of the wordlist we specify)
+
 ### API (Applicaton Programmable Interface)
 
 * Check for possibility if there is a v1 , it is likely to be vulnerable to LFI 
