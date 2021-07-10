@@ -36,7 +36,7 @@ Box                                                                             
 [Bucket](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Bucket.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Schooled-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Schooled.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Tenet](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Tenet.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
-[Atom-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Atom.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Atom](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Atom.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Ophiuchi](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Ophiuchi.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [ChatterBox](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Chatterbox.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Dynstr-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Dynstr.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
