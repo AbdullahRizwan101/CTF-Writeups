@@ -332,6 +332,8 @@ If the system has `PsExec.exe` open elevated cmd
 `powershell -ep bypass`  load a powershell shell with execution policy bypassed <br/>
 `. .\PowerView.ps1`      import the PowerView module
 
+### Query Users through LDAP
+
 ## Gaining Infromation about AD Bloodhound
 
 ### Using BloodHound Injester 
