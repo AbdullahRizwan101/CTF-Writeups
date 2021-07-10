@@ -334,6 +334,8 @@ If the system has `PsExec.exe` open elevated cmd
 
 ### Query Users through LDAP
 
+`windapsearch -d 'domain.local' --dc IP -m users`
+
 ## Gaining Infromation about AD Bloodhound
 
 ### Using BloodHound Injester 
