@@ -375,6 +375,12 @@ If we find a user having DCsync rights or GetChangeAll privileges meaning to rep
 ```
 python3 secretsdump.py 'DOMAIN/USERNAME':'PASSOWRD'@IP -just-dc-ntlm
 ```
+### Abusing Constrained/Unconstrained Delegations
+```
+https://cheatsheet.haax.fr/windows-systems/privilege-escalation/delegations/
+
+https://github.com/dirkjanm/krbrelayx
+```
 
 # FreeBSD
 
