@@ -563,6 +563,21 @@ To get a RCE
 * Goto `Appearance` -> `Editor` Select the 404.php template of the current theme and paste php reverse-shell.
 * Then navigate to `http://ip/wp-content/themes/twentyfifteen/404.php` (theme name can be twentytwenty for the latest one) 
 
+### Apache Tomcat
+
+```
+If we have access to /manager/html , we can upload a WAR payload (arz.war) and access it through http://ip/arz
+```
+#### Apache Tomcat used with nginx 
+
+```
+If we nginx is being used as a reverse proxy to apache tom we can abuse it through Path Traversal Trough Reverse Proxy Mapping
+```
+https://www.acunetix.com/vulnerabilities/web/tomcat-path-traversal-via-reverse-proxy-mapping/
+
+https://i.blackhat.com/us-18/Wed-August-8/us-18-Orange-Tsai-Breaking-Parser-Logic-Take-Your-Path-Normalization-Off-And-Pop-0days-Out-2.pdf
+
+
 # Wordlists
 
 ### Directory Bruteforcing
