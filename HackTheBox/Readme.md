@@ -28,6 +28,7 @@ Box                                                                             
 [Cap-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cap.md)                           | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Explore-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Explore.md)              | <img src="https://i.imgur.com/eZSccPd.png"/>
 [Heist](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Heist.md)                      | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Writeup](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Writeup.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
