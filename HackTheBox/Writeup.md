@@ -108,11 +108,3 @@ We can write into `/usr/local/sbin`
 Now we have created a file named `run-parts` which has a bash reverse shell which will execute when we will login to ssh our `run-parts` file will be executed and give us a reverse shell
 
 <img src="https://i.imgur.com/v8yy2xz.png"/>
-
-
-```
-jkr@writeup.htb:raykayjay9
-```
-/run/motd.dynamic.new 
-
- /etc/update-motd.d
