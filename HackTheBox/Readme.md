@@ -30,6 +30,7 @@ Box                                                                             
 [Heist](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Heist.md)                      | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Writeup](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Writeup.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Shocker](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Shocker.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Traverxec](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Traverxec.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
