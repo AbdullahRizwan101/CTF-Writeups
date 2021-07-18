@@ -31,6 +31,7 @@ Box                                                                             
 [Writeup](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Writeup.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Shocker](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Shocker.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Traverxec](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Traverxec.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
+[OpenAdmin](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/OpenAdmin.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
@@ -48,8 +49,8 @@ Box                                                                             
 
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
-[Breadcrumbs-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Breadcrumbs.md)           | <img src="https://i.imgur.com/8SPmSeo.gif"/>
-[Monitor-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)                   | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[Breadcrumbs](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Breadcrumbs.md)           | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Monitor-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
 
 
 # Challenges
