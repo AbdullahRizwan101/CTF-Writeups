@@ -678,6 +678,12 @@ Or you can add in system wide contab (nano /etc/crontab)
 * quser
 * logoff id|user_name  
 
+# LDAP
+
+```
+ldapsearch -x -LLL -h localhost -D 'cn=USER,ou=users,dc=domain,dc=com' -w PASSWORD -b "dc=domain,dc
+=com"
+```
 
 # Covering Track
 11.11. Covering our Tracks
