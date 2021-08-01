@@ -36,7 +36,7 @@ Box                                                                             
 
 Box                                                                                                              | OS
 ---                                                                                                              | ---
-[Notebook-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Notebook.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Notebook](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Notebook.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Ready](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Ready.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Bucket](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Bucket.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Schooled-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Schooled.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
