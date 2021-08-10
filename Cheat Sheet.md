@@ -732,3 +732,38 @@ https://blog.pentesteracademy.com/abusing-sys-module-capability-to-perform-docke
 * There's another exploit realted to docker (CVE-2019-5736)
 
 https://github.com/Frichetten/CVE-2019-5736-PoC
+
+# Kubernetes
+
+## Basic Commands
+
+### To get information of all pods which 
+          
+`kubectl get pods` 
+
+### To get infromation of namespaces which organize clusters         
+          
+ `kubectl get namespaces`
+
+### Get information of pods from a sepecfic namespace
+
+`kubectl get pods -n namespace`
+
+### Get secrets 
+
+`kubectl get secrets -n kube-system`
+
+### Get information of secrets
+
+`kubectl describe secret <secret_name> -n <namespace_name>`
+          
+### Get information of pod
+
+`kubectl get -o json pod <pod_name> -n <namespace_name>`
+
+## Creating Malicious Pods
+
+https://published-prd.lanyonevents.com/published/rsaus20/sessionsFiles/18100/2020_USA20_DSO-W01_01_Compromising%20Kubernetes%20Cluster%20by%20Exploiting%20RBAC%20Permissions.pdf
+          
+https://github.com/BishopFox/badPods
+      
