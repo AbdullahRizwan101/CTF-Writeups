@@ -60,6 +60,8 @@ Box                                                                             
 Challenge                                                                                                        |Type
 ---                                                                                                              | ---       
 [Emdee five for life-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/MD5-4-life.md)    | Web
+[Toxic](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Toxic.md)                           | Web
+[Gunship](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Gunship.md)                       | Web
                  
 
 
