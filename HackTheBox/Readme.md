@@ -63,5 +63,5 @@ Challenge                                                                       
 [Toxic](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Toxic.md)                           | Web
 [Gunship](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Gunship.md)                       | Web
 [Cat](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cat.md)                               | Mobile                 
-
+[misDIRection](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/misDIRection.md)             | Misc
 
