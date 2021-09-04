@@ -51,7 +51,7 @@ Box                                                                             
 ---                                                                                                              | ---       
 [Breadcrumbs](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Breadcrumbs.md)           | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Monitor-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
-
+[Unobtanium]("https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Unobtainium.md")          | <img src= "https://i.imgur.com/hZoovNY.png"/>
 
 # Challenges
 
