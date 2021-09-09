@@ -226,7 +226,7 @@ sudo /usr/bin/ln
 ```
 ### Escaping restricted Shell (rbash)
 
-Using vi editor
+#### Using vi editor
 
 ```
 : set shell =/bin/sh
@@ -235,6 +235,10 @@ Using vi editor
 Then setting the PATH variable
 
 `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
+
+#### Using -t 'bash --noprofile'
+
+When logging in with ssh we can using -t to enable pseudo-tty allocation and then we can change the PATH and SHELL varaible
 
 ### Tar Exploitation
 
