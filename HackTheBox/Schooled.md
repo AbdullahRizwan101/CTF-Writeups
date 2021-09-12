@@ -339,3 +339,8 @@ As we have sudo rights to install any package , install it with `--no-repo-updat
 And we can bash having a SUID so if we do `bash -p` we will get root
 
 <img src="https://imgur.com/0t82FGy.png"/>
+
+## References
+- https://github.com/s0wr0b1ndef/WebHacking101/blob/master/xss-reflected-steal-cookie.md
+- https://github.com/HoangKien1020/CVE-2020-14321
+- http://lastsummer.de/creating-custom-packages-on-freebsd/
