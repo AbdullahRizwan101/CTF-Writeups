@@ -80,6 +80,7 @@ Box                                                                             
 [Relevant](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Relevant.md)                  | <img src= "https://i.imgur.com/8SPmSeo.gif"/>
 [USTOUN](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/USTOUN.md)                      | <img src= "https://i.imgur.com/8SPmSeo.gif"/>
 [Fortress](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Fortress.md)                  | <img src= "https://i.imgur.com/hZoovNY.png" />
+[Empline](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Empline.md)                    | <img src= "https://i.imgur.com/hZoovNY.png" />
 ## King of The Hill
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
