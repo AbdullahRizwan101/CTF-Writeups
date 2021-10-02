@@ -32,8 +32,8 @@ Box                                                                             
 [Shocker](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Shocker.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Traverxec](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Traverxec.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 [OpenAdmin](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/OpenAdmin.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Cap](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cap.md)                         | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
-
 Box                                                                                                              | OS
 ---                                                                                                              | ---
 [Notebook](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Notebook.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
