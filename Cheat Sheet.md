@@ -344,6 +344,10 @@ Alternatively this can be done with metaslpoit's post exploitation module
 ### Psexec.py
 ` python psexec.py DOMAIN/USER:PASS@IP`
 
+### Forced Authentication (Stealing NTLMv2) 
+
+https://www.ired.team/offensive-security/initial-access/t1187-forced-authentication
+
 ### Crackmapexec
 
 #### Bruteforce Usernames using RID (Objects in AD)
