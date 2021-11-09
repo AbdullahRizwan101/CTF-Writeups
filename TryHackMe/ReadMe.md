@@ -83,6 +83,7 @@ Box                                                                             
 [Empline](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Empline.md)                    | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Lockdown](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Lockdown.md)                  | <img src= "https://i.imgur.com/hZoovNY.png" />
 [Hygiene](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Hygine.md)                     | <img src= "https://i.imgur.com/hZoovNY.png" />
+[Minotaur's Labyrinth](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Minotaur.md)      | <img src= "https://i.imgur.com/hZoovNY.png" />
 ## King of The Hill
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
