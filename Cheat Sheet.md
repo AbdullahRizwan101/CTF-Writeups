@@ -613,6 +613,12 @@ Here `api-endpoint` can be for example `/api/v1/resources/books\?FUZZ\=.bash_his
 ### Web Shell Bash
 `bash -c "<bash_rev_shell>"`
 
+### Cacti
+
+This is remote code execution exploit for cacti 1.2.8 <br/>
+
+https://zerontek.blogspot.com/2020/10/hacking-walkthrough-cacti-128-ubuntu.html
+
 ### Wordpress
 using wpscan we can find users or do some further enumeration of wordpress version
 * `wpscan --url http://<ip>/wordpress -e u` Enumerate Users
