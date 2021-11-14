@@ -254,6 +254,9 @@ echo "" > --checkpoint=1
 If there is a certain command running in a binary example `date` so we can create our own binary and add `/bin/bash` to and path so it gets executed<br/>
 `export PATH=<path_where_binary_is>/:$PATH`
 
+### MairaDB Command Execution
+
+https://packetstormsecurity.com/files/162177/MariaDB-10.2-Command-Execution.html
 
 ### VNC
 
