@@ -26,13 +26,14 @@ Box                                                                             
 [Buff](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Buff.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Bastioin](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Bastion.md)                  | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Cap-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cap.md)                           | <img src="https://i.imgur.com/hZoovNY.png"/>
-[Explore-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Explore.md)              | <img src="https://i.imgur.com/eZSccPd.png"/>
+[Explore](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Explore.md)              | <img src="https://i.imgur.com/eZSccPd.png"/>
 [Heist](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Heist.md)                      | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Writeup](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Writeup.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Shocker](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Shocker.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Traverxec](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Traverxec.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 [OpenAdmin](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/OpenAdmin.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Cap](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cap.md)                         | <img src="https://i.imgur.com/hZoovNY.png"/>
+[BountyHunter](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/BountyHunter.md)       | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 Box                                                                                                              | OS
 ---                                                                                                              | ---
