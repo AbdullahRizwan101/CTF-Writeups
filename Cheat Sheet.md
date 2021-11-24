@@ -633,6 +633,10 @@ To bruteforce passwords
 After logging into the wordpress dashboard , we can edit theme's 404.php page with a php revershell
 `http://<ip>/wordpress/wp-content/themes/twentytwenty/404.php`
 
+To list which plugins are being used
+
+`nmap -p 80 --script http-wordpress-enum --script-args search-limit=3000 10.10.11.125 -vv `
+
 To get a RCE
 
 * Goto `Appearance` -> `Editor` Select the 404.php template of the current theme and paste php reverse-shell.
