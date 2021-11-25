@@ -631,20 +631,24 @@ using wpscan we can find users or do some further enumeration of wordpress versi
 * `wpscan --url http://<ip>/wordpress -e u` Enumerate Users
 * `wpscan --url http://<ip>/wordpress -e ap --plugins-detection aggressive` Enumearte All plugins
 
-To bruteforce passwords
+#### To bruteforce passwords
 * `wpscan --url <ip> -U user_file_path -P password_file_path`
 
 After logging into the wordpress dashboard , we can edit theme's 404.php page with a php revershell
 `http://<ip>/wordpress/wp-content/themes/twentytwenty/404.php`
 
-To list which plugins are being used
+#### To list which plugins are being used
 
 `nmap -p 80 --script http-wordpress-enum --script-args search-limit=3000 10.10.11.125 -vv `
 
-To get a RCE
+#### To get a RCE
 
 * Goto `Appearance` -> `Editor` Select the 404.php template of the current theme and paste php reverse-shell.
 * Then navigate to `http://ip/wp-content/themes/twentyfifteen/404.php` (theme name can be twentytwenty for the latest one) 
+
+#### Manual Enumeration
+
+https://www.armourinfosec.com/wordpress-enumeration/
 
 ### Node JS
 
