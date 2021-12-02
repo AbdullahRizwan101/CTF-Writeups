@@ -552,6 +552,8 @@ For apache `/var/log/apache2/access.log` try to access the log and if we can the
 
 For niginx `/var/log/nginx/error.log` try to access the log and if we can then add `<?php system($_GET['c']); ?>` in User-agent or try to add it in a file having a paramter make sure it's not being url encoded <br/>
 
+Also to check `/etc/nginx/sites-available/default`
+
 #### Proc
 
 To see list of processes running on the system we can read this file `/proc/sched_debug`
@@ -676,7 +678,11 @@ https://www.armourinfosec.com/wordpress-enumeration/
     } 
 }
 ```
+### JTW
 
+#### JKU
+
+https://blog.pentesteracademy.com/hacking-jwt-tokens-jku-claim-misuse-2e732109ac1c
 
 ### Apache Tomcat
 
