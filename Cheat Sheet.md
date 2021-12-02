@@ -565,6 +565,10 @@ We can use XInclude when SOAP is being used in an application and we can't intro
 <foo xmlns:xi="http://www.w3.org/2001/XInclude">
 <xi:include parse="text" href="file:///etc/passwd"/></foo>
 ```
+### XXE - Apache Batik Library 
+
+https://insinuator.net/2015/03/xxe-injection-in-apache-batik-library-cve-2015-0250/
+
 
 ### SSI (Server Side Includes)
 
