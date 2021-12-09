@@ -1,5 +1,5 @@
 # echoCTF - pathfinder
-This is an OS category challenge in which we are provided an IP address and a port to conenct using `nc` 
+This is an OS category challenge in which we are provided an IP address and a port to connect using `nc` 
 
 We can get the first flag by connecting with netcat and printing the evnironmental variables with `env`
 
