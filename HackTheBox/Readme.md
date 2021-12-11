@@ -50,6 +50,7 @@ Box                                                                             
 [Dynstr](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Dynstr.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Intelligence](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Intelligence.md)         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Monteverde](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monteverde.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Writer](https://github.com/AbdullahRizwan101/Private-Wirteups/blob/main/Writer.md)                              | <img src="https://i.imgur.com/hZoovNY.png"/>
 
 ## Hard
 
