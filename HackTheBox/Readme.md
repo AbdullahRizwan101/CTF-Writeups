@@ -7,6 +7,7 @@ Box                                                                             
 ---                                                                                                              | ---       
 [Pathfinder](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Pathfinder.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Archetype](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Archetype.md)               | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+
 ## Easy
 
 Box                                                                                                              | OS
@@ -27,13 +28,14 @@ Box                                                                             
 [Bastioin](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Bastion.md)                  | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Cap-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cap.md)                           | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Explore](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Explore.md)              | <img src="https://i.imgur.com/eZSccPd.png"/>
-[Heist](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Heist.md)                      | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Heist](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Heist.md)                   | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Writeup](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Writeup.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Shocker](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Shocker.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Traverxec](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Traverxec.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 [OpenAdmin](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/OpenAdmin.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Cap](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cap.md)                         | <img src="https://i.imgur.com/hZoovNY.png"/>
 [BountyHunter](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/BountyHunter.md)       | <img src="https://i.imgur.com/hZoovNY.png"/>
+
 ## Medium
 Box                                                                                                              | OS
 ---                                                                                                              | ---
@@ -48,6 +50,7 @@ Box                                                                             
 [Dynstr](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Dynstr.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Intelligence](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Intelligence.md)         | <img src="https://i.imgur.com/8SPmSeo.gif"/>   [Writer](https://github.com/AbdullahRizwan101/Private-Wirteups/blob/main/Writer.md)                              | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Monteverde](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monteverde.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+
 ## Hard
 
 Box                                                                                                              | OS
