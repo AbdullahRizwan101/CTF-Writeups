@@ -46,6 +46,8 @@ Box                                                                             
 [Ophiuchi](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Ophiuchi.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [ChatterBox](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Chatterbox.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Dynstr](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Dynstr.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Intelligence](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Intelligence.md)         | <img src="https://i.imgur.com/8SPmSeo.gif"/>   [Writer](https://github.com/AbdullahRizwan101/Private-Wirteups/blob/main/Writer.md)                              | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Monteverde](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monteverde.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 ## Hard
 
 Box                                                                                                              | OS
@@ -54,6 +56,7 @@ Box                                                                             
 [Monitor-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Unobtanium](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Unobtainium.md)            | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Spider](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Spider.md)                     | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[Pikaboo](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Pikaboo.md)                   | <img src= "https://i.imgur.com/hZoovNY.png"/>
 # Challenges
 
 ## Easy
