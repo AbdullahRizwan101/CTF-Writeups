@@ -35,7 +35,8 @@ Box                                                                             
 [OpenAdmin](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/OpenAdmin.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Cap](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cap.md)                         | <img src="https://i.imgur.com/hZoovNY.png"/>
 [BountyHunter](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/BountyHunter.md)       | <img src="https://i.imgur.com/hZoovNY.png"/>
-
+[Lame](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Lame.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Sauna](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Sauna.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 ## Medium
 Box                                                                                                              | OS
 ---                                                                                                              | ---
