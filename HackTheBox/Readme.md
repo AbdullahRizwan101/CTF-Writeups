@@ -59,11 +59,11 @@ Box                                                                             
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
 [Breadcrumbs](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Breadcrumbs.md)           | <img src="https://i.imgur.com/8SPmSeo.gif"/>
-[Monitor-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[Monitor](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Unobtanium](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Unobtainium.md)            | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Spider](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Spider.md)                     | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Pikaboo](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Pikaboo.md)                   | <img src= "https://i.imgur.com/hZoovNY.png"/>
-[BlackField](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/BlackField.md)             | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[BlackField](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/BlackField.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 # Challenges
 
 ## Easy
