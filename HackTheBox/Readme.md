@@ -64,6 +64,7 @@ Box                                                                             
 [Spider](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Spider.md)                     | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Pikaboo](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Pikaboo.md)                   | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [BlackField](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/BlackField.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Mantis](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Mantis.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 # Challenges
 
 ## Easy
