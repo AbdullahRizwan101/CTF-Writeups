@@ -226,6 +226,8 @@ swaks --server IP -f from@arz.com -t to@arz.com --attach file.rtf
 
 ```
 
+https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum
+
 ### Screen
 
 If there's a  deattached screen session running as root , we can re attach it only if screen binary has SUID bit `screen -r root/`
