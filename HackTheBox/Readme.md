@@ -54,7 +54,6 @@ Box                                                                             
 [Writer](https://github.com/AbdullahRizwan101/Private-Wirteups/blob/main/Writer.md)                              | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Resolute](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Resolute.md)                 | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Cascade](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cascade.md)                   | <img src="https://i.imgur.com/8SPmSeo.gif"/>
-[Reel](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Reel.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 ## Hard
 
 Box                                                                                                              | OS
@@ -66,6 +65,7 @@ Box                                                                             
 [Pikaboo](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Pikaboo.md)                   | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [BlackField](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/BlackField.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Mantis](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Mantis.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Reel](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Reel.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 # Challenges
 
 ## Easy
