@@ -929,8 +929,80 @@ https://github.com/BishopFox/badPods
 
 # Android
 
+## Using ADB
+
+ADB (Android Debuggable Bridge) allows to conneect to android devices through command line and allows to execute shell commands
+
+If there is only one device connected or using `Genymotion` then use
+```
+adb shell 
+```
+
+Or if there are multiple devices connected then first run `adb devices` to note the device ID and connect with `-s`
+
+```
+adb -s DEVICE_ID shell
+```
+
+To install apks through adb
+
+```
+adb install file.apk
+```
+
+To transfer data to device
+
+```
+adb push file /data/local/tmp
+```
+
 ## Root Detection Bypass
+
+Some applications won't run on rooted devices but it can be bypassed using either frida , objection , Xposed/EdXposed modules (unrootbeer , Rootcloak) or using Magisk 
+
+### Using Frida
+
+There are number of scripts available to bypass root detection , there's a universal script (https://codeshare.frida.re/@dzonerzy/fridantiroot/) that can bypass root detection but it's unstable , a better version is available here (https://gist.github.com/pich4ya/0b2a8592d3c8d5df9c34b8d185d2ea35)
+
+
+First run frida server on the device then run frida through windows or linux
+
+```
+frida --codeshare dzonerzy/fridantiroot -f com.packagename -U
+```
+
+### Objection
+
+Objection can also be used to bypass root detection if scripts fail , thus also works with frida 
+
+```
+objection --gadget com.android.packagename explore
+```
+
+To list activities in the application
+
+```
+android hooking list activities
+```
+
+To list methods with return type from an activity
+
+```
+android hooking list class_methods android_packagename.activity_name
+```
+
+## Logging 
+
+Sometimes application might be logging the input so we can capture it through running `logcat`
+
+## Data stored on storage
+
+Data saved by android application can be accssed through `/data/data/package_name`
 
 
 ## SSL Pinning
+
+## Intents
+
+## Remote Code Execution
       
