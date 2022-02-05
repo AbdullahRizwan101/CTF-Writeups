@@ -37,6 +37,7 @@ Box                                                                             
 [BountyHunter](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/BountyHunter.md)       | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Lame](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Lame.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Sauna](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Sauna.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Horizontall](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Horizontall.md)         | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 Box                                                                                                              | OS
 ---                                                                                                              | ---
