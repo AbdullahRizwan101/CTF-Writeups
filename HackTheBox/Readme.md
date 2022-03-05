@@ -70,6 +70,7 @@ Box                                                                             
 [BlackField](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/BlackField.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Mantis](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Mantis.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Reel](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Reel.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Object](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Object.md)                           | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 ## Insane
 
 Box                                                                                                              | OS
