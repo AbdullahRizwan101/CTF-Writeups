@@ -77,8 +77,7 @@ Box                                                                             
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
 [Anubis](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Anubis.md)                     |<img src="https://i.imgur.com/8SPmSeo.gif"/>
-
-
+[Sizzle](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Sizzle.md)                     |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 
 # Challenges
 
