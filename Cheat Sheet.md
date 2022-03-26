@@ -364,7 +364,11 @@ Alternatively this can be done with metaslpoit's post exploitation module
 * $file.GetNetworkCredential().password
 
 ### Evil-winrm
-`evil-winrm -i 10.10.213.169 -u <USER> -p '<PASS>'`
+`evil-winrm -i IP -u <USER> -p <PASS>`
+
+To use evil-winrm on port 5986 (with a certificate)
+
+`evil-winrm --i IP -u <USER> -p <PASS> -S -c file.crt -k file.key`
 
 ### Psexec.py
 ` python psexec.py DOMAIN/USER:PASS@IP`
