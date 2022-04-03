@@ -59,6 +59,7 @@ Box                                                                             
 [Resolute](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Resolute.md)                 | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Cascade](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cascade.md)                   | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Forge](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Forge.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Shibboleth](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Shibboleth.md)             |<img src="https://i.imgur.com/hZoovNY.png"/>
 ## Hard
 
 Box                                                                                                              | OS
