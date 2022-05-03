@@ -364,6 +364,20 @@ Alternatively this can be done with metaslpoit's post exploitation module
 * $file.GetNetworkCredential().username
 * $file.GetNetworkCredential().password
 
+### Applocker
+
+We can list the applocker policies by running this powershell command
+
+```
+Get-AppLockerPolicy -effective -xml
+```
+
+Or
+
+```
+Get-ChildItem -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Exe
+```
+
 ### Evil-winrm
 `evil-winrm -i IP -u <USER> -p <PASS>`
 
