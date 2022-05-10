@@ -89,7 +89,7 @@ Box                                                                             
 
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
-[Brain Pan] https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Brainpan.md                  | <img src= "https://i.imgur.com/hZoovNY.png" />
+[BrainPan](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/TryHackMe/Brainpan.md)                  | <img src= "https://i.imgur.com/hZoovNY.png" />
 
 ## King of The Hill
 Box                                                                                                              | OS
