@@ -42,7 +42,7 @@ Box                                                                             
 [Driver](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Driver.md)                   | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Secret](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Secret.md)                   | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Backdoor](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Backdoor.md)               | <img src="https://i.imgur.com/hZoovNY.png"/>
-[Pandora] (https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Pandora.md)              |  <img src="https://i.imgur.com/hZoovNY.png"/>
+[Pandora](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Pandora.md)              |  <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 Box                                                                                                              | OS
 ---                                                                                                              | ---
