@@ -76,6 +76,7 @@ Box                                                                             
 [Reel](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Reel.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Object](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Object.md)                           | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Adminertoo](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Adminertoo.md)              | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[Search](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Search.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 ## Insane
 
 Box                                                                                                              | OS
