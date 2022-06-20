@@ -42,7 +42,8 @@ Box                                                                             
 [Driver](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Driver.md)                   | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Secret](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Secret.md)                   | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Backdoor](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Backdoor.md)               | <img src="https://i.imgur.com/hZoovNY.png"/>
-[Pandora](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Pandora.md)              |  <img src="https://i.imgur.com/hZoovNY.png"/>
+[Pandora](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Pandora.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Paper](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Paper.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 Box                                                                                                              | OS
 ---                                                                                                              | ---
@@ -61,7 +62,8 @@ Box                                                                             
 [Resolute](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Resolute.md)                 | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Cascade](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cascade.md)                   | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Forge](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Forge.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
-[Shibboleth](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Shibboleth.md)             |<img src="https://i.imgur.com/hZoovNY.png"/>
+[Shibboleth](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Shibboleth.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Meta](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Meta.md)                         | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Hard
 
 Box                                                                                                              | OS
