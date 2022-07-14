@@ -57,7 +57,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
 When we visit `/manger` we are not prompt with login.
 
-https://imgur.com/fQZgbPW.png
+<img src="https://imgur.com/fQZgbPW.png"/>
 
 Now we can look for port `8009` and there is an exploit for it `https://github.com/00theway/Ghostcat-CNVD-2020-10487.git`
 
@@ -67,21 +67,21 @@ Run the exploit
 python3 ajpShooter.py http://10.10.109.92:8080 8009 /WEB-INF/web.xml read
 ``` 
 
-https://imgur.com/iVdmiAn.png
+<img src="https://imgur.com/iVdmiAn.png"/>
 
 
 You will find credential `skyfuck`:`8730281lkjlkjdqlksalks`
 
 
-https://imgur.com/g1atsoj.png
+<img src="https://imgur.com/g1atsoj.png"/>
 
 Going to `merlin`'s folder we can find `THM{GhostCat_1s_so_cr4sy}`
 
 we can see two files `credentials.pgp` and `tryhackme.asc` so we are going to use `gpg2john` to find hash of  `tryhackme.asc`
 
-https://imgur.com/dwB310K.png
+<img src="https://imgur.com/dwB310K.png"/>
 
-https://imgur.com/nj8nfcL.png
+<img src="https://imgur.com/nj8nfcL.png"/>
 
 ```
 alexandru        (tryhackme)
