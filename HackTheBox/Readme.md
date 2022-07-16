@@ -81,6 +81,7 @@ Box                                                                             
 [Adminertoo](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Adminertoo.md)              | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Search](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Search.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Phoenix](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Phoenix.md)                          | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[Acute](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Acute.md)                       | <img src= "https://i.imgur.com/hZoovNY.png"/>
 ## Insane
 
 Box                                                                                                              | OS
