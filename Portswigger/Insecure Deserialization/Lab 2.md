@@ -34,7 +34,7 @@ https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf
 
 <img src="https://i.imgur.com/hhr75t6.png"/>
 
-On replacing the token we'll see an error message which will reveal some access tokens
+On replacing the token we'll see an error message which will reveal some access tokens and there are 3 tokens so they are probably for carlos, wiener and administrator
 
 <img src="https://i.imgur.com/xORmlIS.png"/>
 
