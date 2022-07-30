@@ -111,8 +111,3 @@ After logging in back the script will be executed and we'll have our reverse she
 ## References
 - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md#jinja2---basic-injection
 - https://www.geeksforgeeks.org/chattr-command-in-linux-with-examples/
-
-```
-
-root:$6$a6J2kmTW$cHVk8PYFcAiRyUOA38Cs1Eatrz48yp395Cmi7Fxszl/aqQooB.6qFmhMG1LYuHJpGvvaE1cxubWIdIc1znRJi.:19089:0:99999:7:::
-```
