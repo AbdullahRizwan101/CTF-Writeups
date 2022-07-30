@@ -45,6 +45,7 @@ Box                                                                             
 [Pandora](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Pandora.md)                 | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Paper](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Paper.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Routerspace](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Routerspace.md)              | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Late](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Late.md)                      | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 Box                                                                                                              | OS
 ---                                                                                                              | ---
