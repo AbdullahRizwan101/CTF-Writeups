@@ -4,7 +4,7 @@ To start with WPA2 Cracking make sure that your network interface is in monitor 
 
 ````
 ifconfig wlan0 down
-iwfconfig wlan0 mode managed
+iwconfig wlan0 mode managed
 ifconfig wlan0 up
 ````
 Then run airmon-ng <br/>
@@ -34,7 +34,7 @@ When a client connects back to the host this will capture the handshake.To crack
 
 When the passwords get cracked you can then go back to using `managed mode on your` network interface<br/>
 
-`sudo systemctl restart NetworkManager.service` 
+`sudo systemctl restart NetworkManager.service` and then `sudo airmon-ng stop interfacemon`
 
 # Linux
 
