@@ -68,6 +68,7 @@ Box                                                                             
 [Shibboleth](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Shibboleth.md)             | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Meta](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Meta.md)                         | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Catch](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Catch.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
+[StreamIO](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/StreamIO.md)                 | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 ## Hard
 
 Box                                                                                                              | OS
