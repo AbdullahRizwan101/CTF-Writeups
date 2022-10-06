@@ -440,27 +440,26 @@ DB instance can be found with `rds describe-db-instances`
 aws rds describe-db-instances --profile rce_web --region us-east-1 
 ```
 
-![](https://i.imgur.com/u4VCLSX.png)
+<img src="https://i.imgur.com/u4VCLSX.png"/>
 
 This is an internal instance, so we need to access it from ec2
 
-![](https://i.imgur.com/IZ8oUgD.png)
+<img src="https://i.imgur.com/IZ8oUgD.png"/>
 
 Database can be accessed with `psql` 
 
 ```bash
 psql -h cg-rds-instance-rce-web-app-cgidd9pk8lqvym.cvqhxg0xsdki.us-east-1.rds.amazonaws.com -U cgadmin -d cloudgoat
 ```
+<img src="https://i.imgur.com/lSuyXlJ.png"/>
 
-![](https://i.imgur.com/lSuyXlJ.png)
-![]()
 Lisiting the tables with `\d`
 
-![](https://i.imgur.com/oKwBEpi.png)
+<img src="https://i.imgur.com/oKwBEpi.png"/>
 
 we have a table named `sensitive_information`, so let's query the table with `select * from sensitive_information`
 
-![](https://i.imgur.com/4OZNipv.png)
+<img src="https://i.imgur.com/4OZNipv.png"/>
 
 By having the secret password, the rce scenario will be completed
 
@@ -468,45 +467,44 @@ By having the secret password, the rce scenario will be completed
 
 Using McDuck's aws keys 
 
-![](https://i.imgur.com/Zj2B5vy.png)
+<img src="https://i.imgur.com/Zj2B5vy.png"/>
 
 With this user we can try listing s3 buckets 
 
-![](https://i.imgur.com/qbt1LHT.png)
+<img src="https://i.imgur.com/qbt1LHT.png"/>
 
 Now with `lara` we were only able to access the `cg-logs` bucket but with `mcduck` we can access `cg-keystore` bucket 
 
-![](https://i.imgur.com/B1Bm3Al.png)
+<img src="https://i.imgur.com/B1Bm3Al.png"/>
 
 Downloading the public and private keys 
 
-![](https://i.imgur.com/2WlLPkU.png)
+<img src="https://i.imgur.com/2WlLPkU.png"/>
 
-![](https://i.imgur.com/rUqs5d8.png)
+<img src="https://i.imgur.com/rUqs5d8.png"/>
 
 From lara we arleady know the IP of the ec2 instance so we can login using ubuntu user through ssh
 
-![](https://i.imgur.com/299orqx.png)
+<img src="https://i.imgur.com/299orqx.png"/>
 
 From here we could either get the keys from metdata or install awscli, access s3 bucket to get the credentials to the database, list the realation database instance and use postgresql client to access database, since we have sudo privileges we can become root user 
 
-![](https://i.imgur.com/9alSQFs.png)
+<img src="https://i.imgur.com/9alSQFs.png"/>
 
 ```bash
 apt install awscli
 ```
-
-![](https://i.imgur.com/AgllPVh.png)
+<img src="https://i.imgur.com/AgllPVh.png"/>
 
 ```bash
 aws sts get-caller-identity 
 ```
 
-![](https://i.imgur.com/mrJGJ1F.png)
+<img src="https://i.imgur.com/mrJGJ1F.png"/>
 
 Accessing the s3 bucket to get database credentials 
 
-![](https://i.imgur.com/MHAgyhE.png)
+<img src="https://i.imgur.com/MHAgyhE.png"/>
 
 Now getting database instance's IP
 
@@ -514,7 +512,7 @@ Now getting database instance's IP
 aws rds describe-db-instances --region us-east-1 
 ```
 
-![](https://i.imgur.com/neo89mr.png)
+<img src="https://i.imgur.com/neo89mr.png"/>
 
 And with the credentials and database's instance we'll able to login and complete the scenario like we did with lara user.
 
