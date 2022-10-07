@@ -69,6 +69,8 @@ Box                                                                             
 [Meta](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Meta.md)                         | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Catch](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Catch.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
 [StreamIO](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/StreamIO.md)                 | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Scrambled](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Scrambled.md)               | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Noter](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Noter.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Hard
 
 Box                                                                                                              | OS
@@ -81,12 +83,13 @@ Box                                                                             
 [BlackField](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/BlackField.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Mantis](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Mantis.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Reel](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Reel.md)                         | <img src="https://i.imgur.com/8SPmSeo.gif"/>
-[Object](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Object.md)                           | <img src="https://i.imgur.com/8SPmSeo.gif"/>
-[Adminertoo](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Adminertoo.md)              | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[Object](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Object.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Adminertoo](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Adminertoo.md)             | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Search](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Search.md)                     | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Phoenix](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Phoenix.md)                   | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Acute](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Acute.md)                       | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Talkative](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Talkative.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[Seventeen](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Seventeen.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
 
 ## Insane
 
