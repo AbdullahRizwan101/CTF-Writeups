@@ -302,18 +302,3 @@ And now waiting for the git-sync to ran which will then trigger this pre-commit 
 - https://medium.com/@knownsec404team/analysis-of-cve-2019-11229-from-git-config-to-rce-32c217727baa
 - https://www.atlassian.com/git/tutorials/git-hooks
 
-```
-/uploads/..//../dev/stdout
-
-
-mac : 02:42:ac:11:00:02
-/sys/class/net/eth0/address
-boot_id : f40f0d09-2ab1-49df-9fa4-dbe308cef90b(/proc/sys/kernel/random/boot_id)
-cgroup : a418bab07494d0d7a855c962dd8b58fa0182974af5315272161a68c04bf9808a (/proc/self/cgroup)
-
-root:$6$5sA85UVX$HupltM.bMqXkLc269pHDk1lryc4y5LV0FPMtT3x.yUdbe3mGziC8aUXWRQ2K3jX8mq5zItFAkAfDgPzH8EQ1C/:19072:0:99999:7:::
-
-dev01:Soulless_Developer#2022
-
-/usr/local/bin/git-sync
-```
