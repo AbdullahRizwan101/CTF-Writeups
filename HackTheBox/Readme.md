@@ -72,6 +72,7 @@ Box                                                                             
 [StreamIO](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/StreamIO.md)                 | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Scrambled](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Scrambled.md)               | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Noter](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Noter.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Faculty](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Faculty.md)                   | <img src="https://i.imgur.com/hZoovNY.png"/>
 ## Hard
 
 Box                                                                                                              | OS
