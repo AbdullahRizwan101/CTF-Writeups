@@ -96,7 +96,7 @@ Box                                                                             
 [Acute](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Acute.md)                       | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Talkative](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Talkative.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Seventeen](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Seventeen.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
-
+[Carpedium](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Carpediem.md)                          | <img src= "https://i.imgur.com/hZoovNY.png"/>
 ## Insane
 
 Box                                                                                                              | OS
