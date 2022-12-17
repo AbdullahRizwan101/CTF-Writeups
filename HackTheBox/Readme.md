@@ -48,7 +48,8 @@ Box                                                                             
 [Late](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Late.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Timelapse](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Timelapse.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Opensource](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Opensource.md)           | <img src="https://i.imgur.com/hZoovNY.png"/>
-[RedPanda](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/RedPanda.md)               |<img src="https://i.imgur.com/hZoovNY.png"/>
+[RedPanda](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/RedPanda.md)               | <img src="https://i.imgur.com/hZoovNY.png"/>
+[Support](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Support.md                  | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 
 ## Medium
 
