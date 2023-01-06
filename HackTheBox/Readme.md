@@ -49,7 +49,7 @@ Box                                                                             
 [Timelapse](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Timelapse.md)             | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Opensource](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Opensource.md)           | <img src="https://i.imgur.com/hZoovNY.png"/>
 [RedPanda](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/RedPanda.md)               | <img src="https://i.imgur.com/hZoovNY.png"/>
-[Support](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Support.md                  | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Support](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Support.md)                  | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 
 ## Medium
 
@@ -78,7 +78,7 @@ Box                                                                             
 [Noter](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Noter.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Faculty](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Faculty.md)                   | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Shared](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Shared.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
-[Outdated] (https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Outdated.md)                | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Outdated](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Outdated.md)                | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 ## Hard
 
 Box                                                                                                              | OS
