@@ -51,6 +51,7 @@ Box                                                                             
 [RedPanda](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/RedPanda.md)               | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Support](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Support.md)                  | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Shoppy](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Shoppy.md)                   |<img src="https://i.imgur.com/hZoovNY.png"/>
+[Trick](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Trick.md)                     |<img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
