@@ -116,6 +116,7 @@ Box                                                                             
 [Anubis](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Anubis.md)                     |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Sizzle](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Sizzle.md)                     |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Hathor](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Hathor.md)                     |<img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Absolute](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Absolute.md)                 |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 # Challenges
 
 ## Easy
