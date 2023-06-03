@@ -87,6 +87,7 @@ Box                                                                             
 [Ambassador](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Ambassador.md)             |<img src="https://i.imgur.com/hZoovNY.png"/>
 [UpDown](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/UpDown.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Interface](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Interface.md)               |<img src="https://i.imgur.com/hZoovNY.png"/>
+[Bagel](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Bagel.md)                       |<img src="https://i.imgur.com/hZoovNY.png"/>
 ## Hard
 
 Box                                                                                                              | OS
