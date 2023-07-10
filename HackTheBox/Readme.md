@@ -56,6 +56,7 @@ Box                                                                             
 [Precious](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Precious.md)               |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Photobomb](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Photobomb.md)             |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Soccer](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Soccer.md)                   |<img src="https://i.imgur.com/hZoovNY.png"/>
+[Inject](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Inject.md)                   |<img src="https://i.imgur.com/hZoovNY.png"/> 
 ## Medium
 
 Box                                                                                                              | OS
