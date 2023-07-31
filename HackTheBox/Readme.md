@@ -113,6 +113,7 @@ Box                                                                             
 [Carpedium](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Carpediem.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Moderators](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Moderators.md)             | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Fligh](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Flight.md)                      | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Cerberus](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Cerberus.md)                 |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 ## Insane
 
 Box                                                                                                              | OS
