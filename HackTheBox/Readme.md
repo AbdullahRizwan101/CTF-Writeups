@@ -85,14 +85,15 @@ Box                                                                             
 [Noter](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Noter.md)                       | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Faculty](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Faculty.md)                   | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Shared](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Shared.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
-[Outdated](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Outdated.md)                | <img src="https://i.imgur.com/8SPmSeo.gif"/>
+[Outdated](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Outdated.md)                 | <img src="https://i.imgur.com/8SPmSeo.gif"/>
 [Health](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Health.md)                     |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Ambassador](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Ambassador.md)             |<img src="https://i.imgur.com/hZoovNY.png"/>
 [UpDown](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/UpDown.md)                     | <img src="https://i.imgur.com/hZoovNY.png"/>
 [Interface](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Interface.md)               |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Bagel](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Bagel.md)                       |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Escape](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Escape.md)                     |<img src="https://i.imgur.com/8SPmSeo.gif"/>
-[OnlyForYou](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/OnlyforYou.md)            |<img src="https://i.imgur.com/hZoovNY.png"/>
+[OnlyForYou](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/OnlyforYou.md)             |<img src="https://i.imgur.com/hZoovNY.png"/>
+
 ## Hard
 
 Box                                                                                                              | OS
