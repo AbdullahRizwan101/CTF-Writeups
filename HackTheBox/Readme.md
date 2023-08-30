@@ -92,7 +92,7 @@ Box                                                                             
 [Interface](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Interface.md)               |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Bagel](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Bagel.md)                       |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Escape](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Escape.md)                     |<img src="https://i.imgur.com/8SPmSeo.gif"/>
-[OnlyForYou] (https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/OnlyforYou.md)            |<img src="https://i.imgur.com/hZoovNY.png"/>
+[OnlyForYou](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/OnlyforYou.md)            |<img src="https://i.imgur.com/hZoovNY.png"/>
 ## Hard
 
 Box                                                                                                              | OS
