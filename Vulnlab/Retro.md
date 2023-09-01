@@ -133,6 +133,7 @@ certipy auth -pfx 'administrator.pfx' -username 'administrator' -domain 'retro.v
 Through `evil-winrm` we can login on WinRM using the NThash of administrator 
 
 <img src="https://i.imgur.com/eDwld0C.png"/>
+
 ## References 
 
 - https://www.trustedsec.com/blog/diving-into-pre-created-computer-accounts/
