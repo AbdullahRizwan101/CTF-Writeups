@@ -58,6 +58,7 @@ Box                                                                             
 [Soccer](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Soccer.md)                   |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Inject](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Inject.md)                   |<img src="https://i.imgur.com/hZoovNY.png"/> 
 [Busqueda](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Busqueda.md)               | <img src="https://i.imgur.com/hZoovNY.png"/> 
+[PC](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/PC.md)                           |<img src="https://i.imgur.com/hZoovNY.png"/>
 ## Medium
 
 Box                                                                                                              | OS
