@@ -95,13 +95,13 @@ Box                                                                             
 [Bagel](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Bagel.md)                       |<img src="https://i.imgur.com/hZoovNY.png"/>
 [Escape](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Escape.md)                     |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 [OnlyForYou](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/OnlyforYou.md)             |<img src="https://i.imgur.com/hZoovNY.png"/>
-
+[Authority](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Authority.md)               |<img src="https://i.imgur.com/8SPmSeo.gif"/>
 ## Hard
 
 Box                                                                                                              | OS
 ---                                                                                                              | ---       
 [Breadcrumbs](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Breadcrumbs.md)           | <img src="https://i.imgur.com/8SPmSeo.gif"/>
-[Monitor](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)               | <img src= "https://i.imgur.com/hZoovNY.png"/>
+[Monitor](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Monitor.md)                   | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Unobtanium](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Unobtainium.md)            | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Spider](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Spider.md)                     | <img src= "https://i.imgur.com/hZoovNY.png"/>
 [Pikaboo](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Pikaboo.md)                   | <img src= "https://i.imgur.com/hZoovNY.png"/>
@@ -131,8 +131,8 @@ Box                                                                             
 
 ## Easy
 
-Challenge                                                                                                        |Category
----                                                                                                              | ---       
+Challenge                                                                                                            |Category
+---                                                                                                                  | ---       
 [Emdee five for life-TBA](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/MD5-4-life.md)    | Web
 [Toxic](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Toxic.md)                           | Web
 [Gunship](https://github.com/AbdullahRizwan101/CTF-Writeups/blob/master/HackTheBox/Gunship.md)                       | Web
