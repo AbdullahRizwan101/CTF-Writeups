@@ -107,7 +107,9 @@ We'll receive a reverse shell with admin with all privileges.
 
  <img src="https://i.imgur.com/upSCoAt.png"/>
 
-Since we already have GUI we can just use  `Start-Process powershell -Verb runAs` (which I didn't know we could do that)
+Since we already have GUI we can just use  `Start-Process powershell -Verb runAs` (which I didn't know we could do that) which will prompt for running powershell with administrative privileges
+
+<img src="https://i.imgur.com/2Fk5OD0.png"/>
 
 <img src="https://i.imgur.com/94C3BUg.png"/>
 
