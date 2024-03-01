@@ -379,6 +379,7 @@ SeTcbPrivilege.exe UwU "C:\Windows\System32\cmd.exe /c net user arz P@ssw0rd /ad
 Now we can just login again through winrm
 
 <img src="https://i.imgur.com/pfyKG8t.png"/>
+
 # References
 
 - https://www.thehacker.recipes/a-d/movement/mitm-and-coerced-authentications/living-off-the-land
