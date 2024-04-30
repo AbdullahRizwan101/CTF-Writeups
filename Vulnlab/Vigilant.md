@@ -266,6 +266,7 @@ At initializing the project, we'll be asked to provide the API key, generating t
 Modify the contents of `example.journey.ts` from the `journeys` directory
 
 <img src="https://i.imgur.com/GoSDnSY.png"/>
+
 ```node
 import { journey, step, expect } from '@elastic/synthetics';
 
@@ -301,6 +302,7 @@ Wait for few minutes for the monitor to be triggered having netcat listener and 
 From the filesystem, this seems like we are inside a docker container
 
 <img src="https://i.imgur.com/I5f3hDz.png"/>
+
 ## Breaking out of container via docker sock
 
 By running `capsh` we can list down the capabilities of the container but from the output it doesn't seem like it has a capability that we can abuse
