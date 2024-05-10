@@ -214,6 +214,7 @@ Using `juicypotato-ng` to abuse the privilege and get a shell a SYSTEM
 ```
 
 <img src="https://i.imgur.com/22805js.png"/>
+
 # References
 
 - https://exploit-notes.hdks.org/exploit/windows/active-directory/smb-pentesting/
