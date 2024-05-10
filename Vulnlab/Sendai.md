@@ -48,7 +48,9 @@ Running gobuster, we can find `/service`
 However this endpoints shows that we don't have access to it
 
 <img src="https://i.imgur.com/YgAmiLH.png"/>
+
 ## PORT 445
+
 Enumerating smb shares with anonymous login, we'll see `config`, `sendai` and `Users` share, where config was not accessible, Users didn't anything but sendai had some interesting files
 
 <img src="https://i.imgur.com/mQaCMNk.png"/>
@@ -95,6 +97,7 @@ python3 bloodhound.py -u sqlsvc -p password -d sendai.vl -c all -dc dc.sendai.vl
 Thomas.Powell is a member of `Support` group has `GenericAll` on `ADMSVC` group which has `ReadGMSAPassword` on `MGTSVC$` account. We'll need to add thomas in ADMSVC group, read the NThash of MGTSVC account
 
 <img src="https://i.imgur.com/BRPHbql.png"/>
+
 ## Abusing GenericAll and reading GMSA password
 
 Through` bloodyAD` we can add thomas in ADMSVC group having genericall rights
@@ -120,6 +123,7 @@ This account can login on DC as it's part of `Remote Management` group
 Checking the privileges after logging in through evil-winrm, it doesn't have any privilege that we can abuse to get local admin
 
 <img src="https://i.imgur.com/jxAX90R.png"/>
+
 ## Obtaining clifford's password
 
 From the running process, we have helpdesk which doesn't normally run on a system
@@ -136,9 +140,10 @@ This will list down the running processes from where we'll find the clifford.dav
 
 ## Enumerating ADCS
 
-This user belongs to `CA-Operators` group, so this likely will be able to enroll in a custom template, enumerating templates with `certipy`
+This user belongs to `CA-Operators` group, so he likely will be able to enroll in a custom template, enumerating templates with `certipy`
 
 <img src="https://i.imgur.com/Vgev4wX.png"/>
+
 ## Escalating privileges through ESC4
 
 ```bash
@@ -191,7 +196,6 @@ With `ticketer,` forging a silver ticket for accessing MSSQL service as an admin
 ```bash
 ticketer.py -domain-sid S-1-5-21-3085872742-570972823-736764132 -domain sendai.vl -spn MSSQL/dc.sendai.vl -nthash hash Administrator
 ```
-
 
 <img src="https://i.imgur.com/iOKxMa4.png"/>
 
