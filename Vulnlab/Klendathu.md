@@ -99,6 +99,7 @@ python3 /opt/BloodHound.py/bloodhound.py -d 'KLENDATHU.VL' -u 'zim' -p 'password
 This user belongs to Netadmins group but there's nothing beyond that bloodhound show us 
 
 <img src="https://i.imgur.com/6zXMOyR.png"/>
+
 ## Accessing MSSQL
 
 We have MSSQL running on SRV1, so verifying these credentials can be used to login there
