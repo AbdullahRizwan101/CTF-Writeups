@@ -30,7 +30,7 @@ PORT     STATE SERVICE       VERSION
 3389/tcp open  ms-wbt-server Microsoft Terminal Services 
 | ssl-cert: Subject: commonName=SRV1.KLENDATHU.VL
 ```
-## 10.10.175.71
+## SRV2.KLENDATHU.VL
 
 ```bash
 PORT     STATE SERVICE VERSION       
