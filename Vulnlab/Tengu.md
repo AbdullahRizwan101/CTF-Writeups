@@ -105,6 +105,25 @@ Dev didn't had anything interesting while there was one set of credential from D
 
 <img src="https://i.imgur.com/001siDc.png"/>
 
+Attempting to crack this with rockyou.txt didn't work as the password wasn't present there however crackstation came in handy here
+
+<img src="https://i.imgur.com/fLZciwp.png"/>
+
+<img src="https://i.imgur.com/62buPKb.png"/>
+
+Having the credentials, we can verify if this is a valid domain user
+
+<img src="https://i.imgur.com/e6T9dEw.png"/>
+
+With `bloodhound-python`, the domain can be enumerated
+
+```bash
+proxychains bloodhound-python -d tengu.vl -u t2_m.winters -p 'Tengu123' -c all -ns 10.10.183.37 
+```
+
+<img src="https://i.imgur.com/EwzmEoc.png"/>
+
+
 # References
 
 - https://quentinkaiser.be/pentesting/2018/09/07/node-red-rce/
@@ -113,4 +132,6 @@ Dev didn't had anything interesting while there was one set of credential from D
 ```
 nodered_connector:DreamPuppyOverall25
 t2_m.winters:af9cfa9b70e5e90984203087e5a5219945a599abf31dd4bb2a11dc20678ea147
+t2_m.winters:Tengu123
+
 ```
